@@ -1,0 +1,5 @@
+Firefox
+Notepad
+Word
+PowerShell
+WordPad

@@ -1,0 +1,5 @@
+TaskManager
+Paint
+Explorer
+CMD
+WordPad

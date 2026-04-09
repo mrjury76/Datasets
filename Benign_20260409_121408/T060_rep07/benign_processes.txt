@@ -1,0 +1,5 @@
+TaskManager
+MediaPlayer
+WordPad
+Explorer
+SnippingTool

@@ -1,0 +1,5 @@
+TaskManager
+Excel
+Calculator
+MediaPlayer
+Explorer

@@ -1,0 +1,5 @@
+Chrome
+Excel
+TaskManager
+Word
+Calculator

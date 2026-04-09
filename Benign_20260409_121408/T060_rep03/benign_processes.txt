@@ -1,0 +1,5 @@
+CMD
+Word
+MediaPlayer
+TaskManager
+Paint

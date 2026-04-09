@@ -1,0 +1,5 @@
+MediaPlayer
+Excel
+CMD
+Chrome
+Notepad

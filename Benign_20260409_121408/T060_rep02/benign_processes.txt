@@ -1,0 +1,5 @@
+Paint
+MediaPlayer
+Firefox
+PowerShell
+CMD

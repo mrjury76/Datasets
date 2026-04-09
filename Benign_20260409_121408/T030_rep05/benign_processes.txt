@@ -1,0 +1,5 @@
+Explorer
+SnippingTool
+CMD
+Paint
+Word

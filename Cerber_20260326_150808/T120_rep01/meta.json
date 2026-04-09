@@ -1,11 +1,1 @@
-{
-    "stage_hint":  2,
-    "snap_time":  "2026-03-26T15:19:06.7558130-07:00",
-    "rep":  1,
-    "run":  4,
-    "launch_time":  "2026-03-26T15:15:33.4629493-07:00",
-    "snap_name":  "Cerber_T120_rep01",
-    "actual_offset_s":  120,
-    "family":  "Cerber",
-    "target_offset_s":  120
-}
+{"stage_hint": 3, "snap_time": "2026-03-26T15:19:06.7558130-07:00", "rep": 1, "run": 4, "launch_time": "2026-03-26T15:15:33.4629493-07:00", "snap_name": "Cerber_T120_rep01", "actual_offset_s": 120, "family": "Cerber", "target_offset_s": 120}

@@ -1,11 +1,1 @@
-{
-    "stage_hint":  2,
-    "snap_time":  "2026-03-30T07:33:44.9092015-07:00",
-    "rep":  2,
-    "run":  9,
-    "launch_time":  "2026-03-30T07:30:09.5260538-07:00",
-    "snap_name":  "WannaCry_T120_rep02",
-    "actual_offset_s":  120,
-    "family":  "WannaCry",
-    "target_offset_s":  120
-}
+{"stage_hint": 3, "snap_time": "2026-03-30T07:33:44.9092015-07:00", "rep": 2, "run": 9, "launch_time": "2026-03-30T07:30:09.5260538-07:00", "snap_name": "WannaCry_T120_rep02", "actual_offset_s": 120, "family": "WannaCry", "target_offset_s": 120}

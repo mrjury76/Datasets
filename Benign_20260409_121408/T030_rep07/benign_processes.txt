@@ -1,0 +1,5 @@
+Notepad
+TaskManager
+Paint
+MediaPlayer
+Calculator

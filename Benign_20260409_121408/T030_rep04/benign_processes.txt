@@ -1,0 +1,5 @@
+Word
+PowerShell
+Chrome
+Firefox
+Paint

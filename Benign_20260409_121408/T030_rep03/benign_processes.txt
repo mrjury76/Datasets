@@ -1,0 +1,5 @@
+CMD
+Paint
+Excel
+WordPad
+Notepad

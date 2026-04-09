@@ -1,11 +1,1 @@
-{
-    "stage_hint":  0,
-    "snap_time":  "2026-03-30T05:02:53.5605822-07:00",
-    "rep":  5,
-    "run":  21,
-    "launch_time":  "2026-03-30T05:01:13.9424216-07:00",
-    "snap_name":  "Dharma_T015_rep05",
-    "actual_offset_s":  15,
-    "family":  "Dharma",
-    "target_offset_s":  15
-}
+{"stage_hint": 1, "snap_time": "2026-03-30T05:02:53.5605822-07:00", "rep": 5, "run": 21, "launch_time": "2026-03-30T05:01:13.9424216-07:00", "snap_name": "Dharma_T015_rep05", "actual_offset_s": 15, "family": "Dharma", "target_offset_s": 15}

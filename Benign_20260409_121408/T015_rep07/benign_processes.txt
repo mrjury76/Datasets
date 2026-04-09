@@ -1,0 +1,5 @@
+Chrome
+TaskManager
+Excel
+PowerShell
+Paint

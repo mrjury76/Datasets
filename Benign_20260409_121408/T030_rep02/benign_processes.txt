@@ -1,0 +1,5 @@
+CMD
+Firefox
+Word
+Excel
+Chrome

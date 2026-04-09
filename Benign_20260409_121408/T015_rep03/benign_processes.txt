@@ -1,0 +1,5 @@
+Firefox
+Explorer
+CMD
+Word
+TaskManager

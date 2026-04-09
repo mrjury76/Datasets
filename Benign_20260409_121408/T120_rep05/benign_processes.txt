@@ -1,0 +1,5 @@
+SnippingTool
+CMD
+Word
+MediaPlayer
+Calculator

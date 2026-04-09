@@ -1,11 +1,1 @@
-{
-    "stage_hint":  2,
-    "snap_time":  "2026-03-30T05:29:46.1463323-07:00",
-    "rep":  1,
-    "run":  3,
-    "launch_time":  "2026-03-30T05:27:16.7503747-07:00",
-    "snap_name":  "Jigsaw_T060_rep01",
-    "actual_offset_s":  60,
-    "family":  "Jigsaw",
-    "target_offset_s":  60
-}
+{"stage_hint": 3, "snap_time": "2026-03-30T05:29:46.1463323-07:00", "rep": 1, "run": 3, "launch_time": "2026-03-30T05:27:16.7503747-07:00", "snap_name": "Jigsaw_T060_rep01", "actual_offset_s": 60, "family": "Jigsaw", "target_offset_s": 60}

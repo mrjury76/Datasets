@@ -1,0 +1,5 @@
+Word
+MediaPlayer
+Chrome
+Calculator
+Paint

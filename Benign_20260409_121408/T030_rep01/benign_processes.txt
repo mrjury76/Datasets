@@ -1,0 +1,5 @@
+CMD
+Word
+Explorer
+WordPad
+Excel

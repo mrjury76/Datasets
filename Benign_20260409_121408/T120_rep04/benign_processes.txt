@@ -1,0 +1,5 @@
+Paint
+TaskManager
+PowerShell
+MediaPlayer
+WordPad

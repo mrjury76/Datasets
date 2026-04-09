@@ -1,0 +1,5 @@
+MediaPlayer
+Chrome
+Firefox
+Calculator
+Excel

@@ -1,0 +1,5 @@
+MediaPlayer
+Excel
+Firefox
+SnippingTool
+Chrome
