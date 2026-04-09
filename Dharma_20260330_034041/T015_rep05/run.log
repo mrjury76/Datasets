@@ -1,0 +1,39 @@
+==================================================
+ Volatility 3 Feature Extraction
+ Family:    Dharma
+ Snapshot:  /mnt/d/Patrick/VMSnapshots/Dharma_20260330_034041/T015_rep05/Dharma_T015_rep05.vmem
+ Started:   2026-03-30 13:28:14
+==================================================
+
+[+] Running windows.pstree to find Dharma PIDs (hints: ['dharma', 'csrss'])...
+    -> Parsed 0 processes
+    [!] No Dharma processes found. Running without PID filter.
+[+] Done: windows.handles
+[+] Done: windows.netstat
+[+] Done: windows.filescan
+[+] Done: windows.pslist
+[+] Done: windows.svcscan
+[+] Done: windows.cmdline
+[+] Done: windows.psscan
+[+] Done: windows.dlllist
+[+] Done: windows.ldrmodules
+[+] Done: windows.malfind
+[+] Done: windows.privileges
+[+] Done: windows.vadinfo
+    windows.pslist: 6 rows
+    windows.psscan: 6 rows
+    windows.cmdline: 6 rows
+    windows.dlllist: 6 rows
+    windows.ldrmodules: 6 rows
+    windows.malfind: 6 rows
+    windows.vadinfo: 6 rows
+    windows.handles: 6 rows
+    windows.filescan: 6 rows
+    windows.svcscan: 6 rows
+    windows.privileges: 6 rows
+    windows.netstat: 6 rows
+
+[✓] CSV saved: /mnt/d/Patrick/VMSnapshots/Dharma_20260330_034041/T015_rep05/vol3_combined.csv
+[✓] Total rows: 72
+[+] Done. Total time: 0:03:30.321436
+[+] Output directory: /mnt/d/Patrick/VMSnapshots/Dharma_20260330_034041/T015_rep05

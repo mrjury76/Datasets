@@ -1,0 +1,81 @@
+TreeDepth,PID,Process,Start VPN,End VPN,Tag,Protection,CommitCharge,PrivateMemory,File output,Notes,Hexdump,Disasm
+0,4556,SearchApp.exe,0x17cf9910000,0x17cf992ffff,VadS,PAGE_EXECUTE_READWRITE,6,1,Disabled,N/A,"
+05 3d d8 36 f6 86 99 b8 c0 1e a0 49 72 59 3c 47 .=.6.......IrY<G
+f9 d4 56 19 0a 5f 68 0e ed 1e 82 75 8a 54 f9 54 ..V.._h....u.T.T
+4e 0c db a1 ee 10 91 34 32 e2 6b 9f 61 bc 26 9d N......42.k.a.&.
+ca bb c0 60 1b 8f 65 0b 73 70 33 c7 cf 09 81 68 ...`..e.sp3....h","
+0x17cf9910000:	add	eax, 0xf636d83d
+0x17cf9910005:	xchg	byte ptr [rcx - 0x5fe13f48], bl
+0x17cf991000b:	jb	0x17cf9910067
+0x17cf991000e:	cmp	al, 0x47
+0x17cf9910010:	stc	"
+0,4556,SearchApp.exe,0x17cfaa90000,0x17cfaaf3fff,VadS,PAGE_EXECUTE_READWRITE,1,1,Disabled,N/A,"
+55 55 55 55 55 55 55 55 55 55 55 55 55 55 55 55 UUUUUUUUUUUUUUUU
+55 55 55 55 55 55 55 55 55 55 55 55 55 55 55 55 UUUUUUUUUUUUUUUU
+55 55 55 55 55 55 55 55 55 55 55 55 55 55 55 55 UUUUUUUUUUUUUUUU
+55 55 55 55 55 55 55 55 55 55 55 55 55 55 55 55 UUUUUUUUUUUUUUUU","
+0x17cfaa90000:	push	rbp
+0x17cfaa90001:	push	rbp
+0x17cfaa90002:	push	rbp
+0x17cfaa90003:	push	rbp
+0x17cfaa90004:	push	rbp
+0x17cfaa90005:	push	rbp
+0x17cfaa90006:	push	rbp
+0x17cfaa90007:	push	rbp
+0x17cfaa90008:	push	rbp
+0x17cfaa90009:	push	rbp
+0x17cfaa9000a:	push	rbp
+0x17cfaa9000b:	push	rbp
+0x17cfaa9000c:	push	rbp
+0x17cfaa9000d:	push	rbp
+0x17cfaa9000e:	push	rbp
+0x17cfaa9000f:	push	rbp
+0x17cfaa90010:	push	rbp
+0x17cfaa90011:	push	rbp
+0x17cfaa90012:	push	rbp
+0x17cfaa90013:	push	rbp
+0x17cfaa90014:	push	rbp
+0x17cfaa90015:	push	rbp
+0x17cfaa90016:	push	rbp
+0x17cfaa90017:	push	rbp
+0x17cfaa90018:	push	rbp
+0x17cfaa90019:	push	rbp
+0x17cfaa9001a:	push	rbp
+0x17cfaa9001b:	push	rbp
+0x17cfaa9001c:	push	rbp
+0x17cfaa9001d:	push	rbp
+0x17cfaa9001e:	push	rbp
+0x17cfaa9001f:	push	rbp
+0x17cfaa90020:	push	rbp
+0x17cfaa90021:	push	rbp
+0x17cfaa90022:	push	rbp
+0x17cfaa90023:	push	rbp
+0x17cfaa90024:	push	rbp
+0x17cfaa90025:	push	rbp
+0x17cfaa90026:	push	rbp
+0x17cfaa90027:	push	rbp
+0x17cfaa90028:	push	rbp
+0x17cfaa90029:	push	rbp
+0x17cfaa9002a:	push	rbp
+0x17cfaa9002b:	push	rbp
+0x17cfaa9002c:	push	rbp
+0x17cfaa9002d:	push	rbp
+0x17cfaa9002e:	push	rbp
+0x17cfaa9002f:	push	rbp
+0x17cfaa90030:	push	rbp
+0x17cfaa90031:	push	rbp
+0x17cfaa90032:	push	rbp
+0x17cfaa90033:	push	rbp
+0x17cfaa90034:	push	rbp
+0x17cfaa90035:	push	rbp
+0x17cfaa90036:	push	rbp
+0x17cfaa90037:	push	rbp
+0x17cfaa90038:	push	rbp
+0x17cfaa90039:	push	rbp
+0x17cfaa9003a:	push	rbp
+0x17cfaa9003b:	push	rbp
+0x17cfaa9003c:	push	rbp
+0x17cfaa9003d:	push	rbp
+0x17cfaa9003e:	push	rbp
+0x17cfaa9003f:	push	rbp"
+

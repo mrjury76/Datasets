@@ -1,0 +1,29 @@
+TreeDepth,PID,Process,Start VPN,End VPN,Tag,Protection,CommitCharge,PrivateMemory,File output,Notes,Hexdump,Disasm
+0,340,smartscreen.ex,0x110d2600000,0x110d261ffff,VadS,PAGE_EXECUTE_READWRITE,1,1,Disabled,N/A,"
+58 2d 53 18 00 46 00 f0 48 50 41 54 28 2c 57 00 X-S..F..HPAT(,W.
+41 00 4c 08 00 45 68 00 5f 48 22 57 00 45 00 4b A.L..Eh._H""W.E.K
+e0 24 42 00 39 23 38 00 42 08 00 99 00 48 22 3f .$B.9#8.B....H""?
+22 f9 29 61 d3 21 0d 00 00 00 3c 5d cb 10 50 92 "".)a.!....<]..P.","
+0x110d2600000:	pop	rax
+0x110d2600001:	sub	eax, 0x46001853
+0x110d2600006:	add	al, dh
+0x110d2600008:	push	rax
+0x110d260000a:	push	r12
+0x110d260000c:	sub	byte ptr [rdi + rdx*2], ch
+0x110d260000f:	add	byte ptr [rcx], al
+0x110d2600012:	or	byte ptr [rax], r8b
+0x110d2600015:	push	0x22485f00
+0x110d260001b:	push	rdi
+0x110d260001c:	add	byte ptr [rbp], al
+0x110d260001f:	loopne	0x110d2600046
+0x110d2600022:	add	byte ptr [rcx], dil
+0x110d2600025:	and	edi, dword ptr [rax]
+0x110d2600027:	add	byte ptr [rdx + 8], al
+0x110d260002a:	add	byte ptr [rcx + 0x3f224800], bl
+0x110d2600030:	and	bh, cl
+0x110d2600032:	sub	dword ptr [rcx - 0x2d], esp
+0x110d2600035:	and	dword ptr [rip + 0x3c000000], ecx
+0x110d260003b:	pop	rbp
+0x110d260003c:	retf	
+0x110d260003d:	adc	byte ptr [rax - 0x6e], dl"
+

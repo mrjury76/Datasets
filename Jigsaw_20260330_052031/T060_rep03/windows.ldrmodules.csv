@@ -1,0 +1,22 @@
+TreeDepth,Pid,Process,Base,InLoad,InInit,InMem,MappedPath
+0,636,services.exe,0x7ff7ea850000,True,False,True,\\Windows\\System32\\services.exe
+0,636,services.exe,0x22d21170000,False,False,False,\\Windows\\System32\\en-US\\services.exe.mui
+0,764,svchost.exe,0x7ffeecad0000,True,True,True,\\Windows\\System32\\ntdll.dll
+0,360,svchost.exe,0x255f8a00000,False,False,False,\\Windows\\System32\\en-US\\KernelBase.dll.mui
+0,360,svchost.exe,0x7ff6be0c0000,True,False,True,\\Windows\\System32\\svchost.exe
+0,360,svchost.exe,0x7ffed6c40000,True,True,True,\\Windows\\System32\\Windows.CloudStore.dll
+0,1052,svchost.exe,0x7ffeeaab0000,True,True,True,\\Windows\\System32\\bcryptprimitives.dll
+0,2264,vmtoolsd.exe,0x7ffee9620000,True,True,True,\\Windows\\System32\\IPHLPAPI.DLL
+0,2264,vmtoolsd.exe,0x7ffeeb190000,True,True,True,\\Windows\\System32\\sechost.dll
+0,2616,WmiPrvSE.exe,0x2276ec50000,False,False,False,\\Windows\\System32\\wbem\\en-US\\cimwin32.dll.mui
+0,2616,WmiPrvSE.exe,0x7ffed7050000,True,True,True,\\Windows\\System32\\wbem\\cimwin32.dll
+0,2616,WmiPrvSE.exe,0x7ffede560000,True,True,True,\\Windows\\System32\\wmitomi.dll
+0,3220,sihost.exe,0x7ff7cc640000,True,False,True,\\Windows\\System32\\sihost.exe
+0,3720,explorer.exe,0x8e0000,False,False,False,\\Windows\\en-US\\explorer.exe.mui
+0,3720,explorer.exe,0x7ff677df0000,True,False,True,\\Windows\\explorer.exe
+0,4448,RuntimeBroker.,0x7ffeecad0000,True,True,True,\\Windows\\System32\\ntdll.dll
+0,5236,vmtoolsd.exe,0x7ffeb9e20000,True,True,True,\\Program Files\\VMware\\VMware Tools\\plugins\\vmusr\\vmtray.dll
+0,7860,Taskmgr.exe,0x7ffeebdb0000,True,True,True,\\Windows\\System32\\shell32.dll
+0,1604,msedgewebview2,0x7ff6da440000,True,False,True,\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.62\\msedgewebview2.exe
+0,1164,msedgewebview2,0x7ff6da440000,True,False,True,\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.62\\msedgewebview2.exe
+

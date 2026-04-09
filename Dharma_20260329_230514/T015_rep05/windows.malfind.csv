@@ -1,0 +1,647 @@
+TreeDepth,PID,Process,Start VPN,End VPN,Tag,Protection,CommitCharge,PrivateMemory,File output,Notes,Hexdump,Disasm
+0,2320,MsMpEng.exe,0x237014e0000,0x237014e0fff,VadS,PAGE_EXECUTE_READWRITE,1,1,Disabled,Function prologue,"
+55 48 8d 2c 24 48 83 ec 20 48 8b 01 48 8b 49 08 UH.,$H.. H..H.I.
+ff d0 48 8d 65 00 5d c3 cc cc cc cc cc cc cc cc ..H.e.].........
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................","
+0x237014e0000:	push	rbp
+0x237014e0001:	lea	rbp, [rsp]
+0x237014e0005:	sub	rsp, 0x20
+0x237014e0009:	mov	rax, qword ptr [rcx]
+0x237014e000c:	mov	rcx, qword ptr [rcx + 8]
+0x237014e0010:	call	rax
+0x237014e0012:	lea	rsp, [rbp]
+0x237014e0016:	pop	rbp
+0x237014e0017:	ret	
+0x237014e0018:	int3	
+0x237014e0019:	int3	
+0x237014e001a:	int3	
+0x237014e001b:	int3	
+0x237014e001c:	int3	
+0x237014e001d:	int3	
+0x237014e001e:	int3	
+0x237014e001f:	int3	
+0x237014e0020:	int3	
+0x237014e0021:	int3	
+0x237014e0022:	int3	
+0x237014e0023:	int3	
+0x237014e0024:	int3	
+0x237014e0025:	int3	
+0x237014e0026:	int3	
+0x237014e0027:	int3	
+0x237014e0028:	int3	
+0x237014e0029:	int3	
+0x237014e002a:	int3	
+0x237014e002b:	int3	
+0x237014e002c:	int3	
+0x237014e002d:	int3	
+0x237014e002e:	int3	
+0x237014e002f:	int3	
+0x237014e0030:	int3	
+0x237014e0031:	int3	
+0x237014e0032:	int3	
+0x237014e0033:	int3	
+0x237014e0034:	int3	
+0x237014e0035:	int3	
+0x237014e0036:	int3	
+0x237014e0037:	int3	
+0x237014e0038:	int3	
+0x237014e0039:	int3	
+0x237014e003a:	int3	
+0x237014e003b:	int3	
+0x237014e003c:	int3	
+0x237014e003d:	int3	
+0x237014e003e:	int3	
+0x237014e003f:	int3	"
+0,2320,MsMpEng.exe,0x23701ad0000,0x23701ad0fff,VadS,PAGE_EXECUTE_READWRITE,1,1,Disabled,Function prologue,"
+55 48 8d 2c 24 48 83 ec 20 48 8b 01 48 8b 49 08 UH.,$H.. H..H.I.
+ff d0 48 8d 65 00 5d c3 cc cc cc cc cc cc cc cc ..H.e.].........
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................","
+0x23701ad0000:	push	rbp
+0x23701ad0001:	lea	rbp, [rsp]
+0x23701ad0005:	sub	rsp, 0x20
+0x23701ad0009:	mov	rax, qword ptr [rcx]
+0x23701ad000c:	mov	rcx, qword ptr [rcx + 8]
+0x23701ad0010:	call	rax
+0x23701ad0012:	lea	rsp, [rbp]
+0x23701ad0016:	pop	rbp
+0x23701ad0017:	ret	
+0x23701ad0018:	int3	
+0x23701ad0019:	int3	
+0x23701ad001a:	int3	
+0x23701ad001b:	int3	
+0x23701ad001c:	int3	
+0x23701ad001d:	int3	
+0x23701ad001e:	int3	
+0x23701ad001f:	int3	
+0x23701ad0020:	int3	
+0x23701ad0021:	int3	
+0x23701ad0022:	int3	
+0x23701ad0023:	int3	
+0x23701ad0024:	int3	
+0x23701ad0025:	int3	
+0x23701ad0026:	int3	
+0x23701ad0027:	int3	
+0x23701ad0028:	int3	
+0x23701ad0029:	int3	
+0x23701ad002a:	int3	
+0x23701ad002b:	int3	
+0x23701ad002c:	int3	
+0x23701ad002d:	int3	
+0x23701ad002e:	int3	
+0x23701ad002f:	int3	
+0x23701ad0030:	int3	
+0x23701ad0031:	int3	
+0x23701ad0032:	int3	
+0x23701ad0033:	int3	
+0x23701ad0034:	int3	
+0x23701ad0035:	int3	
+0x23701ad0036:	int3	
+0x23701ad0037:	int3	
+0x23701ad0038:	int3	
+0x23701ad0039:	int3	
+0x23701ad003a:	int3	
+0x23701ad003b:	int3	
+0x23701ad003c:	int3	
+0x23701ad003d:	int3	
+0x23701ad003e:	int3	
+0x23701ad003f:	int3	"
+0,2320,MsMpEng.exe,0x23701b20000,0x23701b21fff,VadS,PAGE_EXECUTE_READWRITE,2,1,Disabled,Function prologue,"
+55 48 8d 2c 24 48 83 ec 20 48 8b 01 48 8b 49 08 UH.,$H.. H..H.I.
+ff d0 48 8d 65 00 5d c3 cc cc cc cc cc cc cc cc ..H.e.].........
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................","
+0x23701b20000:	push	rbp
+0x23701b20001:	lea	rbp, [rsp]
+0x23701b20005:	sub	rsp, 0x20
+0x23701b20009:	mov	rax, qword ptr [rcx]
+0x23701b2000c:	mov	rcx, qword ptr [rcx + 8]
+0x23701b20010:	call	rax
+0x23701b20012:	lea	rsp, [rbp]
+0x23701b20016:	pop	rbp
+0x23701b20017:	ret	
+0x23701b20018:	int3	
+0x23701b20019:	int3	
+0x23701b2001a:	int3	
+0x23701b2001b:	int3	
+0x23701b2001c:	int3	
+0x23701b2001d:	int3	
+0x23701b2001e:	int3	
+0x23701b2001f:	int3	
+0x23701b20020:	int3	
+0x23701b20021:	int3	
+0x23701b20022:	int3	
+0x23701b20023:	int3	
+0x23701b20024:	int3	
+0x23701b20025:	int3	
+0x23701b20026:	int3	
+0x23701b20027:	int3	
+0x23701b20028:	int3	
+0x23701b20029:	int3	
+0x23701b2002a:	int3	
+0x23701b2002b:	int3	
+0x23701b2002c:	int3	
+0x23701b2002d:	int3	
+0x23701b2002e:	int3	
+0x23701b2002f:	int3	
+0x23701b20030:	int3	
+0x23701b20031:	int3	
+0x23701b20032:	int3	
+0x23701b20033:	int3	
+0x23701b20034:	int3	
+0x23701b20035:	int3	
+0x23701b20036:	int3	
+0x23701b20037:	int3	
+0x23701b20038:	int3	
+0x23701b20039:	int3	
+0x23701b2003a:	int3	
+0x23701b2003b:	int3	
+0x23701b2003c:	int3	
+0x23701b2003d:	int3	
+0x23701b2003e:	int3	
+0x23701b2003f:	int3	"
+0,2320,MsMpEng.exe,0x23701ae0000,0x23701ae0fff,VadS,PAGE_EXECUTE_READWRITE,1,1,Disabled,Function prologue,"
+55 48 8d 2c 24 48 83 ec 20 48 8b 01 48 8b 49 08 UH.,$H.. H..H.I.
+ff d0 48 8d 65 00 5d c3 cc cc cc cc cc cc cc cc ..H.e.].........
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................","
+0x23701ae0000:	push	rbp
+0x23701ae0001:	lea	rbp, [rsp]
+0x23701ae0005:	sub	rsp, 0x20
+0x23701ae0009:	mov	rax, qword ptr [rcx]
+0x23701ae000c:	mov	rcx, qword ptr [rcx + 8]
+0x23701ae0010:	call	rax
+0x23701ae0012:	lea	rsp, [rbp]
+0x23701ae0016:	pop	rbp
+0x23701ae0017:	ret	
+0x23701ae0018:	int3	
+0x23701ae0019:	int3	
+0x23701ae001a:	int3	
+0x23701ae001b:	int3	
+0x23701ae001c:	int3	
+0x23701ae001d:	int3	
+0x23701ae001e:	int3	
+0x23701ae001f:	int3	
+0x23701ae0020:	int3	
+0x23701ae0021:	int3	
+0x23701ae0022:	int3	
+0x23701ae0023:	int3	
+0x23701ae0024:	int3	
+0x23701ae0025:	int3	
+0x23701ae0026:	int3	
+0x23701ae0027:	int3	
+0x23701ae0028:	int3	
+0x23701ae0029:	int3	
+0x23701ae002a:	int3	
+0x23701ae002b:	int3	
+0x23701ae002c:	int3	
+0x23701ae002d:	int3	
+0x23701ae002e:	int3	
+0x23701ae002f:	int3	
+0x23701ae0030:	int3	
+0x23701ae0031:	int3	
+0x23701ae0032:	int3	
+0x23701ae0033:	int3	
+0x23701ae0034:	int3	
+0x23701ae0035:	int3	
+0x23701ae0036:	int3	
+0x23701ae0037:	int3	
+0x23701ae0038:	int3	
+0x23701ae0039:	int3	
+0x23701ae003a:	int3	
+0x23701ae003b:	int3	
+0x23701ae003c:	int3	
+0x23701ae003d:	int3	
+0x23701ae003e:	int3	
+0x23701ae003f:	int3	"
+0,2320,MsMpEng.exe,0x23702800000,0x23702802fff,VadS,PAGE_EXECUTE_READWRITE,3,1,Disabled,Function prologue,"
+55 48 8d 2c 24 48 83 ec 20 48 8b 01 48 8b 49 08 UH.,$H.. H..H.I.
+ff d0 48 8d 65 00 5d c3 cc cc cc cc cc cc cc cc ..H.e.].........
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................","
+0x23702800000:	push	rbp
+0x23702800001:	lea	rbp, [rsp]
+0x23702800005:	sub	rsp, 0x20
+0x23702800009:	mov	rax, qword ptr [rcx]
+0x2370280000c:	mov	rcx, qword ptr [rcx + 8]
+0x23702800010:	call	rax
+0x23702800012:	lea	rsp, [rbp]
+0x23702800016:	pop	rbp
+0x23702800017:	ret	
+0x23702800018:	int3	
+0x23702800019:	int3	
+0x2370280001a:	int3	
+0x2370280001b:	int3	
+0x2370280001c:	int3	
+0x2370280001d:	int3	
+0x2370280001e:	int3	
+0x2370280001f:	int3	
+0x23702800020:	int3	
+0x23702800021:	int3	
+0x23702800022:	int3	
+0x23702800023:	int3	
+0x23702800024:	int3	
+0x23702800025:	int3	
+0x23702800026:	int3	
+0x23702800027:	int3	
+0x23702800028:	int3	
+0x23702800029:	int3	
+0x2370280002a:	int3	
+0x2370280002b:	int3	
+0x2370280002c:	int3	
+0x2370280002d:	int3	
+0x2370280002e:	int3	
+0x2370280002f:	int3	
+0x23702800030:	int3	
+0x23702800031:	int3	
+0x23702800032:	int3	
+0x23702800033:	int3	
+0x23702800034:	int3	
+0x23702800035:	int3	
+0x23702800036:	int3	
+0x23702800037:	int3	
+0x23702800038:	int3	
+0x23702800039:	int3	
+0x2370280003a:	int3	
+0x2370280003b:	int3	
+0x2370280003c:	int3	
+0x2370280003d:	int3	
+0x2370280003e:	int3	
+0x2370280003f:	int3	"
+0,2320,MsMpEng.exe,0x23702810000,0x23702810fff,VadS,PAGE_EXECUTE_READWRITE,1,1,Disabled,Function prologue,"
+55 48 8d 2c 24 48 83 ec 20 48 8b 01 48 8b 49 08 UH.,$H.. H..H.I.
+ff d0 48 8d 65 00 5d c3 cc cc cc cc cc cc cc cc ..H.e.].........
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................","
+0x23702810000:	push	rbp
+0x23702810001:	lea	rbp, [rsp]
+0x23702810005:	sub	rsp, 0x20
+0x23702810009:	mov	rax, qword ptr [rcx]
+0x2370281000c:	mov	rcx, qword ptr [rcx + 8]
+0x23702810010:	call	rax
+0x23702810012:	lea	rsp, [rbp]
+0x23702810016:	pop	rbp
+0x23702810017:	ret	
+0x23702810018:	int3	
+0x23702810019:	int3	
+0x2370281001a:	int3	
+0x2370281001b:	int3	
+0x2370281001c:	int3	
+0x2370281001d:	int3	
+0x2370281001e:	int3	
+0x2370281001f:	int3	
+0x23702810020:	int3	
+0x23702810021:	int3	
+0x23702810022:	int3	
+0x23702810023:	int3	
+0x23702810024:	int3	
+0x23702810025:	int3	
+0x23702810026:	int3	
+0x23702810027:	int3	
+0x23702810028:	int3	
+0x23702810029:	int3	
+0x2370281002a:	int3	
+0x2370281002b:	int3	
+0x2370281002c:	int3	
+0x2370281002d:	int3	
+0x2370281002e:	int3	
+0x2370281002f:	int3	
+0x23702810030:	int3	
+0x23702810031:	int3	
+0x23702810032:	int3	
+0x23702810033:	int3	
+0x23702810034:	int3	
+0x23702810035:	int3	
+0x23702810036:	int3	
+0x23702810037:	int3	
+0x23702810038:	int3	
+0x23702810039:	int3	
+0x2370281003a:	int3	
+0x2370281003b:	int3	
+0x2370281003c:	int3	
+0x2370281003d:	int3	
+0x2370281003e:	int3	
+0x2370281003f:	int3	"
+0,2320,MsMpEng.exe,0x23703c20000,0x23703c21fff,VadS,PAGE_EXECUTE_READWRITE,2,1,Disabled,Function prologue,"
+55 48 8d 2c 24 48 83 ec 20 48 8b 01 48 8b 49 08 UH.,$H.. H..H.I.
+ff d0 48 8d 65 00 5d c3 cc cc cc cc cc cc cc cc ..H.e.].........
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................","
+0x23703c20000:	push	rbp
+0x23703c20001:	lea	rbp, [rsp]
+0x23703c20005:	sub	rsp, 0x20
+0x23703c20009:	mov	rax, qword ptr [rcx]
+0x23703c2000c:	mov	rcx, qword ptr [rcx + 8]
+0x23703c20010:	call	rax
+0x23703c20012:	lea	rsp, [rbp]
+0x23703c20016:	pop	rbp
+0x23703c20017:	ret	
+0x23703c20018:	int3	
+0x23703c20019:	int3	
+0x23703c2001a:	int3	
+0x23703c2001b:	int3	
+0x23703c2001c:	int3	
+0x23703c2001d:	int3	
+0x23703c2001e:	int3	
+0x23703c2001f:	int3	
+0x23703c20020:	int3	
+0x23703c20021:	int3	
+0x23703c20022:	int3	
+0x23703c20023:	int3	
+0x23703c20024:	int3	
+0x23703c20025:	int3	
+0x23703c20026:	int3	
+0x23703c20027:	int3	
+0x23703c20028:	int3	
+0x23703c20029:	int3	
+0x23703c2002a:	int3	
+0x23703c2002b:	int3	
+0x23703c2002c:	int3	
+0x23703c2002d:	int3	
+0x23703c2002e:	int3	
+0x23703c2002f:	int3	
+0x23703c20030:	int3	
+0x23703c20031:	int3	
+0x23703c20032:	int3	
+0x23703c20033:	int3	
+0x23703c20034:	int3	
+0x23703c20035:	int3	
+0x23703c20036:	int3	
+0x23703c20037:	int3	
+0x23703c20038:	int3	
+0x23703c20039:	int3	
+0x23703c2003a:	int3	
+0x23703c2003b:	int3	
+0x23703c2003c:	int3	
+0x23703c2003d:	int3	
+0x23703c2003e:	int3	
+0x23703c2003f:	int3	"
+0,2320,MsMpEng.exe,0x23703cc0000,0x23703cc0fff,VadS,PAGE_EXECUTE_READWRITE,1,1,Disabled,Function prologue,"
+55 48 8d 2c 24 48 83 ec 20 48 8b 01 48 8b 49 08 UH.,$H.. H..H.I.
+ff d0 48 8d 65 00 5d c3 cc cc cc cc cc cc cc cc ..H.e.].........
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................","
+0x23703cc0000:	push	rbp
+0x23703cc0001:	lea	rbp, [rsp]
+0x23703cc0005:	sub	rsp, 0x20
+0x23703cc0009:	mov	rax, qword ptr [rcx]
+0x23703cc000c:	mov	rcx, qword ptr [rcx + 8]
+0x23703cc0010:	call	rax
+0x23703cc0012:	lea	rsp, [rbp]
+0x23703cc0016:	pop	rbp
+0x23703cc0017:	ret	
+0x23703cc0018:	int3	
+0x23703cc0019:	int3	
+0x23703cc001a:	int3	
+0x23703cc001b:	int3	
+0x23703cc001c:	int3	
+0x23703cc001d:	int3	
+0x23703cc001e:	int3	
+0x23703cc001f:	int3	
+0x23703cc0020:	int3	
+0x23703cc0021:	int3	
+0x23703cc0022:	int3	
+0x23703cc0023:	int3	
+0x23703cc0024:	int3	
+0x23703cc0025:	int3	
+0x23703cc0026:	int3	
+0x23703cc0027:	int3	
+0x23703cc0028:	int3	
+0x23703cc0029:	int3	
+0x23703cc002a:	int3	
+0x23703cc002b:	int3	
+0x23703cc002c:	int3	
+0x23703cc002d:	int3	
+0x23703cc002e:	int3	
+0x23703cc002f:	int3	
+0x23703cc0030:	int3	
+0x23703cc0031:	int3	
+0x23703cc0032:	int3	
+0x23703cc0033:	int3	
+0x23703cc0034:	int3	
+0x23703cc0035:	int3	
+0x23703cc0036:	int3	
+0x23703cc0037:	int3	
+0x23703cc0038:	int3	
+0x23703cc0039:	int3	
+0x23703cc003a:	int3	
+0x23703cc003b:	int3	
+0x23703cc003c:	int3	
+0x23703cc003d:	int3	
+0x23703cc003e:	int3	
+0x23703cc003f:	int3	"
+0,2320,MsMpEng.exe,0x23703d00000,0x23703d0dfff,VadS,PAGE_EXECUTE_READWRITE,14,1,Disabled,Function prologue,"
+55 48 8d 2c 24 48 83 ec 20 48 8b 01 48 8b 49 08 UH.,$H.. H..H.I.
+ff d0 48 8d 65 00 5d c3 cc cc cc cc cc cc cc cc ..H.e.].........
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................","
+0x23703d00000:	push	rbp
+0x23703d00001:	lea	rbp, [rsp]
+0x23703d00005:	sub	rsp, 0x20
+0x23703d00009:	mov	rax, qword ptr [rcx]
+0x23703d0000c:	mov	rcx, qword ptr [rcx + 8]
+0x23703d00010:	call	rax
+0x23703d00012:	lea	rsp, [rbp]
+0x23703d00016:	pop	rbp
+0x23703d00017:	ret	
+0x23703d00018:	int3	
+0x23703d00019:	int3	
+0x23703d0001a:	int3	
+0x23703d0001b:	int3	
+0x23703d0001c:	int3	
+0x23703d0001d:	int3	
+0x23703d0001e:	int3	
+0x23703d0001f:	int3	
+0x23703d00020:	int3	
+0x23703d00021:	int3	
+0x23703d00022:	int3	
+0x23703d00023:	int3	
+0x23703d00024:	int3	
+0x23703d00025:	int3	
+0x23703d00026:	int3	
+0x23703d00027:	int3	
+0x23703d00028:	int3	
+0x23703d00029:	int3	
+0x23703d0002a:	int3	
+0x23703d0002b:	int3	
+0x23703d0002c:	int3	
+0x23703d0002d:	int3	
+0x23703d0002e:	int3	
+0x23703d0002f:	int3	
+0x23703d00030:	int3	
+0x23703d00031:	int3	
+0x23703d00032:	int3	
+0x23703d00033:	int3	
+0x23703d00034:	int3	
+0x23703d00035:	int3	
+0x23703d00036:	int3	
+0x23703d00037:	int3	
+0x23703d00038:	int3	
+0x23703d00039:	int3	
+0x23703d0003a:	int3	
+0x23703d0003b:	int3	
+0x23703d0003c:	int3	
+0x23703d0003d:	int3	
+0x23703d0003e:	int3	
+0x23703d0003f:	int3	"
+0,2320,MsMpEng.exe,0x23708590000,0x2370878ffff,VadS,PAGE_EXECUTE_READWRITE,512,1,Disabled,N/A,"
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................
+cc 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................","
+0x23708590000:	int3	
+0x23708590001:	int3	
+0x23708590002:	int3	
+0x23708590003:	int3	
+0x23708590004:	int3	
+0x23708590005:	int3	
+0x23708590006:	int3	
+0x23708590007:	int3	
+0x23708590008:	int3	
+0x23708590009:	int3	
+0x2370859000a:	int3	
+0x2370859000b:	int3	
+0x2370859000c:	int3	
+0x2370859000d:	int3	
+0x2370859000e:	int3	
+0x2370859000f:	int3	
+0x23708590010:	int3	
+0x23708590011:	int3	
+0x23708590012:	int3	
+0x23708590013:	int3	
+0x23708590014:	int3	
+0x23708590015:	int3	
+0x23708590016:	int3	
+0x23708590017:	int3	
+0x23708590018:	int3	
+0x23708590019:	int3	
+0x2370859001a:	int3	
+0x2370859001b:	int3	
+0x2370859001c:	int3	
+0x2370859001d:	int3	
+0x2370859001e:	int3	
+0x2370859001f:	int3	
+0x23708590020:	int3	
+0x23708590021:	int3	
+0x23708590022:	int3	
+0x23708590023:	int3	
+0x23708590024:	int3	
+0x23708590025:	int3	
+0x23708590026:	int3	
+0x23708590027:	int3	
+0x23708590028:	int3	
+0x23708590029:	int3	
+0x2370859002a:	int3	
+0x2370859002b:	int3	
+0x2370859002c:	int3	
+0x2370859002d:	int3	
+0x2370859002e:	int3	
+0x2370859002f:	int3	
+0x23708590030:	int3	
+0x23708590031:	add	byte ptr [rax], al
+0x23708590033:	add	byte ptr [rax], al
+0x23708590035:	add	byte ptr [rax], al
+0x23708590037:	add	byte ptr [rax], al
+0x23708590039:	add	byte ptr [rax], al
+0x2370859003b:	add	byte ptr [rax], al
+0x2370859003d:	add	byte ptr [rax], al"
+0,2320,MsMpEng.exe,0x23708490000,0x2370858ffff,VadS,PAGE_EXECUTE_READWRITE,256,1,Disabled,N/A,"
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................
+cc 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................","
+0x23708490000:	int3	
+0x23708490001:	int3	
+0x23708490002:	int3	
+0x23708490003:	int3	
+0x23708490004:	int3	
+0x23708490005:	int3	
+0x23708490006:	int3	
+0x23708490007:	int3	
+0x23708490008:	int3	
+0x23708490009:	int3	
+0x2370849000a:	int3	
+0x2370849000b:	int3	
+0x2370849000c:	int3	
+0x2370849000d:	int3	
+0x2370849000e:	int3	
+0x2370849000f:	int3	
+0x23708490010:	int3	
+0x23708490011:	int3	
+0x23708490012:	int3	
+0x23708490013:	int3	
+0x23708490014:	int3	
+0x23708490015:	int3	
+0x23708490016:	int3	
+0x23708490017:	int3	
+0x23708490018:	int3	
+0x23708490019:	int3	
+0x2370849001a:	int3	
+0x2370849001b:	int3	
+0x2370849001c:	int3	
+0x2370849001d:	int3	
+0x2370849001e:	int3	
+0x2370849001f:	int3	
+0x23708490020:	int3	
+0x23708490021:	int3	
+0x23708490022:	int3	
+0x23708490023:	int3	
+0x23708490024:	int3	
+0x23708490025:	int3	
+0x23708490026:	int3	
+0x23708490027:	int3	
+0x23708490028:	int3	
+0x23708490029:	int3	
+0x2370849002a:	int3	
+0x2370849002b:	int3	
+0x2370849002c:	int3	
+0x2370849002d:	int3	
+0x2370849002e:	int3	
+0x2370849002f:	int3	
+0x23708490030:	int3	
+0x23708490031:	add	byte ptr [rax], al
+0x23708490033:	add	byte ptr [rax], al
+0x23708490035:	add	byte ptr [rax], al
+0x23708490037:	add	byte ptr [rax], al
+0x23708490039:	add	byte ptr [rax], al
+0x2370849003b:	add	byte ptr [rax], al
+0x2370849003d:	add	byte ptr [rax], al"
+0,2320,MsMpEng.exe,0x23757710000,0x2375780ffff,VadS,PAGE_EXECUTE_READWRITE,256,1,Disabled,N/A,"
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................","
+0x23757710000:	add	byte ptr [rax], al
+0x23757710002:	add	byte ptr [rax], al
+0x23757710004:	add	byte ptr [rax], al
+0x23757710006:	add	byte ptr [rax], al
+0x23757710008:	add	byte ptr [rax], al
+0x2375771000a:	add	byte ptr [rax], al
+0x2375771000c:	add	byte ptr [rax], al
+0x2375771000e:	add	byte ptr [rax], al
+0x23757710010:	add	byte ptr [rax], al
+0x23757710012:	add	byte ptr [rax], al
+0x23757710014:	add	byte ptr [rax], al
+0x23757710016:	add	byte ptr [rax], al
+0x23757710018:	add	byte ptr [rax], al
+0x2375771001a:	add	byte ptr [rax], al
+0x2375771001c:	add	byte ptr [rax], al
+0x2375771001e:	add	byte ptr [rax], al
+0x23757710020:	add	byte ptr [rax], al
+0x23757710022:	add	byte ptr [rax], al
+0x23757710024:	add	byte ptr [rax], al
+0x23757710026:	add	byte ptr [rax], al
+0x23757710028:	add	byte ptr [rax], al
+0x2375771002a:	add	byte ptr [rax], al
+0x2375771002c:	add	byte ptr [rax], al
+0x2375771002e:	add	byte ptr [rax], al
+0x23757710030:	add	byte ptr [rax], al
+0x23757710032:	add	byte ptr [rax], al
+0x23757710034:	add	byte ptr [rax], al
+0x23757710036:	add	byte ptr [rax], al
+0x23757710038:	add	byte ptr [rax], al
+0x2375771003a:	add	byte ptr [rax], al
+0x2375771003c:	add	byte ptr [rax], al
+0x2375771003e:	add	byte ptr [rax], al"
+

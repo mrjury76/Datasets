@@ -1,0 +1,42 @@
+TreeDepth,PID,Process,Start VPN,End VPN,Tag,Protection,CommitCharge,PrivateMemory,File output,Notes,Hexdump,Disasm
+0,4556,SearchApp.exe,0x17cf9910000,0x17cf992ffff,VadS,PAGE_EXECUTE_READWRITE,6,1,Disabled,N/A,"
+00 00 00 00 00 00 00 00 30 00 00 00 00 00 00 00 ........0.......
+01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+47 6d 61 70 00 00 00 00 00 00 00 00 00 00 00 00 Gmap............
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................","
+0x17cf9910000:	add	byte ptr [rax], al
+0x17cf9910002:	add	byte ptr [rax], al
+0x17cf9910004:	add	byte ptr [rax], al
+0x17cf9910006:	add	byte ptr [rax], al
+0x17cf9910008:	xor	byte ptr [rax], al
+0x17cf991000a:	add	byte ptr [rax], al
+0x17cf991000c:	add	byte ptr [rax], al
+0x17cf991000e:	add	byte ptr [rax], al
+0x17cf9910010:	add	dword ptr [rax], eax
+0x17cf9910012:	add	byte ptr [rax], al
+0x17cf9910014:	add	byte ptr [rax], al
+0x17cf9910016:	add	byte ptr [rax], al
+0x17cf9910018:	add	byte ptr [rax], al
+0x17cf991001a:	add	byte ptr [rax], al
+0x17cf991001c:	add	byte ptr [rax], al
+0x17cf991001e:	add	byte ptr [rax], al
+0x17cf9910020:	insd	dword ptr [rdi], dx"
+0,4556,SearchApp.exe,0x17cfaa90000,0x17cfaaf3fff,VadS,PAGE_EXECUTE_READWRITE,1,1,Disabled,N/A,"
+0b da 69 6b fc da fa 63 b8 eb 5c fc 86 fc ab b1 ..ik...c..\\.....
+c7 d0 4c 02 91 88 40 75 bc 06 37 f4 33 66 df 29 ..L...@u..7.3f.)
+bf 1e bf 2f 9c 28 f7 60 c0 d1 dd 55 29 8c a7 e6 .../.(.`...U)...
+01 42 dd 03 29 16 54 5d af ff 60 4c 57 0d ab 4a .B..).T]..`LW..J","
+0x17cfaa90000:	or	ebx, edx
+0x17cfaa90002:	imul	ebp, dword ptr [rbx - 4], 0xb863fada
+0x17cfaa90009:	jmp	0x17cfaa90067
+0x17cfaa9000b:	cld	
+0x17cfaa9000c:	xchg	ah, bh
+0x17cfaa9000e:	stosd	dword ptr [rdi], eax
+0x17cfaa9000f:	mov	cl, 0xc7
+0x17cfaa90011:	ror	byte ptr [rdx + rax - 0x6f], 1
+0x17cfaa90015:	mov	byte ptr [rax + 0x75], al
+0x17cfaa90018:	mov	esp, 0x33f43706
+0x17cfaa9001d:	fild	qword ptr [rcx]
+0x17cfaa90020:	mov	edi, 0x9c2fbf1e
+0x17cfaa90025:	sub	bh, dh"
+

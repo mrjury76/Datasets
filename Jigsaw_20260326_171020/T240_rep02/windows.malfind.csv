@@ -1,0 +1,304 @@
+TreeDepth,PID,Process,Start VPN,End VPN,Tag,Protection,CommitCharge,PrivateMemory,File output,Notes,Hexdump,Disasm
+0,2320,MsMpEng.exe,0x237132e0000,0x237133dffff,VadS,PAGE_EXECUTE_READWRITE,256,1,Disabled,N/A,"
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................","
+0x237132e0000:	add	byte ptr [rax], al
+0x237132e0002:	add	byte ptr [rax], al
+0x237132e0004:	add	byte ptr [rax], al
+0x237132e0006:	add	byte ptr [rax], al
+0x237132e0008:	add	byte ptr [rax], al
+0x237132e000a:	add	byte ptr [rax], al
+0x237132e000c:	add	byte ptr [rax], al
+0x237132e000e:	add	byte ptr [rax], al
+0x237132e0010:	add	byte ptr [rax], al
+0x237132e0012:	add	byte ptr [rax], al
+0x237132e0014:	add	byte ptr [rax], al
+0x237132e0016:	add	byte ptr [rax], al
+0x237132e0018:	add	byte ptr [rax], al
+0x237132e001a:	add	byte ptr [rax], al
+0x237132e001c:	add	byte ptr [rax], al
+0x237132e001e:	add	byte ptr [rax], al
+0x237132e0020:	add	byte ptr [rax], al
+0x237132e0022:	add	byte ptr [rax], al
+0x237132e0024:	add	byte ptr [rax], al
+0x237132e0026:	add	byte ptr [rax], al
+0x237132e0028:	add	byte ptr [rax], al
+0x237132e002a:	add	byte ptr [rax], al
+0x237132e002c:	add	byte ptr [rax], al
+0x237132e002e:	add	byte ptr [rax], al
+0x237132e0030:	add	byte ptr [rax], al
+0x237132e0032:	add	byte ptr [rax], al
+0x237132e0034:	add	byte ptr [rax], al
+0x237132e0036:	add	byte ptr [rax], al
+0x237132e0038:	add	byte ptr [rax], al
+0x237132e003a:	add	byte ptr [rax], al
+0x237132e003c:	add	byte ptr [rax], al
+0x237132e003e:	add	byte ptr [rax], al"
+0,2320,MsMpEng.exe,0x237146c0000,0x237147ccfff,VadS,PAGE_EXECUTE_READWRITE,269,1,Disabled,N/A,"
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................
+cc 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................","
+0x237146c0000:	int3	
+0x237146c0001:	int3	
+0x237146c0002:	int3	
+0x237146c0003:	int3	
+0x237146c0004:	int3	
+0x237146c0005:	int3	
+0x237146c0006:	int3	
+0x237146c0007:	int3	
+0x237146c0008:	int3	
+0x237146c0009:	int3	
+0x237146c000a:	int3	
+0x237146c000b:	int3	
+0x237146c000c:	int3	
+0x237146c000d:	int3	
+0x237146c000e:	int3	
+0x237146c000f:	int3	
+0x237146c0010:	int3	
+0x237146c0011:	int3	
+0x237146c0012:	int3	
+0x237146c0013:	int3	
+0x237146c0014:	int3	
+0x237146c0015:	int3	
+0x237146c0016:	int3	
+0x237146c0017:	int3	
+0x237146c0018:	int3	
+0x237146c0019:	int3	
+0x237146c001a:	int3	
+0x237146c001b:	int3	
+0x237146c001c:	int3	
+0x237146c001d:	int3	
+0x237146c001e:	int3	
+0x237146c001f:	int3	
+0x237146c0020:	int3	
+0x237146c0021:	int3	
+0x237146c0022:	int3	
+0x237146c0023:	int3	
+0x237146c0024:	int3	
+0x237146c0025:	int3	
+0x237146c0026:	int3	
+0x237146c0027:	int3	
+0x237146c0028:	int3	
+0x237146c0029:	int3	
+0x237146c002a:	int3	
+0x237146c002b:	int3	
+0x237146c002c:	int3	
+0x237146c002d:	int3	
+0x237146c002e:	int3	
+0x237146c002f:	int3	
+0x237146c0030:	int3	
+0x237146c0031:	add	byte ptr [rax], al
+0x237146c0033:	add	byte ptr [rax], al
+0x237146c0035:	add	byte ptr [rax], al
+0x237146c0037:	add	byte ptr [rax], al
+0x237146c0039:	add	byte ptr [rax], al
+0x237146c003b:	add	byte ptr [rax], al
+0x237146c003d:	add	byte ptr [rax], al"
+0,4556,SearchApp.exe,0x17cfaa90000,0x17cfaaf3fff,VadS,PAGE_EXECUTE_READWRITE,1,1,Disabled,N/A,"
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................","
+0x17cfaa90000:	add	byte ptr [rax], al
+0x17cfaa90002:	add	byte ptr [rax], al
+0x17cfaa90004:	add	byte ptr [rax], al
+0x17cfaa90006:	add	byte ptr [rax], al
+0x17cfaa90008:	add	byte ptr [rax], al
+0x17cfaa9000a:	add	byte ptr [rax], al
+0x17cfaa9000c:	add	byte ptr [rax], al
+0x17cfaa9000e:	add	byte ptr [rax], al
+0x17cfaa90010:	add	byte ptr [rax], al
+0x17cfaa90012:	add	byte ptr [rax], al
+0x17cfaa90014:	add	byte ptr [rax], al
+0x17cfaa90016:	add	byte ptr [rax], al
+0x17cfaa90018:	add	byte ptr [rax], al
+0x17cfaa9001a:	add	byte ptr [rax], al
+0x17cfaa9001c:	add	byte ptr [rax], al
+0x17cfaa9001e:	add	byte ptr [rax], al
+0x17cfaa90020:	add	byte ptr [rax], al
+0x17cfaa90022:	add	byte ptr [rax], al
+0x17cfaa90024:	add	byte ptr [rax], al
+0x17cfaa90026:	add	byte ptr [rax], al
+0x17cfaa90028:	add	byte ptr [rax], al
+0x17cfaa9002a:	add	byte ptr [rax], al
+0x17cfaa9002c:	add	byte ptr [rax], al
+0x17cfaa9002e:	add	byte ptr [rax], al
+0x17cfaa90030:	add	byte ptr [rax], al
+0x17cfaa90032:	add	byte ptr [rax], al
+0x17cfaa90034:	add	byte ptr [rax], al
+0x17cfaa90036:	add	byte ptr [rax], al
+0x17cfaa90038:	add	byte ptr [rax], al
+0x17cfaa9003a:	add	byte ptr [rax], al
+0x17cfaa9003c:	add	byte ptr [rax], al
+0x17cfaa9003e:	add	byte ptr [rax], al"
+0,3444,smartscreen.ex,0x27d70090000,0x27d700f3fff,VadS,PAGE_EXECUTE_READWRITE,0,1,Disabled,N/A,"
+1f 3c 00 50 5e ff 00 f4 30 bc 00 3f 3c 00 d0 37 .<.P^...0..?<..7
+c6 fa 01 01 7c 00 37 00 1f 0f c7 01 df 06 07 ff ....|.7.........
+00 a0 7b 17 00 52 b1 ff 04 34 13 3c 01 fd 05 40 ..{..R...4.<...@
+f4 c5 ff 06 2c fc 00 2f 3c 00 50 30 ff 05 ff 65 ....,../<.P0...e",
+0,620,taskhostw.exe,0x1e80ee40000,0x1e80ee4ffff,VadS,PAGE_EXECUTE_READWRITE,2,1,Disabled,N/A,"
+00 00 00 00 00 00 00 00 51 e5 92 71 30 76 00 01 ........Q..q0v..
+ee ff ee ff 02 00 00 00 20 01 e4 0e e8 01 00 00 ........ .......
+20 01 e4 0e e8 01 00 00 00 00 e4 0e e8 01 00 00  ...............
+00 00 e4 0e e8 01 00 00 0f 00 00 00 00 00 00 00 ................","
+0x1e80ee40000:	add	byte ptr [rax], al
+0x1e80ee40002:	add	byte ptr [rax], al
+0x1e80ee40004:	add	byte ptr [rax], al
+0x1e80ee40006:	add	byte ptr [rax], al
+0x1e80ee40008:	push	rcx
+0x1e80ee40009:	in	eax, 0x92
+0x1e80ee4000b:	jno	0x1e80ee4003d
+0x1e80ee4000d:	jbe	0x1e80ee4000f
+0x1e80ee4000f:	add	esi, ebp"
+0,620,taskhostw.exe,0x7ff4853c0000,0x7ff48545ffff,VadS,PAGE_EXECUTE_READWRITE,2,1,Disabled,N/A,"
+d8 ff ff ff ff ff ff ff 08 00 00 00 00 00 00 00 ................
+01 00 00 00 00 00 00 00 00 02 0e 03 38 00 00 00 ............8...
+68 01 d7 07 0c 00 00 00 d8 5d 1d bf fe 7f 00 00 h........]......
+00 10 1b bf fe 7f 00 00 08 4a 34 bf fe 7f 00 00 .........J4.....","
+0x7ff4853c0000:	fdivr	st(7)"
+0,620,taskhostw.exe,0x1e8277b0000,0x1e8277bffff,VadS,PAGE_EXECUTE_READWRITE,2,1,Disabled,N/A,"
+00 00 00 00 00 00 00 00 15 ee 35 8f bc 18 00 01 ..........5.....
+ee ff ee ff 02 00 00 00 20 01 7b 27 e8 01 00 00 ........ .{'....
+20 01 7b 27 e8 01 00 00 00 00 7b 27 e8 01 00 00  .{'......{'....
+00 00 7b 27 e8 01 00 00 0f 00 00 00 00 00 00 00 ..{'............","
+0x1e8277b0000:	add	byte ptr [rax], al
+0x1e8277b0002:	add	byte ptr [rax], al
+0x1e8277b0004:	add	byte ptr [rax], al
+0x1e8277b0006:	add	byte ptr [rax], al
+0x1e8277b0008:	adc	eax, 0xbc8f35ee
+0x1e8277b000d:	sbb	byte ptr [rax], al
+0x1e8277b000f:	add	esi, ebp"
+0,620,taskhostw.exe,0x7ff4853b0000,0x7ff4853bffff,VadS,PAGE_EXECUTE_READWRITE,1,1,Disabled,N/A,"
+00 00 00 00 00 00 00 00 78 0d 00 00 00 00 00 00 ........x.......
+0c 00 00 00 49 c7 c2 00 00 00 00 48 b8 20 4a 7b ....I......H. J{
+c0 fe 7f 00 00 ff e0 49 c7 c2 01 00 00 00 48 b8 .......I......H.
+20 4a 7b c0 fe 7f 00 00 ff e0 49 c7 c2 02 00 00  J{.......I.....","
+0x7ff4853b0000:	add	byte ptr [rax], al
+0x7ff4853b0002:	add	byte ptr [rax], al
+0x7ff4853b0004:	add	byte ptr [rax], al
+0x7ff4853b0006:	add	byte ptr [rax], al
+0x7ff4853b0008:	js	0x7ff4853b0017
+0x7ff4853b000a:	add	byte ptr [rax], al
+0x7ff4853b000c:	add	byte ptr [rax], al
+0x7ff4853b000e:	add	byte ptr [rax], al
+0x7ff4853b0010:	or	al, 0
+0x7ff4853b0012:	add	byte ptr [rax], al
+0x7ff4853b0014:	mov	r10, 0
+0x7ff4853b001b:	movabs	rax, 0x7ffec07b4a20
+0x7ff4853b0025:	jmp	rax
+0x7ff4853b0027:	mov	r10, 1
+0x7ff4853b002e:	movabs	rax, 0x7ffec07b4a20
+0x7ff4853b0038:	jmp	rax"
+0,2660,tzsync.exe,0x2707a2f0000,0x2707a2fffff,VadS,PAGE_EXECUTE_READWRITE,2,1,Disabled,N/A,"
+00 00 00 00 00 00 00 00 8c 28 5e e6 df 83 00 01 .........(^.....
+ee ff ee ff 02 00 00 00 20 01 2f 7a 70 02 00 00 ........ ./zp...
+20 01 2f 7a 70 02 00 00 00 00 2f 7a 70 02 00 00  ./zp...../zp...
+00 00 2f 7a 70 02 00 00 0f 00 00 00 00 00 00 00 ../zp...........","
+0x2707a2f0000:	add	byte ptr [rax], al
+0x2707a2f0002:	add	byte ptr [rax], al
+0x2707a2f0004:	add	byte ptr [rax], al
+0x2707a2f0006:	add	byte ptr [rax], al
+0x2707a2f0008:	mov	word ptr [rax], gs
+0x2707a2f000a:	pop	rsi
+0x2707a2f000b:	out	0xdf, al
+0x2707a2f000d:	add	dword ptr [rax], 1
+0x2707a2f0010:	out	dx, al"
+0,2660,tzsync.exe,0x2707b0a0000,0x2707b0affff,VadS,PAGE_EXECUTE_READWRITE,2,1,Disabled,N/A,"
+00 00 00 00 00 00 00 00 0f 79 75 36 e9 5f 00 01 .........yu6._..
+ee ff ee ff 02 00 00 00 20 01 0a 7b 70 02 00 00 ........ ..{p...
+20 01 0a 7b 70 02 00 00 00 00 0a 7b 70 02 00 00  ..{p......{p...
+00 00 0a 7b 70 02 00 00 0f 00 00 00 00 00 00 00 ...{p...........","
+0x2707b0a0000:	add	byte ptr [rax], al
+0x2707b0a0002:	add	byte ptr [rax], al
+0x2707b0a0004:	add	byte ptr [rax], al
+0x2707b0a0006:	add	byte ptr [rax], al
+0x2707b0a0008:	vmwrite	rsi, qword ptr [rbp + 0x36]
+0x2707b0a000c:	jmp	0x270690b0070"
+0,2660,tzsync.exe,0x7ff4f4080000,0x7ff4f411ffff,VadS,PAGE_EXECUTE_READWRITE,2,1,Disabled,N/A,"
+d8 ff ff ff ff ff ff ff 08 00 00 00 00 00 00 00 ................
+01 00 00 00 00 00 00 00 00 02 0e 03 38 00 00 00 ............8...
+68 01 d7 07 0c 00 00 00 d8 5d 1d bf fe 7f 00 00 h........]......
+00 10 1b bf fe 7f 00 00 08 4a 34 bf fe 7f 00 00 .........J4.....","
+0x7ff4f4080000:	fdivr	st(7)"
+0,6372,ngentask.exe,0x27251030000,0x2725103ffff,VadS,PAGE_EXECUTE_READWRITE,2,1,Disabled,N/A,"
+00 00 00 00 00 00 00 00 d1 c0 b5 19 cb 13 00 01 ................
+ee ff ee ff 02 00 00 00 20 01 03 51 72 02 00 00 ........ ..Qr...
+20 01 03 51 72 02 00 00 00 00 03 51 72 02 00 00  ..Qr......Qr...
+00 00 03 51 72 02 00 00 0f 00 00 00 00 00 00 00 ...Qr...........","
+0x27251030000:	add	byte ptr [rax], al
+0x27251030002:	add	byte ptr [rax], al
+0x27251030004:	add	byte ptr [rax], al
+0x27251030006:	add	byte ptr [rax], al
+0x27251030008:	rol	eax, 1
+0x2725103000a:	mov	ch, 0x19
+0x2725103000c:	retf	
+0x2725103000d:	adc	eax, dword ptr [rax]
+0x2725103000f:	add	esi, ebp"
+0,6372,ngentask.exe,0x7ff4fb9d0000,0x7ff4fba6ffff,VadS,PAGE_EXECUTE_READWRITE,2,1,Disabled,N/A,"
+d8 ff ff ff ff ff ff ff 08 00 00 00 00 00 00 00 ................
+01 00 00 00 00 00 00 00 00 02 0e 03 38 00 00 00 ............8...
+68 01 d7 07 0c 00 00 00 d8 5d 1d bf fe 7f 00 00 h........]......
+00 10 1b bf fe 7f 00 00 08 4a 34 bf fe 7f 00 00 .........J4.....","
+0x7ff4fb9d0000:	fdivr	st(7)"
+0,7248,ngentask.exe,0x13b0000,0x13bffff,VadS,PAGE_EXECUTE_READWRITE,1,1,Disabled,N/A,"
+ae 42 76 e2 99 eb 00 01 ee ff ee ff 02 00 00 00 .Bv.............
+a4 00 3b 01 a4 00 3b 01 00 00 3b 01 00 00 3b 01 ..;...;...;...;.
+0f 00 00 00 a8 04 3b 01 00 f0 3b 01 0e 00 00 00 ......;...;.....
+01 00 00 00 00 00 00 00 f0 0f 3b 01 f0 0f 3b 01 ..........;...;.","
+0x13b0000:	scasb	al, byte ptr es:[edi]
+0x13b0001:	inc	edx
+0x13b0002:	jbe	0x13affe6
+0x13b0004:	cdq	
+0x13b0005:	jmp	0x13b0007
+0x13b0007:	add	esi, ebp"
+0,2560,mscorsvw.exe,0x1d9b5b70000,0x1d9b5b7ffff,VadS,PAGE_EXECUTE_READWRITE,2,1,Disabled,N/A,"
+00 00 00 00 00 00 00 00 8c ff f9 6a c7 a0 00 01 ...........j....
+ee ff ee ff 02 00 00 00 20 01 b7 b5 d9 01 00 00 ........ .......
+20 01 b7 b5 d9 01 00 00 00 00 b7 b5 d9 01 00 00  ...............
+00 00 b7 b5 d9 01 00 00 0f 00 00 00 00 00 00 00 ................","
+0x1d9b5b70000:	add	byte ptr [rax], al
+0x1d9b5b70002:	add	byte ptr [rax], al
+0x1d9b5b70004:	add	byte ptr [rax], al
+0x1d9b5b70006:	add	byte ptr [rax], al"
+0,2560,mscorsvw.exe,0x1d9b5ac0000,0x1d9b5acffff,VadS,PAGE_EXECUTE_READWRITE,2,1,Disabled,N/A,"
+00 00 00 00 00 00 00 00 59 de 19 d4 ec bb 00 01 ........Y.......
+ee ff ee ff 02 00 00 00 20 01 ac b5 d9 01 00 00 ........ .......
+20 01 ac b5 d9 01 00 00 00 00 ac b5 d9 01 00 00  ...............
+00 00 ac b5 d9 01 00 00 0f 00 00 00 00 00 00 00 ................","
+0x1d9b5ac0000:	add	byte ptr [rax], al
+0x1d9b5ac0002:	add	byte ptr [rax], al
+0x1d9b5ac0004:	add	byte ptr [rax], al
+0x1d9b5ac0006:	add	byte ptr [rax], al
+0x1d9b5ac0008:	pop	rcx
+0x1d9b5ac0009:	ficomp	word ptr [rcx]"
+0,2560,mscorsvw.exe,0x7ff4ba9c0000,0x7ff4baa5ffff,VadS,PAGE_EXECUTE_READWRITE,2,1,Disabled,N/A,"
+d8 ff ff ff ff ff ff ff 08 00 00 00 00 00 00 00 ................
+01 00 00 00 00 00 00 00 00 02 0e 03 38 00 00 00 ............8...
+68 01 d7 07 0c 00 00 00 d8 5d 1d bf fe 7f 00 00 h........]......
+00 10 1b bf fe 7f 00 00 08 4a 34 bf fe 7f 00 00 .........J4.....","
+0x7ff4ba9c0000:	fdivr	st(7)"
+0,2560,mscorsvw.exe,0x7ff4ba9b0000,0x7ff4ba9bffff,VadS,PAGE_EXECUTE_READWRITE,1,1,Disabled,N/A,"
+00 00 00 00 00 00 00 00 78 0d 00 00 00 00 00 00 ........x.......
+0c 00 00 00 49 c7 c2 00 00 00 00 48 b8 20 4a 7b ....I......H. J{
+c0 fe 7f 00 00 ff e0 49 c7 c2 01 00 00 00 48 b8 .......I......H.
+20 4a 7b c0 fe 7f 00 00 ff e0 49 c7 c2 02 00 00  J{.......I.....","
+0x7ff4ba9b0000:	add	byte ptr [rax], al
+0x7ff4ba9b0002:	add	byte ptr [rax], al
+0x7ff4ba9b0004:	add	byte ptr [rax], al
+0x7ff4ba9b0006:	add	byte ptr [rax], al
+0x7ff4ba9b0008:	js	0x7ff4ba9b0017
+0x7ff4ba9b000a:	add	byte ptr [rax], al
+0x7ff4ba9b000c:	add	byte ptr [rax], al
+0x7ff4ba9b000e:	add	byte ptr [rax], al
+0x7ff4ba9b0010:	or	al, 0
+0x7ff4ba9b0012:	add	byte ptr [rax], al
+0x7ff4ba9b0014:	mov	r10, 0
+0x7ff4ba9b001b:	movabs	rax, 0x7ffec07b4a20
+0x7ff4ba9b0025:	jmp	rax
+0x7ff4ba9b0027:	mov	r10, 1
+0x7ff4ba9b002e:	movabs	rax, 0x7ffec07b4a20
+0x7ff4ba9b0038:	jmp	rax"
+

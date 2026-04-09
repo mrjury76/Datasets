@@ -1,0 +1,31 @@
+TreeDepth,PID,Process,Start VPN,End VPN,Tag,Protection,CommitCharge,PrivateMemory,File output,Notes,Hexdump,Disasm
+0,4556,SearchApp.exe,0x17cf9910000,0x17cf992ffff,VadS,PAGE_EXECUTE_READWRITE,6,1,Disabled,N/A,"
+00 00 29 23 47 6c 61 3a 00 00 00 00 00 00 00 00 ..)#Gla:........
+b4 00 8a 05 00 00 00 00 a4 00 00 00 00 00 00 80 ................
+00 71 05 16 86 e3 ff ff 01 00 00 00 02 00 00 00 .q..............
+01 00 00 00 bb 00 00 00 00 10 91 00 59 bb ff ff ............Y...","
+0x17cf9910000:	add	byte ptr [rax], al
+0x17cf9910002:	sub	dword ptr [rbx], esp
+0x17cf9910004:	insb	byte ptr [rdi], dx"
+0,4556,SearchApp.exe,0x17cfaa90000,0x17cfaaf3fff,VadS,PAGE_EXECUTE_READWRITE,1,1,Disabled,N/A,"
+28 88 44 24 20 48 89 f1 ba 01 00 00 00 49 89 f8 (.D$ H.......I..
+49 89 d9 e8 de 03 00 00 8a 44 24 47 4c 89 7c 24 I........D$GL.|$
+30 4c 89 74 24 28 88 44 24 20 48 89 f1 31 d2 49 0L.t$(.D$ H..1.I
+89 f8 49 89 d9 e8 bc 03 00 00 4c 89 f9 e8 aa e8 ..I.......L.....","
+0x17cfaa90000:	sub	byte ptr [rax + 0x48202444], cl
+0x17cfaa90006:	mov	ecx, esi
+0x17cfaa90008:	mov	edx, 1
+0x17cfaa9000d:	mov	r8, rdi
+0x17cfaa90010:	mov	r9, rbx
+0x17cfaa90013:	call	0x17cfaa903f6
+0x17cfaa90018:	mov	al, byte ptr [rsp + 0x47]
+0x17cfaa9001c:	mov	qword ptr [rsp + 0x30], r15
+0x17cfaa90021:	mov	qword ptr [rsp + 0x28], r14
+0x17cfaa90026:	mov	byte ptr [rsp + 0x20], al
+0x17cfaa9002a:	mov	rcx, rsi
+0x17cfaa9002d:	xor	edx, edx
+0x17cfaa9002f:	mov	r8, rdi
+0x17cfaa90032:	mov	r9, rbx
+0x17cfaa90035:	call	0x17cfaa903f6
+0x17cfaa9003a:	mov	rcx, r15"
+

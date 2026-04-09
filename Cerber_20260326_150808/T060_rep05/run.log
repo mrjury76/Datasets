@@ -1,0 +1,51 @@
+==================================================
+ Volatility 3 Feature Extraction
+ Family:    Cerber
+ Snapshot:  /mnt/d/Patrick/VMSnapshots/Cerber_20260326_150808/T060_rep05/Cerber_T060_rep05.vmem
+ Started:   2026-03-29 17:12:20
+==================================================
+
+[+] Running windows.pstree to find Cerber PIDs (hints: ['cerber'])...
+    -> Parsed 100 processes
+    [!] No Cerber processes found. Running without PID filter.
+
+[+] Running windows.pslist...
+    100 rows
+
+[+] Running windows.psscan...
+    102 rows
+
+[+] Running windows.cmdline...
+    100 rows
+
+[+] Running windows.dlllist...
+    5420 rows
+
+[+] Running windows.ldrmodules...
+    5371 rows
+
+[+] Running windows.malfind...
+    18 rows
+
+[+] Running windows.vadinfo...
+    17182 rows
+
+[+] Running windows.handles...
+    43379 rows
+
+[+] Running windows.filescan...
+    4723 rows
+
+[+] Running windows.svcscan...
+    0 rows
+
+[+] Running windows.privileges...
+    3500 rows
+
+[+] Running windows.netstat...
+    41 rows
+
+[✓] CSV saved: /mnt/d/Patrick/VMSnapshots/Cerber_20260326_150808/T060_rep05/vol3_combined.csv
+[✓] Total rows: 79936
+[+] Done. Total time: 0:08:26.926913
+[+] Output directory: /mnt/d/Patrick/VMSnapshots/Cerber_20260326_150808/T060_rep05

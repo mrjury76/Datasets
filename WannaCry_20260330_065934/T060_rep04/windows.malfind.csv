@@ -1,0 +1,71 @@
+TreeDepth,PID,Process,Start VPN,End VPN,Tag,Protection,CommitCharge,PrivateMemory,File output,Notes,Hexdump,Disasm
+0,340,smartscreen.ex,0x110d2600000,0x110d261ffff,VadS,PAGE_EXECUTE_READWRITE,1,1,Disabled,N/A,"
+55 55 55 55 55 55 55 55 55 55 55 55 55 55 55 55 UUUUUUUUUUUUUUUU
+55 55 55 55 55 55 55 55 55 55 55 55 55 55 55 55 UUUUUUUUUUUUUUUU
+55 55 55 55 55 55 55 55 55 55 55 55 55 55 55 55 UUUUUUUUUUUUUUUU
+55 55 55 55 55 55 55 55 55 55 55 55 55 55 55 55 UUUUUUUUUUUUUUUU","
+0x110d2600000:	push	rbp
+0x110d2600001:	push	rbp
+0x110d2600002:	push	rbp
+0x110d2600003:	push	rbp
+0x110d2600004:	push	rbp
+0x110d2600005:	push	rbp
+0x110d2600006:	push	rbp
+0x110d2600007:	push	rbp
+0x110d2600008:	push	rbp
+0x110d2600009:	push	rbp
+0x110d260000a:	push	rbp
+0x110d260000b:	push	rbp
+0x110d260000c:	push	rbp
+0x110d260000d:	push	rbp
+0x110d260000e:	push	rbp
+0x110d260000f:	push	rbp
+0x110d2600010:	push	rbp
+0x110d2600011:	push	rbp
+0x110d2600012:	push	rbp
+0x110d2600013:	push	rbp
+0x110d2600014:	push	rbp
+0x110d2600015:	push	rbp
+0x110d2600016:	push	rbp
+0x110d2600017:	push	rbp
+0x110d2600018:	push	rbp
+0x110d2600019:	push	rbp
+0x110d260001a:	push	rbp
+0x110d260001b:	push	rbp
+0x110d260001c:	push	rbp
+0x110d260001d:	push	rbp
+0x110d260001e:	push	rbp
+0x110d260001f:	push	rbp
+0x110d2600020:	push	rbp
+0x110d2600021:	push	rbp
+0x110d2600022:	push	rbp
+0x110d2600023:	push	rbp
+0x110d2600024:	push	rbp
+0x110d2600025:	push	rbp
+0x110d2600026:	push	rbp
+0x110d2600027:	push	rbp
+0x110d2600028:	push	rbp
+0x110d2600029:	push	rbp
+0x110d260002a:	push	rbp
+0x110d260002b:	push	rbp
+0x110d260002c:	push	rbp
+0x110d260002d:	push	rbp
+0x110d260002e:	push	rbp
+0x110d260002f:	push	rbp
+0x110d2600030:	push	rbp
+0x110d2600031:	push	rbp
+0x110d2600032:	push	rbp
+0x110d2600033:	push	rbp
+0x110d2600034:	push	rbp
+0x110d2600035:	push	rbp
+0x110d2600036:	push	rbp
+0x110d2600037:	push	rbp
+0x110d2600038:	push	rbp
+0x110d2600039:	push	rbp
+0x110d260003a:	push	rbp
+0x110d260003b:	push	rbp
+0x110d260003c:	push	rbp
+0x110d260003d:	push	rbp
+0x110d260003e:	push	rbp
+0x110d260003f:	push	rbp"
+

@@ -1,0 +1,9 @@
+
+Unsatisfied requirement plugins.Malfind.kernel.symbol_table_name: 
+
+A symbol table requirement was not fulfilled.  Please verify that:
+	The associated translation layer requirement was fulfilled
+	You have the correct symbol file for the requirement
+	The symbol file is under the correct directory or zip file
+	The symbol file is named appropriately or contains the correct banner
+

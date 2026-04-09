@@ -1,0 +1,67 @@
+==================================================
+ Volatility 3 Feature Extraction
+ Family:    WannaCry
+ Snapshot:  /mnt/d/Patrick/VMSnapshots/WannaCry_20260326_193131/T240_rep04/WannaCry_T240_rep04.vmem
+ Started:   2026-03-29 14:45:18
+==================================================
+
+[+] Running windows.pstree to find WannaCry PIDs (hints: ['wannacry', 'tasksche', 'mssecsvc'])...
+==================================================
+ Volatility 3 Feature Extraction
+ Family:    WannaCry
+ Snapshot:  /mnt/d/Patrick/VMSnapshots/WannaCry_20260326_193131/T240_rep04/WannaCry_T240_rep04.vmem
+ Started:   2026-03-29 14:47:54
+==================================================
+
+[+] Running windows.pstree to find WannaCry PIDs (hints: ['wannacry', 'tasksche', 'mssecsvc'])...
+==================================================
+ Volatility 3 Feature Extraction
+ Family:    WannaCry
+ Snapshot:  /mnt/d/Patrick/VMSnapshots/WannaCry_20260326_193131/T240_rep04/WannaCry_T240_rep04.vmem
+ Started:   2026-03-29 21:41:42
+==================================================
+
+[+] Running windows.pstree to find WannaCry PIDs (hints: ['wannacry', 'tasksche', 'mssecsvc'])...
+    -> Parsed 21 processes
+    [!] No WannaCry processes found. Running without PID filter.
+
+[+] Running windows.pslist...
+    121 rows
+
+[+] Running windows.psscan...
+    123 rows
+
+[+] Running windows.cmdline...
+    121 rows
+
+[+] Running windows.dlllist...
+    2422 rows
+
+[+] Running windows.ldrmodules...
+    546 rows
+
+[+] Running windows.malfind...
+    8 rows
+
+[+] Running windows.vadinfo...
+    18612 rows
+
+[+] Running windows.handles...
+    35045 rows
+
+[+] Running windows.filescan...
+    4186 rows
+
+[+] Running windows.svcscan...
+    6624 rows
+
+[+] Running windows.privileges...
+    4235 rows
+
+[+] Running windows.netstat...
+    46 rows
+
+[✓] CSV saved: /mnt/d/Patrick/VMSnapshots/WannaCry_20260326_193131/T240_rep04/vol3_combined.csv
+[✓] Total rows: 72089
+[+] Done. Total time: 0:07:42.554482
+[+] Output directory: /mnt/d/Patrick/VMSnapshots/WannaCry_20260326_193131/T240_rep04

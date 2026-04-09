@@ -1,0 +1,100 @@
+TreeDepth,PID,Process,Start VPN,End VPN,Tag,Protection,CommitCharge,PrivateMemory,File output,Notes,Hexdump,Disasm
+0,2320,MsMpEng.exe,0x23757710000,0x2375780ffff,VadS,PAGE_EXECUTE_READWRITE,256,1,Disabled,N/A,"
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................","
+0x23757710000:	add	byte ptr [rax], al
+0x23757710002:	add	byte ptr [rax], al
+0x23757710004:	add	byte ptr [rax], al
+0x23757710006:	add	byte ptr [rax], al
+0x23757710008:	add	byte ptr [rax], al
+0x2375771000a:	add	byte ptr [rax], al
+0x2375771000c:	add	byte ptr [rax], al
+0x2375771000e:	add	byte ptr [rax], al
+0x23757710010:	add	byte ptr [rax], al
+0x23757710012:	add	byte ptr [rax], al
+0x23757710014:	add	byte ptr [rax], al
+0x23757710016:	add	byte ptr [rax], al
+0x23757710018:	add	byte ptr [rax], al
+0x2375771001a:	add	byte ptr [rax], al
+0x2375771001c:	add	byte ptr [rax], al
+0x2375771001e:	add	byte ptr [rax], al
+0x23757710020:	add	byte ptr [rax], al
+0x23757710022:	add	byte ptr [rax], al
+0x23757710024:	add	byte ptr [rax], al
+0x23757710026:	add	byte ptr [rax], al
+0x23757710028:	add	byte ptr [rax], al
+0x2375771002a:	add	byte ptr [rax], al
+0x2375771002c:	add	byte ptr [rax], al
+0x2375771002e:	add	byte ptr [rax], al
+0x23757710030:	add	byte ptr [rax], al
+0x23757710032:	add	byte ptr [rax], al
+0x23757710034:	add	byte ptr [rax], al
+0x23757710036:	add	byte ptr [rax], al
+0x23757710038:	add	byte ptr [rax], al
+0x2375771003a:	add	byte ptr [rax], al
+0x2375771003c:	add	byte ptr [rax], al
+0x2375771003e:	add	byte ptr [rax], al"
+0,7572,sppsvc.exe,0x1fda2e80000,0x1fda2e8ffff,VadS,PAGE_EXECUTE_READ,16,1,Disabled,N/A,"
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................","
+0x1fda2e80000:	add	byte ptr [rax], al
+0x1fda2e80002:	add	byte ptr [rax], al
+0x1fda2e80004:	add	byte ptr [rax], al
+0x1fda2e80006:	add	byte ptr [rax], al
+0x1fda2e80008:	add	byte ptr [rax], al
+0x1fda2e8000a:	add	byte ptr [rax], al
+0x1fda2e8000c:	add	byte ptr [rax], al
+0x1fda2e8000e:	add	byte ptr [rax], al
+0x1fda2e80010:	add	byte ptr [rax], al
+0x1fda2e80012:	add	byte ptr [rax], al
+0x1fda2e80014:	add	byte ptr [rax], al
+0x1fda2e80016:	add	byte ptr [rax], al
+0x1fda2e80018:	add	byte ptr [rax], al
+0x1fda2e8001a:	add	byte ptr [rax], al
+0x1fda2e8001c:	add	byte ptr [rax], al
+0x1fda2e8001e:	add	byte ptr [rax], al
+0x1fda2e80020:	add	byte ptr [rax], al
+0x1fda2e80022:	add	byte ptr [rax], al
+0x1fda2e80024:	add	byte ptr [rax], al
+0x1fda2e80026:	add	byte ptr [rax], al
+0x1fda2e80028:	add	byte ptr [rax], al
+0x1fda2e8002a:	add	byte ptr [rax], al
+0x1fda2e8002c:	add	byte ptr [rax], al
+0x1fda2e8002e:	add	byte ptr [rax], al
+0x1fda2e80030:	add	byte ptr [rax], al
+0x1fda2e80032:	add	byte ptr [rax], al
+0x1fda2e80034:	add	byte ptr [rax], al
+0x1fda2e80036:	add	byte ptr [rax], al
+0x1fda2e80038:	add	byte ptr [rax], al
+0x1fda2e8003a:	add	byte ptr [rax], al
+0x1fda2e8003c:	add	byte ptr [rax], al
+0x1fda2e8003e:	add	byte ptr [rax], al"
+0,7572,sppsvc.exe,0x1fda2e70000,0x1fda2e7ffff,VadS,PAGE_EXECUTE_READ,16,1,Disabled,N/A,"
+8c 90 8a 80 f9 7d 00 00 36 00 00 00 00 00 00 00 .....}..6.......
+48 8d 15 f9 ff ff ff 48 8b 0c 24 48 89 5c 24 08 H......H..$H.\\$.
+48 89 74 24 10 48 89 7c 24 18 55 41 54 41 55 41 H.t$.H.|$.UATAUA
+56 41 57 48 8b ec 48 83 ec 40 48 8b 72 f0 48 8d VAWH..H..@H.r.H.","
+0x1fda2e70000:	mov	word ptr [rax + 0x7df9808a], ss
+0x1fda2e70006:	add	byte ptr [rax], al
+0x1fda2e70008:	add	byte ptr ss:[rax], al
+0x1fda2e7000b:	add	byte ptr [rax], al
+0x1fda2e7000d:	add	byte ptr [rax], al
+0x1fda2e7000f:	add	byte ptr [rax - 0x73], cl
+0x1fda2e70012:	adc	eax, 0xfffffff9
+0x1fda2e70017:	mov	rcx, qword ptr [rsp]
+0x1fda2e7001b:	mov	qword ptr [rsp + 8], rbx
+0x1fda2e70020:	mov	qword ptr [rsp + 0x10], rsi
+0x1fda2e70025:	mov	qword ptr [rsp + 0x18], rdi
+0x1fda2e7002a:	push	rbp
+0x1fda2e7002b:	push	r12
+0x1fda2e7002d:	push	r13
+0x1fda2e7002f:	push	r14
+0x1fda2e70031:	push	r15
+0x1fda2e70033:	mov	rbp, rsp
+0x1fda2e70036:	sub	rsp, 0x40
+0x1fda2e7003a:	mov	rsi, qword ptr [rdx - 0x10]"
+

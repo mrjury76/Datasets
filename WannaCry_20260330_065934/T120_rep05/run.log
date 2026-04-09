@@ -1,0 +1,52 @@
+==================================================
+ Volatility 3 Feature Extraction
+ Family:    WannaCry
+ Snapshot:  /mnt/d/Patrick/VMSnapshots/WannaCry_20260330_065934/T120_rep05/WannaCry_T120_rep05.vmem
+ Started:   2026-03-30 17:40:49
+==================================================
+
+[+] Running windows.pstree to find WannaCry PIDs (hints: ['wannacry', 'tasksche', 'mssecsvc'])...
+==================================================
+ Volatility 3 Feature Extraction
+ Family:    WannaCry
+ Snapshot:  /mnt/d/Patrick/VMSnapshots/WannaCry_20260330_065934/T120_rep05/WannaCry_T120_rep05.vmem
+ Started:   2026-03-30 17:40:57
+==================================================
+
+[+] Running windows.pstree to find WannaCry PIDs (hints: ['wannacry', 'tasksche', 'mssecsvc'])...
+    -> Parsed 96 processes
+    [+] Found WannaCry process: WannaCry.exe PID=8388
+    [+] Added child: @WanaDecryptor PID=7000
+    [+] Added child: taskhsvc.exe PID=8452
+    [+] Added child: conhost.exe PID=6496
+    [+] Added child: @WanaDecryptor PID=1072
+    [+] Total WannaCry PIDs: ['1072', '6496', '7000', '8388', '8452']
+[+] Done: windows.pslist
+[+] Done: windows.privileges
+[+] Done: windows.cmdline
+[+] Done: windows.netstat
+[+] Done: windows.svcscan
+[+] Done: windows.dlllist
+[+] Done: windows.psscan
+[+] Done: windows.ldrmodules
+[+] Done: windows.filescan
+[+] Done: windows.handles
+[+] Done: windows.malfind
+[+] Done: windows.vadinfo
+    windows.pslist: 5 rows
+    windows.psscan: 5 rows
+    windows.cmdline: 5 rows
+    windows.dlllist: 108 rows
+    windows.ldrmodules: 2 rows
+    windows.malfind: 3 rows
+    windows.vadinfo: 416 rows
+    windows.handles: 790 rows
+    windows.filescan: 4063 rows
+    windows.svcscan: 0 rows
+    windows.privileges: 175 rows
+    windows.netstat: 45 rows
+
+[✓] CSV saved: /mnt/d/Patrick/VMSnapshots/WannaCry_20260330_065934/T120_rep05/vol3_combined.csv
+[✓] Total rows: 5617
+[+] Done. Total time: 0:03:50.892597
+[+] Output directory: /mnt/d/Patrick/VMSnapshots/WannaCry_20260330_065934/T120_rep05

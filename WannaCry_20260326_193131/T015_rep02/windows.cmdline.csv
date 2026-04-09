@@ -1,0 +1,96 @@
+TreeDepth,PID,Process,Args
+0,4,System,-
+0,92,Registry,-
+0,308,smss.exe,-
+0,420,csrss.exe,"%SystemRoot%\\system32\\csrss.exe ObjectDirectory=\\Windows SharedSection=1024,20480,768 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16"
+0,496,wininit.exe,-
+0,504,csrss.exe,-
+0,564,winlogon.exe,winlogon.exe
+0,636,services.exe,C:\\Windows\\system32\\services.exe
+0,660,lsass.exe,C:\\Windows\\system32\\lsass.exe
+0,764,svchost.exe,C:\\Windows\\system32\\svchost.exe -k DcomLaunch -p
+0,792,fontdrvhost.ex,-
+0,796,fontdrvhost.ex,-
+0,884,svchost.exe,C:\\Windows\\system32\\svchost.exe -k RPCSS -p
+0,968,dwm.exe,-
+0,360,svchost.exe,C:\\Windows\\system32\\svchost.exe -k netsvcs -p
+0,680,svchost.exe,C:\\Windows\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p
+0,1044,svchost.exe,C:\\Windows\\system32\\svchost.exe -k LocalServiceNoNetwork -p
+0,1052,svchost.exe,C:\\Windows\\system32\\svchost.exe -k LocalServiceNetworkRestricted -p
+0,1120,svchost.exe,-
+0,1128,upfc.exe,C:\\Windows\\System32\\Upfc.exe /launchtype boot /cv C2G7yfVGHEyndkYr4NNN8w.0
+0,1196,svchost.exe,C:\\Windows\\system32\\svchost.exe -k LocalService -p
+0,1328,MemCompression,-
+0,1392,svchost.exe,C:\\Windows\\System32\\svchost.exe -k NetworkService -p
+0,1536,svchost.exe,C:\\Windows\\System32\\svchost.exe -k LocalServiceNetworkRestricted -p
+0,1676,svchost.exe,-
+0,1700,svchost.exe,-
+0,1708,svchost.exe,C:\\Windows\\system32\\svchost.exe -k appmodel -p
+0,1820,spoolsv.exe,C:\\Windows\\System32\\spoolsv.exe
+0,1880,svchost.exe,-
+0,1992,svchost.exe,-
+0,2012,svchost.exe,-
+0,2080,svchost.exe,-
+0,2192,svchost.exe,-
+0,2264,vmtoolsd.exe,"""C:\\Program Files\\VMware\\VMware Tools\\vmtoolsd.exe"""
+0,2272,VGAuthService.,-
+0,2280,vm3dservice.ex,-
+0,2320,MsMpEng.exe,"""C:\\Program Files\\Windows Defender\\MsMpEng.exe"""
+0,2364,Sysmon64.exe,C:\\Windows\\Sysmon64.exe
+0,2460,vm3dservice.ex,-
+0,2668,dllhost.exe,-
+0,2764,dllhost.exe,-
+0,2944,svchost.exe,C:\\Windows\\system32\\svchost.exe -k wsappx -p
+0,2968,msdtc.exe,-
+0,608,VSSVC.exe,-
+0,2200,unsecapp.exe,-
+0,2616,WmiPrvSE.exe,C:\\Windows\\system32\\wbem\\wmiprvse.exe
+0,3204,WmiPrvSE.exe,-
+0,3220,sihost.exe,sihost.exe
+0,3268,svchost.exe,C:\\Windows\\system32\\svchost.exe -k UnistackSvcGroup
+0,3328,MicrosoftEdgeU,-
+0,3336,taskhostw.exe,taskhostw.exe {222A245B-E637-4AE9-A93F-A59CA119A75E}
+0,3484,ctfmon.exe,"""ctfmon.exe"""
+0,3668,userinit.exe,-
+0,3720,explorer.exe,C:\\Windows\\Explorer.EXE
+0,3816,svchost.exe,-
+0,4080,svchost.exe,C:\\Windows\\system32\\svchost.exe -k ClipboardSvcGroup -p
+0,4380,StartMenuExper,"""C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe"" -ServerName:App.AppXywbrabmsek0gm3tkwpr5kwzbs55tkqay.mca"
+0,4448,RuntimeBroker.,-
+0,4556,SearchApp.exe,-
+0,4564,SearchIndexer.,C:\\Windows\\system32\\SearchIndexer.exe /Embedding
+0,4668,RuntimeBroker.,C:\\Windows\\System32\\RuntimeBroker.exe -Embedding
+0,1816,RuntimeBroker.,C:\\Windows\\System32\\RuntimeBroker.exe -Embedding
+0,4220,svchost.exe,-
+0,3444,smartscreen.ex,-
+0,4872,SecurityHealth,-
+0,1752,SecurityHealth,C:\\Windows\\system32\\SecurityHealthService.exe
+0,5180,WmiApSrv.exe,-
+0,5236,vmtoolsd.exe,"""C:\\Program Files\\VMware\\VMware Tools\\vmtoolsd.exe"" -n vmusr"
+0,5332,TextInputHost.,"""C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\InputApp\\TextInputHost.exe"" -ServerName:InputApp.AppX9jnwykgrccxc8by3hsrsh07r423xzvav.mca"
+0,5340,OneDrive.exe,"""C:\\Users\\Patrick\\AppData\\Local\\Microsoft\\OneDrive\\OneDrive.exe"" /background"
+0,5560,dllhost.exe,C:\\Windows\\system32\\DllHost.exe /Processid:{973D20D7-562D-44B9-B70B-5A0F49CCDF3F}
+0,5880,ApplicationFra,C:\\Windows\\system32\\ApplicationFrameHost.exe -Embedding
+0,5904,M365Copilot.ex,"""C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2603.45021.0_x64__8wekyb3d8bbwe\\M365Copilot.exe"" ms-getoffice: autostart reason=AutoStarter"
+0,5916,SecHealthUI.ex,"""C:\\Windows\\SystemApps\\Microsoft.Windows.SecHealthUI_cw5n1h2txyewy\\SecHealthUI.exe"" -ServerName:SecHealthUI.AppXep4x2tbtjws1v9qqs0rmb3hxykvkpqtn.mca"
+0,1728,SecurityHealth,-
+0,6476,RuntimeBroker.,C:\\Windows\\System32\\RuntimeBroker.exe -Embedding
+0,6696,msedgewebview2,"""C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.62\\msedgewebview2.exe"" --embedded-browser-webview=1 --webview-exe-name=M365Copilot.exe --webview-exe-version=19.2603.45021.0 --user-data-dir=""C:\\Users\\Patrick\\AppData\\Local\\Packages\\Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe\\LocalState\\EBWebView"" --noerrdialogs --embedded-browser-webview-dpi-awareness=2 --disable-features=msEnhancedTrackingPreventionEnabled --enable-features=msSingleSignOnOSForPrimaryAccountIsShared --mojo-named-platform-channel-pipe=5904.6664.9395510796428859720"
+0,6740,svchost.exe,-
+0,6772,msedgewebview2,-
+0,7060,msedgewebview2,-
+0,7088,msedgewebview2,-
+0,388,msedgewebview2,-
+0,7304,msedgewebview2,-
+0,7572,audiodg.exe,C:\\Windows\\system32\\AUDIODG.EXE 0x514
+0,7668,SecurityHealth,-
+0,7860,Taskmgr.exe,"""C:\\Windows\\System32\\Taskmgr.exe"" /2"
+0,3760,StoreDesktopEx,-
+0,7248,ShellExperienc,"""C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe"" -ServerName:App.AppXtk181tbxbce2qsex02s8tw7hfxa9xb3t.mca"
+0,7536,RuntimeBroker.,C:\\Windows\\System32\\RuntimeBroker.exe -Embedding
+0,3716,MicrosoftEdgeU,"""C:\\Program Files (x86)\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe"" /svc"
+0,8000,WannaCry.exe,"""C:\\Malware\\WannaCry\\WannaCry.exe"""
+0,2476,MicrosoftEdgeU,"""C:\\Program Files (x86)\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe"" /ping PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48cmVxdWVzdCBwcm90b2NvbD0iMy4wIiB1cGRhdGVyPSJPbWFoYSIgdXBkYXRlcnZlcnNpb249IjEuMy4yMjUuNyIgc2hlbGxfdmVyc2lvbj0iMS4zLjIyNS43IiBpc21hY2hpbmU9IjEiIHNlc3Npb25pZD0iezJFN0Q3MjM3LUMwNTUtNEEzNy1BMTNBLUMyM0M1NTQ1NzM3Mn0iIHVzZXJpZD0iezY5NEM5NkNDLTNDRkYtNDRCRC1BQjkzLTRFNDhFQjlCRTQ3MX0iIGluc3RhbGxzb3VyY2U9ImNvcmUiIHJlcXVlc3RpZD0iezNGMDI3QzNDLTA2RjktNDY3RS1BMjNBLUE4ODVENTU2RjJBNn0iIGRlZHVwPSJjciIgZG9tYWluam9pbmVkPSIwIj48aHcgbG9naWNhbF9jcHVzPSIyIiBwaHlzbWVtb3J5PSIyIiBkaXNrX3R5cGU9IjIiIHNzZT0iMSIgc3NlMj0iMSIgc3NlMz0iMSIgc3NzZTM9IjEiIHNzZTQxPSIxIiBzc2U0Mj0iMSIgYXZ4PSIxIi8-PG9zIHBsYXRmb3JtPSJ3aW4iIHZlcnNpb249IjEwLjAuMTkwNDIuNjMxIiBzcD0iIiBhcmNoPSJ4NjQiIHByb2R1Y3RfdHlwZT0iMTAxIiBpc193aXA9IjAiIGlzX2luX2xvY2tkb3duX21vZGU9IjAiLz48b2VtIHByb2R1Y3RfbWFudWZhY3R1cmVyPSJWTXdhcmUsIEluYy4iIHByb2R1Y3RfbmFtZT0iVk13YXJlMjAsMSIvPjxleHAgZXRhZz0iJnF1b3Q7K1pGQWozU09JSTVCSnpvR3V6OE9wcjBoWjhIL3JEenFiL1FWcjNQWWg0ST0mcXVvdDsiLz48YXBwIGFwcGlkPSJ7RjNDNEZFMDAtRUZENS00MDNCLTk1NjktMzk4QTIwRjFCQTRBfSIgdmVyc2lvbj0iMS4zLjIyNS43IiBuZXh0dmVyc2lvbj0iIiBsYW5nPSIiIGJyYW5kPSJXVUxTIiBjbGllbnQ9IiIgaW5zdGFsbGFnZT0iMTk1MyIgaW5zdGFsbGRhdGU9IjY5OTMiIGNvaG9ydD0icnJmQDAuMTMiPjx1cGRhdGVjaGVjay8-PHBpbmcgcj0iOCIgcmQ9IjcwMTciIHBpbmdfZnJlc2huZXNzPSJ7MDcyNzNGMEEtNEQ5Ni00ODM4LUE4RTItQ0FFMzlFMkVDODlDfSIvPjwvYXBwPjxhcHAgYXBwaWQ9Ins1NkVCMThGOC1CMDA4LTRDQkQtQjZEMi04Qzk3RkU3RTkwNjJ9IiB2ZXJzaW9uPSIxNDYuMC4zODU2LjYyIiBuZXh0dmVyc2lvbj0iIiBsYW5nPSIiIGJyYW5kPSJXVUxTIiBjbGllbnQ9IiIgZXhwZXJpbWVudHM9ImNvbnNlbnQ9ZmFsc2UiIGluc3RhbGxhZ2U9IjE5NTMiIGluc3RhbGxkYXRlPSI2OTkzIiBjb2hvcnQ9InJyZkAwLjk3IiBvb2JlX2luc3RhbGxfdGltZT0iMTg0NDY3NDQwNzM3MDk1NTE2MDYiIHVwZGF0ZV9jb3VudD0iMyIgaXNfcGlubmVkX3N5c3RlbT0idHJ1ZSIgbGFzdF9sYXVuY2hfY291bnQ9IjEiIGxhc3RfbGF1bmNoX3RpbWU9IjEzNDE2OTU3OTU5MjU1NDk3MCIgZmlyc3RfZnJlX3NlZW5fdGltZT0iMTM0MTY2MDMyNjczNjg2MTkwIiBmaXJzdF9mcmVfc2Vlbl92ZXJzaW9uPSIxNDUuMC4zODAwLjcwIj48dXBkYXRlY2hlY2svPjxwaW5nIGFjdGl2ZT0iMCIgcj0iOCIgcmQ9IjcwMTciIHBpbmdfZnJlc2huZXNzPSJ7RkUyNDAwNDEtRkVDRi00MkVFLUIzMzgtQkE5QUY1OUEyODU5fSIvPjwvYXBwPjxhcHAgYXBwaWQ9IntGMzAxNzIyNi1GRTJBLTQyOTUtOEJERi0wMEMzQTlBN0U0QzV9IiB2ZXJzaW9uPSIxNDYuMC4zODU2LjYyIiBuZXh0dmVyc2lvbj0iIiBsYW5nPSIiIGJyYW5kPSJFVVdWIiBjbGllbnQ9IiIgZXhwZXJpbWVudHM9ImNvbnNlbnQ9ZmFsc2UiIGluc3RhbGxhZ2U9IjI4IiBpbnN0YWxsZGF0ZT0iNjk5MyIgY29ob3J0PSJycmZAMC43MCIgdXBkYXRlX2NvdW50PSIyIiBsYXN0X2xhdW5jaF9jb3VudD0iMSIgbGFzdF9sYXVuY2hfdGltZT0iMTM0MTkwMzM3MDk3NDk0NjkwIj48dXBkYXRlY2hlY2svPjxwaW5nIGFjdGl2ZT0iMSIgYT0iOCIgcj0iOCIgYWQ9IjcwMTciIHJkPSI3MDE3IiBwaW5nX2ZyZXNobmVzcz0iezQyNDlENzA1LTU1NjItNDlBNC1CM0Y4LUY2MDU3QzA4QzkyRX0iLz48L2FwcD48L3JlcXVlc3Q-"
+0,5688,SearchProtocol,"""C:\\Windows\\system32\\SearchProtocolHost.exe"" Global\\UsGthrFltPipeMssGthrPipe1_ Global\\UsGthrCtrlFltPipeMssGthrPipe1 1 -2147483646 ""Software\\Microsoft\\Windows Search"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows NT; MS Search 4.0 Robot)"" ""C:\\ProgramData\\Microsoft\\Search\\Data\\Temp\\usgthrsvc"" ""DownLevelDaemon"" "
+0,5724,SearchFilterHo,"""C:\\Windows\\system32\\SearchFilterHost.exe"" 0 800 804 812 8192 808 784 "
+

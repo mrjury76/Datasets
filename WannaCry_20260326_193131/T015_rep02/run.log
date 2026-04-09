@@ -1,0 +1,68 @@
+==================================================
+ Volatility 3 Feature Extraction
+ Family:    WannaCry
+ Snapshot:  /mnt/d/Patrick/VMSnapshots/WannaCry_20260326_193131/T015_rep02/WannaCry_T015_rep02.vmem
+ Started:   2026-03-29 14:45:15
+==================================================
+
+[+] Running windows.pstree to find WannaCry PIDs (hints: ['wannacry', 'tasksche', 'mssecsvc'])...
+==================================================
+ Volatility 3 Feature Extraction
+ Family:    WannaCry
+ Snapshot:  /mnt/d/Patrick/VMSnapshots/WannaCry_20260326_193131/T015_rep02/WannaCry_T015_rep02.vmem
+ Started:   2026-03-29 14:47:50
+==================================================
+
+[+] Running windows.pstree to find WannaCry PIDs (hints: ['wannacry', 'tasksche', 'mssecsvc'])...
+==================================================
+ Volatility 3 Feature Extraction
+ Family:    WannaCry
+ Snapshot:  /mnt/d/Patrick/VMSnapshots/WannaCry_20260326_193131/T015_rep02/WannaCry_T015_rep02.vmem
+ Started:   2026-03-29 18:52:54
+==================================================
+
+[+] Running windows.pstree to find WannaCry PIDs (hints: ['wannacry', 'tasksche', 'mssecsvc'])...
+    -> Parsed 94 processes
+    [+] Found WannaCry process: WannaCry.exe PID=8000
+    [+] Total WannaCry PIDs: ['8000']
+
+[+] Running windows.pslist...
+    1 rows
+
+[+] Running windows.psscan...
+    1 rows
+
+[+] Running windows.cmdline...
+    1 rows
+
+[+] Running windows.dlllist...
+    34 rows
+
+[+] Running windows.ldrmodules...
+    34 rows
+
+[+] Running windows.malfind...
+    0 rows
+
+[+] Running windows.vadinfo...
+    93 rows
+
+[+] Running windows.handles...
+    173 rows
+
+[+] Running windows.filescan...
+    4972 rows
+
+[+] Running windows.svcscan...
+    1154 rows
+
+[+] Running windows.privileges...
+    35 rows
+
+[+] Running windows.netstat...
+    0 rows
+
+[✓] CSV saved: /mnt/d/Patrick/VMSnapshots/WannaCry_20260326_193131/T015_rep02/vol3_combined.csv
+[✓] Total rows: 6498
+[+] Done. Total time: 0:07:36.641084
+[+] Output directory: /mnt/d/Patrick/VMSnapshots/WannaCry_20260326_193131/T015_rep02

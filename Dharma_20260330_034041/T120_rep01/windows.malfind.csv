@@ -1,0 +1,32 @@
+TreeDepth,PID,Process,Start VPN,End VPN,Tag,Protection,CommitCharge,PrivateMemory,File output,Notes,Hexdump,Disasm
+0,4556,SearchApp.exe,0x17cf9910000,0x17cf992ffff,VadS,PAGE_EXECUTE_READWRITE,6,1,Disabled,N/A,"
+19 76 00 15 bc 6c 54 ad 77 99 6f 7f 2e a8 1d de .v...lT.w.o.....
+64 c6 b7 8c 2f 3e ac d5 17 1d aa 29 dd 84 a2 72 d.../>.....)...r
+93 e1 fd 1e 03 66 31 4b bf bf 74 a8 14 eb d4 53 .....f1K..t....S
+c8 e1 92 d1 35 77 cf 69 ec 47 ec d1 9c 1f 19 0f ....5w.i.G......","
+0x17cf9910000:	sbb	dword ptr [rsi], esi
+0x17cf9910003:	adc	eax, 0xad546cbc
+0x17cf9910008:	ja	0x17cf990ffa3
+0x17cf991000a:	outsd	dx, dword ptr [rsi]
+0x17cf991000b:	jg	0x17cf991003b
+0x17cf991000d:	test	al, 0x1d
+0x17cf991000f:	fisub	word ptr [rsi + rax*8 - 0x49]
+0x17cf9910013:	mov	word ptr [rdi], gs
+0x17cf9910015:	lodsb	al, byte ptr ds:[rsi]"
+0,4556,SearchApp.exe,0x17cfaa90000,0x17cfaaf3fff,VadS,PAGE_EXECUTE_READWRITE,1,1,Disabled,N/A,"
+c3 89 a8 99 2a 86 09 f4 4e 9f f5 b9 c6 2a 42 c9 ....*...N....*B.
+83 98 ec 10 b1 b0 e4 b2 14 ff 1e 2b 10 2c 50 61 ...........+.,Pa
+4a 41 a1 4c 3b 08 97 62 49 8a 8a 27 69 67 05 a4 JA.L;..bI..'ig..
+2b 95 1b a0 35 36 2f 2d b5 c0 e8 8c 06 5c 5d 70 +...56/-.....\\]p","
+0x17cfaa90000:	ret	
+0x17cfaa90001:	mov	dword ptr [rax + 0x9862a99], ebp
+0x17cfaa90007:	hlt	
+0x17cfaa90008:	lahf	
+0x17cfaa9000a:	cmc	
+0x17cfaa9000b:	mov	ecx, 0xc9422ac6
+0x17cfaa90010:	sbb	dword ptr [rax - 0x4f4eef14], -0x1c
+0x17cfaa90017:	mov	dl, 0x14
+0x17cfaa90019:	call	ptr [rsi]
+0x17cfaa9001b:	sub	edx, dword ptr [rax]
+0x17cfaa9001d:	sub	al, 0x50"
+

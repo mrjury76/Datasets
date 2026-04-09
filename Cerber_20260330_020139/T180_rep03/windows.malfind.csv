@@ -1,0 +1,69 @@
+TreeDepth,PID,Process,Start VPN,End VPN,Tag,Protection,CommitCharge,PrivateMemory,File output,Notes,Hexdump,Disasm
+0,2320,MsMpEng.exe,0x23757710000,0x2375780ffff,VadS,PAGE_EXECUTE_READWRITE,256,1,Disabled,N/A,"
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................","
+0x23757710000:	add	byte ptr [rax], al
+0x23757710002:	add	byte ptr [rax], al
+0x23757710004:	add	byte ptr [rax], al
+0x23757710006:	add	byte ptr [rax], al
+0x23757710008:	add	byte ptr [rax], al
+0x2375771000a:	add	byte ptr [rax], al
+0x2375771000c:	add	byte ptr [rax], al
+0x2375771000e:	add	byte ptr [rax], al
+0x23757710010:	add	byte ptr [rax], al
+0x23757710012:	add	byte ptr [rax], al
+0x23757710014:	add	byte ptr [rax], al
+0x23757710016:	add	byte ptr [rax], al
+0x23757710018:	add	byte ptr [rax], al
+0x2375771001a:	add	byte ptr [rax], al
+0x2375771001c:	add	byte ptr [rax], al
+0x2375771001e:	add	byte ptr [rax], al
+0x23757710020:	add	byte ptr [rax], al
+0x23757710022:	add	byte ptr [rax], al
+0x23757710024:	add	byte ptr [rax], al
+0x23757710026:	add	byte ptr [rax], al
+0x23757710028:	add	byte ptr [rax], al
+0x2375771002a:	add	byte ptr [rax], al
+0x2375771002c:	add	byte ptr [rax], al
+0x2375771002e:	add	byte ptr [rax], al
+0x23757710030:	add	byte ptr [rax], al
+0x23757710032:	add	byte ptr [rax], al
+0x23757710034:	add	byte ptr [rax], al
+0x23757710036:	add	byte ptr [rax], al
+0x23757710038:	add	byte ptr [rax], al
+0x2375771003a:	add	byte ptr [rax], al
+0x2375771003c:	add	byte ptr [rax], al
+0x2375771003e:	add	byte ptr [rax], al"
+0,4556,SearchApp.exe,0x17cf9910000,0x17cf992ffff,VadS,PAGE_EXECUTE_READWRITE,6,1,Disabled,N/A,"
+d4 b7 1d b2 21 2e ec f8 6e 66 4a 12 e2 6d be 35 ....!...nfJ..m.5
+a4 9f 92 5b 09 84 9e 20 db dd db 1e 63 52 ce 23 ...[... ....cR.#
+bb 39 e8 4c 15 36 8e b0 53 90 b1 ba 58 77 c5 4f .9.L.6..S...Xw.O
+bd 90 ad 7f 5b ef 3c 91 d1 6b 32 61 b8 ed 51 98 ....[.<..k2a..Q.",
+0,4556,SearchApp.exe,0x17cfaa90000,0x17cfaaf3fff,VadS,PAGE_EXECUTE_READWRITE,1,1,Disabled,N/A,"
+48 b8 00 00 00 80 74 01 00 00 48 ff e0 cc cc cc H.....t...H.....
+48 b8 00 02 00 80 74 01 00 00 48 ff e0 cc cc cc H.....t...H.....
+48 b8 00 10 00 80 74 01 00 00 48 ff e0 cc cc cc H.....t...H.....
+48 b8 00 b0 0a 80 74 01 00 00 48 ff e0 cc cc cc H.....t...H.....","
+0x17cfaa90000:	movabs	rax, 0x17480000000
+0x17cfaa9000a:	jmp	rax
+0x17cfaa9000d:	int3	
+0x17cfaa9000e:	int3	
+0x17cfaa9000f:	int3	
+0x17cfaa90010:	movabs	rax, 0x17480000200
+0x17cfaa9001a:	jmp	rax
+0x17cfaa9001d:	int3	
+0x17cfaa9001e:	int3	
+0x17cfaa9001f:	int3	
+0x17cfaa90020:	movabs	rax, 0x17480001000
+0x17cfaa9002a:	jmp	rax
+0x17cfaa9002d:	int3	
+0x17cfaa9002e:	int3	
+0x17cfaa9002f:	int3	
+0x17cfaa90030:	movabs	rax, 0x174800ab000
+0x17cfaa9003a:	jmp	rax
+0x17cfaa9003d:	int3	
+0x17cfaa9003e:	int3	
+0x17cfaa9003f:	int3	"
+

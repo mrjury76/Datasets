@@ -1,0 +1,78 @@
+TreeDepth,PID,Process,Start VPN,End VPN,Tag,Protection,CommitCharge,PrivateMemory,File output,Notes,Hexdump,Disasm
+0,2320,MsMpEng.exe,0x23710cd0000,0x23710cd1fff,VadS,PAGE_EXECUTE_READWRITE,2,1,Disabled,N/A,"
+68 83 0a 0a 88 80 40 00 90 06 00 bb 3f 47 f7 22 h.....@.....?G.""
+40 00 01 94 b0 c4 ee a8 4d 5b 18 f6 52 f7 19 21 @.......M[..R..!
+36 a9 93 ce 87 c8 34 9e 00 e3 18 03 70 a0 a0 41 6.....4.....p..A
+05 01 16 28 5c 9d bb 58 59 38 01 ed 19 58 88 ba ...(\\..XY8...X..","
+0x23710cd0000:	push	-0x77f5f57d
+0x23710cd0005:	add	byte ptr [rax], 0x90"
+0,2320,MsMpEng.exe,0x23710ce0000,0x23710ce0fff,VadS,PAGE_EXECUTE_READWRITE,1,1,Disabled,N/A,"
+55 55 55 55 55 55 55 55 55 55 55 55 55 55 55 55 UUUUUUUUUUUUUUUU
+55 55 55 55 55 55 55 55 55 55 55 55 55 55 55 55 UUUUUUUUUUUUUUUU
+55 55 55 55 55 55 55 55 55 55 55 55 55 55 55 55 UUUUUUUUUUUUUUUU
+55 55 55 55 55 55 55 55 55 55 55 55 55 55 55 55 UUUUUUUUUUUUUUUU","
+0x23710ce0000:	push	rbp
+0x23710ce0001:	push	rbp
+0x23710ce0002:	push	rbp
+0x23710ce0003:	push	rbp
+0x23710ce0004:	push	rbp
+0x23710ce0005:	push	rbp
+0x23710ce0006:	push	rbp
+0x23710ce0007:	push	rbp
+0x23710ce0008:	push	rbp
+0x23710ce0009:	push	rbp
+0x23710ce000a:	push	rbp
+0x23710ce000b:	push	rbp
+0x23710ce000c:	push	rbp
+0x23710ce000d:	push	rbp
+0x23710ce000e:	push	rbp
+0x23710ce000f:	push	rbp
+0x23710ce0010:	push	rbp
+0x23710ce0011:	push	rbp
+0x23710ce0012:	push	rbp
+0x23710ce0013:	push	rbp
+0x23710ce0014:	push	rbp
+0x23710ce0015:	push	rbp
+0x23710ce0016:	push	rbp
+0x23710ce0017:	push	rbp
+0x23710ce0018:	push	rbp
+0x23710ce0019:	push	rbp
+0x23710ce001a:	push	rbp
+0x23710ce001b:	push	rbp
+0x23710ce001c:	push	rbp
+0x23710ce001d:	push	rbp
+0x23710ce001e:	push	rbp
+0x23710ce001f:	push	rbp
+0x23710ce0020:	push	rbp
+0x23710ce0021:	push	rbp
+0x23710ce0022:	push	rbp
+0x23710ce0023:	push	rbp
+0x23710ce0024:	push	rbp
+0x23710ce0025:	push	rbp
+0x23710ce0026:	push	rbp
+0x23710ce0027:	push	rbp
+0x23710ce0028:	push	rbp
+0x23710ce0029:	push	rbp
+0x23710ce002a:	push	rbp
+0x23710ce002b:	push	rbp
+0x23710ce002c:	push	rbp
+0x23710ce002d:	push	rbp
+0x23710ce002e:	push	rbp
+0x23710ce002f:	push	rbp
+0x23710ce0030:	push	rbp
+0x23710ce0031:	push	rbp
+0x23710ce0032:	push	rbp
+0x23710ce0033:	push	rbp
+0x23710ce0034:	push	rbp
+0x23710ce0035:	push	rbp
+0x23710ce0036:	push	rbp
+0x23710ce0037:	push	rbp
+0x23710ce0038:	push	rbp
+0x23710ce0039:	push	rbp
+0x23710ce003a:	push	rbp
+0x23710ce003b:	push	rbp
+0x23710ce003c:	push	rbp
+0x23710ce003d:	push	rbp
+0x23710ce003e:	push	rbp
+0x23710ce003f:	push	rbp"
+

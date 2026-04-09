@@ -1,0 +1,11 @@
+{
+    "stage_hint":  3,
+    "snap_time":  "2026-03-26T17:53:52.3337601-07:00",
+    "rep":  2,
+    "run":  11,
+    "launch_time":  "2026-03-26T17:49:37.1407717-07:00",
+    "snap_name":  "Jigsaw_T180_rep02",
+    "actual_offset_s":  180,
+    "family":  "Jigsaw",
+    "target_offset_s":  180
+}

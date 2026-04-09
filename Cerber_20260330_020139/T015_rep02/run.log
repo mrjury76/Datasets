@@ -1,0 +1,45 @@
+==================================================
+ Volatility 3 Feature Extraction
+ Family:    Cerber
+ Snapshot:  /mnt/d/Patrick/VMSnapshots/Cerber_20260330_020139/T015_rep02/Cerber_T015_rep02.vmem
+ Started:   2026-03-30 10:26:13
+==================================================
+
+[+] Running windows.pstree to find Cerber PIDs (hints: ['cerber'])...
+    -> Parsed 93 processes
+    [+] Found Cerber process: cerber.exe PID=1916
+    [+] Added child: notepad.exe PID=7824
+    [+] Added child: cmd.exe PID=8720
+    [+] Added child: conhost.exe PID=8600
+    [+] Added child: taskkill.exe PID=8696
+    [+] Added child: mshta.exe PID=1212
+    [+] Total Cerber PIDs: ['1212', '1916', '7824', '8600', '8696', '8720']
+[+] Done: windows.pslist
+[+] Done: windows.cmdline
+[+] Done: windows.netstat
+[+] Done: windows.privileges
+[+] Done: windows.dlllist
+[+] Done: windows.svcscan
+[+] Done: windows.psscan
+[+] Done: windows.ldrmodules
+[+] Done: windows.filescan
+[+] Done: windows.handles
+[+] Done: windows.malfind
+[+] Done: windows.vadinfo
+    windows.pslist: 6 rows
+    windows.psscan: 6 rows
+    windows.cmdline: 6 rows
+    windows.dlllist: 177 rows
+    windows.ldrmodules: 185 rows
+    windows.malfind: 4 rows
+    windows.vadinfo: 447 rows
+    windows.handles: 902 rows
+    windows.filescan: 5870 rows
+    windows.svcscan: 1379 rows
+    windows.privileges: 210 rows
+    windows.netstat: 40 rows
+
+[✓] CSV saved: /mnt/d/Patrick/VMSnapshots/Cerber_20260330_020139/T015_rep02/vol3_combined.csv
+[✓] Total rows: 9232
+[+] Done. Total time: 0:03:37.007754
+[+] Output directory: /mnt/d/Patrick/VMSnapshots/Cerber_20260330_020139/T015_rep02

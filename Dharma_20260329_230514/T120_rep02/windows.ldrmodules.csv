@@ -1,0 +1,17 @@
+TreeDepth,Pid,Process,Base,InLoad,InInit,InMem,MappedPath
+0,360,svchost.exe,0x7ff6be0c0000,True,False,True,\\Windows\\System32\\svchost.exe
+0,1052,svchost.exe,0x7ffeeaab0000,True,True,True,\\Windows\\System32\\bcryptprimitives.dll
+0,2080,svchost.exe,0x7ffeeb310000,True,True,True,\\Windows\\System32\\combase.dll
+0,2264,vmtoolsd.exe,0x7ffee9620000,True,True,True,\\Windows\\System32\\IPHLPAPI.DLL
+0,2320,MsMpEng.exe,0x2373a840000,False,False,False,N/A
+0,2320,MsMpEng.exe,0x2373a860000,False,False,False,N/A
+0,2320,MsMpEng.exe,0x2373a850000,False,False,False,N/A
+0,2320,MsMpEng.exe,0x2373a870000,False,False,False,N/A
+0,2616,WmiPrvSE.exe,0x2276ec50000,False,False,False,\\Windows\\System32\\wbem\\en-US\\cimwin32.dll.mui
+0,2616,WmiPrvSE.exe,0x7ffed7050000,True,True,True,\\Windows\\System32\\wbem\\cimwin32.dll
+0,3720,explorer.exe,0x8e0000,False,False,False,\\Windows\\en-US\\explorer.exe.mui
+0,3720,explorer.exe,0x7ff677df0000,True,False,True,\\Windows\\explorer.exe
+0,4556,SearchApp.exe,0x7ffeeb190000,False,False,False,\\Windows\\System32\\sechost.dll
+0,7860,Taskmgr.exe,0x7ffeebdb0000,True,True,True,\\Windows\\System32\\shell32.dll
+0,8852,Dharma.exe,0x773f0000,True,True,True,\\Windows\\SysWOW64\\ntdll.dll
+

@@ -1,0 +1,429 @@
+TreeDepth,PID,Process,Start VPN,End VPN,Tag,Protection,CommitCharge,PrivateMemory,File output,Notes,Hexdump,Disasm
+0,2320,MsMpEng.exe,0x23701c80000,0x23701d8cfff,VadS,PAGE_EXECUTE_READWRITE,269,1,Disabled,N/A,"
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................
+cc 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................","
+0x23701c80000:	int3	
+0x23701c80001:	int3	
+0x23701c80002:	int3	
+0x23701c80003:	int3	
+0x23701c80004:	int3	
+0x23701c80005:	int3	
+0x23701c80006:	int3	
+0x23701c80007:	int3	
+0x23701c80008:	int3	
+0x23701c80009:	int3	
+0x23701c8000a:	int3	
+0x23701c8000b:	int3	
+0x23701c8000c:	int3	
+0x23701c8000d:	int3	
+0x23701c8000e:	int3	
+0x23701c8000f:	int3	
+0x23701c80010:	int3	
+0x23701c80011:	int3	
+0x23701c80012:	int3	
+0x23701c80013:	int3	
+0x23701c80014:	int3	
+0x23701c80015:	int3	
+0x23701c80016:	int3	
+0x23701c80017:	int3	
+0x23701c80018:	int3	
+0x23701c80019:	int3	
+0x23701c8001a:	int3	
+0x23701c8001b:	int3	
+0x23701c8001c:	int3	
+0x23701c8001d:	int3	
+0x23701c8001e:	int3	
+0x23701c8001f:	int3	
+0x23701c80020:	int3	
+0x23701c80021:	int3	
+0x23701c80022:	int3	
+0x23701c80023:	int3	
+0x23701c80024:	int3	
+0x23701c80025:	int3	
+0x23701c80026:	int3	
+0x23701c80027:	int3	
+0x23701c80028:	int3	
+0x23701c80029:	int3	
+0x23701c8002a:	int3	
+0x23701c8002b:	int3	
+0x23701c8002c:	int3	
+0x23701c8002d:	int3	
+0x23701c8002e:	int3	
+0x23701c8002f:	int3	
+0x23701c80030:	int3	
+0x23701c80031:	add	byte ptr [rax], al
+0x23701c80033:	add	byte ptr [rax], al
+0x23701c80035:	add	byte ptr [rax], al
+0x23701c80037:	add	byte ptr [rax], al
+0x23701c80039:	add	byte ptr [rax], al
+0x23701c8003b:	add	byte ptr [rax], al
+0x23701c8003d:	add	byte ptr [rax], al"
+0,2320,MsMpEng.exe,0x23704a90000,0x23704b9cfff,VadS,PAGE_EXECUTE_READWRITE,269,1,Disabled,N/A,"
+56 57 53 55 41 54 41 55 41 56 41 57 48 83 ec 28 VWSUATAUAVAWH..(
+4c 8d 3c 24 48 8b e9 48 8d b1 98 38 00 00 ff e2 L.<$H..H...8....
+49 8d 67 28 41 5f 41 5e 41 5d 41 5c 5d 5b 5f 5e I.g(A_A^A]A\\][_^
+c3 00 00 40 00 80 00 00 00 48 89 e9 48 b8 f0 d2 ...@.....H..H...","
+0x23704a90000:	push	rsi
+0x23704a90001:	push	rdi
+0x23704a90002:	push	rbx
+0x23704a90003:	push	rbp
+0x23704a90004:	push	r12
+0x23704a90006:	push	r13
+0x23704a90008:	push	r14
+0x23704a9000a:	push	r15
+0x23704a9000c:	sub	rsp, 0x28
+0x23704a90010:	lea	r15, [rsp]
+0x23704a90014:	mov	rbp, rcx
+0x23704a90017:	lea	rsi, [rcx + 0x3898]
+0x23704a9001e:	jmp	rdx
+0x23704a90020:	lea	rsp, [r15 + 0x28]
+0x23704a90024:	pop	r15
+0x23704a90026:	pop	r14
+0x23704a90028:	pop	r13
+0x23704a9002a:	pop	r12
+0x23704a9002c:	pop	rbp
+0x23704a9002d:	pop	rbx
+0x23704a9002e:	pop	rdi
+0x23704a9002f:	pop	rsi
+0x23704a90030:	ret	
+0x23704a90031:	add	byte ptr [rax], al
+0x23704a90033:	add	byte ptr [rax + 0x48000000], al
+0x23704a9003a:	mov	ecx, ebp"
+0,2320,MsMpEng.exe,0x237044e0000,0x237045ecfff,VadS,PAGE_EXECUTE_READWRITE,269,1,Disabled,N/A,"
+56 57 53 55 41 54 41 55 41 56 41 57 48 83 ec 28 VWSUATAUAVAWH..(
+4c 8d 3c 24 48 8b e9 48 8d b1 98 38 00 00 ff e2 L.<$H..H...8....
+49 8d 67 28 41 5f 41 5e 41 5d 41 5c 5d 5b 5f 5e I.g(A_A^A]A\\][_^
+c3 00 00 40 00 80 00 00 00 48 89 e9 48 b8 f0 d2 ...@.....H..H...","
+0x237044e0000:	push	rsi
+0x237044e0001:	push	rdi
+0x237044e0002:	push	rbx
+0x237044e0003:	push	rbp
+0x237044e0004:	push	r12
+0x237044e0006:	push	r13
+0x237044e0008:	push	r14
+0x237044e000a:	push	r15
+0x237044e000c:	sub	rsp, 0x28
+0x237044e0010:	lea	r15, [rsp]
+0x237044e0014:	mov	rbp, rcx
+0x237044e0017:	lea	rsi, [rcx + 0x3898]
+0x237044e001e:	jmp	rdx
+0x237044e0020:	lea	rsp, [r15 + 0x28]
+0x237044e0024:	pop	r15
+0x237044e0026:	pop	r14
+0x237044e0028:	pop	r13
+0x237044e002a:	pop	r12
+0x237044e002c:	pop	rbp
+0x237044e002d:	pop	rbx
+0x237044e002e:	pop	rdi
+0x237044e002f:	pop	rsi
+0x237044e0030:	ret	
+0x237044e0031:	add	byte ptr [rax], al
+0x237044e0033:	add	byte ptr [rax + 0x48000000], al
+0x237044e003a:	mov	ecx, ebp"
+0,2320,MsMpEng.exe,0x23705060000,0x2370516cfff,VadS,PAGE_EXECUTE_READWRITE,269,1,Disabled,N/A,"
+56 57 53 55 41 54 41 55 41 56 41 57 48 83 ec 28 VWSUATAUAVAWH..(
+4c 8d 3c 24 48 8b e9 48 8d b1 98 38 00 00 ff e2 L.<$H..H...8....
+49 8d 67 28 41 5f 41 5e 41 5d 41 5c 5d 5b 5f 5e I.g(A_A^A]A\\][_^
+c3 00 00 40 00 80 00 00 00 48 89 e9 48 b8 f0 d2 ...@.....H..H...","
+0x23705060000:	push	rsi
+0x23705060001:	push	rdi
+0x23705060002:	push	rbx
+0x23705060003:	push	rbp
+0x23705060004:	push	r12
+0x23705060006:	push	r13
+0x23705060008:	push	r14
+0x2370506000a:	push	r15
+0x2370506000c:	sub	rsp, 0x28
+0x23705060010:	lea	r15, [rsp]
+0x23705060014:	mov	rbp, rcx
+0x23705060017:	lea	rsi, [rcx + 0x3898]
+0x2370506001e:	jmp	rdx
+0x23705060020:	lea	rsp, [r15 + 0x28]
+0x23705060024:	pop	r15
+0x23705060026:	pop	r14
+0x23705060028:	pop	r13
+0x2370506002a:	pop	r12
+0x2370506002c:	pop	rbp
+0x2370506002d:	pop	rbx
+0x2370506002e:	pop	rdi
+0x2370506002f:	pop	rsi
+0x23705060030:	ret	
+0x23705060031:	add	byte ptr [rax], al
+0x23705060033:	add	byte ptr [rax + 0x48000000], al
+0x2370506003a:	mov	ecx, ebp"
+0,2320,MsMpEng.exe,0x23704d80000,0x23704e8cfff,VadS,PAGE_EXECUTE_READWRITE,269,1,Disabled,N/A,"
+56 57 53 55 41 54 41 55 41 56 41 57 48 83 ec 28 VWSUATAUAVAWH..(
+4c 8d 3c 24 48 8b e9 48 8d b1 98 38 00 00 ff e2 L.<$H..H...8....
+49 8d 67 28 41 5f 41 5e 41 5d 41 5c 5d 5b 5f 5e I.g(A_A^A]A\\][_^
+c3 00 00 40 00 80 00 00 00 48 89 e9 48 b8 f0 d2 ...@.....H..H...","
+0x23704d80000:	push	rsi
+0x23704d80001:	push	rdi
+0x23704d80002:	push	rbx
+0x23704d80003:	push	rbp
+0x23704d80004:	push	r12
+0x23704d80006:	push	r13
+0x23704d80008:	push	r14
+0x23704d8000a:	push	r15
+0x23704d8000c:	sub	rsp, 0x28
+0x23704d80010:	lea	r15, [rsp]
+0x23704d80014:	mov	rbp, rcx
+0x23704d80017:	lea	rsi, [rcx + 0x3898]
+0x23704d8001e:	jmp	rdx
+0x23704d80020:	lea	rsp, [r15 + 0x28]
+0x23704d80024:	pop	r15
+0x23704d80026:	pop	r14
+0x23704d80028:	pop	r13
+0x23704d8002a:	pop	r12
+0x23704d8002c:	pop	rbp
+0x23704d8002d:	pop	rbx
+0x23704d8002e:	pop	rdi
+0x23704d8002f:	pop	rsi
+0x23704d80030:	ret	
+0x23704d80031:	add	byte ptr [rax], al
+0x23704d80033:	add	byte ptr [rax + 0x48000000], al
+0x23704d8003a:	mov	ecx, ebp"
+0,2320,MsMpEng.exe,0x23705790000,0x2370589cfff,VadS,PAGE_EXECUTE_READWRITE,269,1,Disabled,N/A,"
+56 57 53 55 41 54 41 55 41 56 41 57 48 83 ec 28 VWSUATAUAVAWH..(
+4c 8d 3c 24 48 8b e9 48 8d b1 98 38 00 00 ff e2 L.<$H..H...8....
+49 8d 67 28 41 5f 41 5e 41 5d 41 5c 5d 5b 5f 5e I.g(A_A^A]A\\][_^
+c3 00 00 40 00 80 00 00 00 48 89 e9 48 b8 f0 d2 ...@.....H..H...","
+0x23705790000:	push	rsi
+0x23705790001:	push	rdi
+0x23705790002:	push	rbx
+0x23705790003:	push	rbp
+0x23705790004:	push	r12
+0x23705790006:	push	r13
+0x23705790008:	push	r14
+0x2370579000a:	push	r15
+0x2370579000c:	sub	rsp, 0x28
+0x23705790010:	lea	r15, [rsp]
+0x23705790014:	mov	rbp, rcx
+0x23705790017:	lea	rsi, [rcx + 0x3898]
+0x2370579001e:	jmp	rdx
+0x23705790020:	lea	rsp, [r15 + 0x28]
+0x23705790024:	pop	r15
+0x23705790026:	pop	r14
+0x23705790028:	pop	r13
+0x2370579002a:	pop	r12
+0x2370579002c:	pop	rbp
+0x2370579002d:	pop	rbx
+0x2370579002e:	pop	rdi
+0x2370579002f:	pop	rsi
+0x23705790030:	ret	
+0x23705790031:	add	byte ptr [rax], al
+0x23705790033:	add	byte ptr [rax + 0x48000000], al
+0x2370579003a:	mov	ecx, ebp"
+0,2320,MsMpEng.exe,0x23705b80000,0x23705c8cfff,VadS,PAGE_EXECUTE_READWRITE,269,1,Disabled,N/A,"
+56 57 53 55 41 54 41 55 41 56 41 57 48 83 ec 28 VWSUATAUAVAWH..(
+4c 8d 3c 24 48 8b e9 48 8d b1 98 38 00 00 ff e2 L.<$H..H...8....
+49 8d 67 28 41 5f 41 5e 41 5d 41 5c 5d 5b 5f 5e I.g(A_A^A]A\\][_^
+c3 00 00 40 00 80 00 00 00 48 89 e9 48 b8 f0 d2 ...@.....H..H...","
+0x23705b80000:	push	rsi
+0x23705b80001:	push	rdi
+0x23705b80002:	push	rbx
+0x23705b80003:	push	rbp
+0x23705b80004:	push	r12
+0x23705b80006:	push	r13
+0x23705b80008:	push	r14
+0x23705b8000a:	push	r15
+0x23705b8000c:	sub	rsp, 0x28
+0x23705b80010:	lea	r15, [rsp]
+0x23705b80014:	mov	rbp, rcx
+0x23705b80017:	lea	rsi, [rcx + 0x3898]
+0x23705b8001e:	jmp	rdx
+0x23705b80020:	lea	rsp, [r15 + 0x28]
+0x23705b80024:	pop	r15
+0x23705b80026:	pop	r14
+0x23705b80028:	pop	r13
+0x23705b8002a:	pop	r12
+0x23705b8002c:	pop	rbp
+0x23705b8002d:	pop	rbx
+0x23705b8002e:	pop	rdi
+0x23705b8002f:	pop	rsi
+0x23705b80030:	ret	
+0x23705b80031:	add	byte ptr [rax], al
+0x23705b80033:	add	byte ptr [rax + 0x48000000], al
+0x23705b8003a:	mov	ecx, ebp"
+0,2320,MsMpEng.exe,0x23705a70000,0x23705b7cfff,VadS,PAGE_EXECUTE_READWRITE,269,1,Disabled,N/A,"
+56 57 53 55 41 54 41 55 41 56 41 57 48 83 ec 28 VWSUATAUAVAWH..(
+4c 8d 3c 24 48 8b e9 48 8d b1 98 38 00 00 ff e2 L.<$H..H...8....
+49 8d 67 28 41 5f 41 5e 41 5d 41 5c 5d 5b 5f 5e I.g(A_A^A]A\\][_^
+c3 00 00 40 00 80 00 00 00 48 89 e9 48 b8 f0 d2 ...@.....H..H...","
+0x23705a70000:	push	rsi
+0x23705a70001:	push	rdi
+0x23705a70002:	push	rbx
+0x23705a70003:	push	rbp
+0x23705a70004:	push	r12
+0x23705a70006:	push	r13
+0x23705a70008:	push	r14
+0x23705a7000a:	push	r15
+0x23705a7000c:	sub	rsp, 0x28
+0x23705a70010:	lea	r15, [rsp]
+0x23705a70014:	mov	rbp, rcx
+0x23705a70017:	lea	rsi, [rcx + 0x3898]
+0x23705a7001e:	jmp	rdx
+0x23705a70020:	lea	rsp, [r15 + 0x28]
+0x23705a70024:	pop	r15
+0x23705a70026:	pop	r14
+0x23705a70028:	pop	r13
+0x23705a7002a:	pop	r12
+0x23705a7002c:	pop	rbp
+0x23705a7002d:	pop	rbx
+0x23705a7002e:	pop	rdi
+0x23705a7002f:	pop	rsi
+0x23705a70030:	ret	
+0x23705a70031:	add	byte ptr [rax], al
+0x23705a70033:	add	byte ptr [rax + 0x48000000], al
+0x23705a7003a:	mov	ecx, ebp"
+0,2320,MsMpEng.exe,0x23706eb0000,0x23706eb0fff,VadS,PAGE_EXECUTE_READWRITE,1,1,Disabled,N/A,"
+f4 ed e9 78 25 9d 24 7b 62 2b b6 38 aa b6 dc 27 ...x%.${b+.8...'
+3e bb c8 af cc 00 00 00 4f 02 00 70 da bd 0b 00 >.......O..p....
+0b fc e9 78 7e de 1c 1c 3d 34 c9 ad 9b 60 d2 20 ...x~...=4...`. 
+95 55 3f e0 d8 00 00 00 4f 02 00 70 f6 a4 03 00 .U?.....O..p....","
+0x23706eb0000:	hlt	
+0x23706eb0001:	in	eax, dx
+0x23706eb0002:	jmp	0x2372b88257f
+0x23706eb0007:	jnp	0x23706eb006b
+0x23706eb0009:	sub	esi, dword ptr [rsi - 0x234955c8]"
+0,2320,MsMpEng.exe,0x23706ef0000,0x23706efdfff,VadS,PAGE_EXECUTE_READWRITE,14,1,Disabled,N/A,"
+f4 ed e9 78 25 9d 24 7b 62 2b b6 38 aa b6 dc 27 ...x%.${b+.8...'
+3e bb c8 af cc 00 00 00 4f 02 00 70 da bd 0b 00 >.......O..p....
+0b fc e9 78 7e de 1c 1c 3d 34 c9 ad 9b 60 d2 20 ...x~...=4...`. 
+95 55 3f e0 d8 00 00 00 4f 02 00 70 f6 a4 03 00 .U?.....O..p....","
+0x23706ef0000:	hlt	
+0x23706ef0001:	in	eax, dx
+0x23706ef0002:	jmp	0x2372b8c257f
+0x23706ef0007:	jnp	0x23706ef006b
+0x23706ef0009:	sub	esi, dword ptr [rsi - 0x234955c8]"
+0,2320,MsMpEng.exe,0x23709450000,0x2370964ffff,VadS,PAGE_EXECUTE_READWRITE,512,1,Disabled,N/A,"
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................
+cc 0c 00 4e 00 0c 00 01 05 48 8b 55 28 48 8b 8d ...N.....H.U(H..","
+0x23709450000:	int3	
+0x23709450001:	int3	
+0x23709450002:	int3	
+0x23709450003:	int3	
+0x23709450004:	int3	
+0x23709450005:	int3	
+0x23709450006:	int3	
+0x23709450007:	int3	
+0x23709450008:	int3	
+0x23709450009:	int3	
+0x2370945000a:	int3	
+0x2370945000b:	int3	
+0x2370945000c:	int3	
+0x2370945000d:	int3	
+0x2370945000e:	int3	
+0x2370945000f:	int3	
+0x23709450010:	int3	
+0x23709450011:	int3	
+0x23709450012:	int3	
+0x23709450013:	int3	
+0x23709450014:	int3	
+0x23709450015:	int3	
+0x23709450016:	int3	
+0x23709450017:	int3	
+0x23709450018:	int3	
+0x23709450019:	int3	
+0x2370945001a:	int3	
+0x2370945001b:	int3	
+0x2370945001c:	int3	
+0x2370945001d:	int3	
+0x2370945001e:	int3	
+0x2370945001f:	int3	
+0x23709450020:	int3	
+0x23709450021:	int3	
+0x23709450022:	int3	
+0x23709450023:	int3	
+0x23709450024:	int3	
+0x23709450025:	int3	
+0x23709450026:	int3	
+0x23709450027:	int3	
+0x23709450028:	int3	
+0x23709450029:	int3	
+0x2370945002a:	int3	
+0x2370945002b:	int3	
+0x2370945002c:	int3	
+0x2370945002d:	int3	
+0x2370945002e:	int3	
+0x2370945002f:	int3	
+0x23709450030:	int3	
+0x23709450031:	or	al, 0
+0x23709450033:	add	byte ptr [rax + r8], r9b
+0x23709450037:	add	dword ptr [rip + 0x28558b48], eax"
+0,2320,MsMpEng.exe,0x23709350000,0x2370944ffff,VadS,PAGE_EXECUTE_READWRITE,256,1,Disabled,N/A,"
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................
+cc 04 00 26 00 00 00 01 02 48 8b 45 20 48 89 c2 ...&.....H.E H..","
+0x23709350000:	int3	
+0x23709350001:	int3	
+0x23709350002:	int3	
+0x23709350003:	int3	
+0x23709350004:	int3	
+0x23709350005:	int3	
+0x23709350006:	int3	
+0x23709350007:	int3	
+0x23709350008:	int3	
+0x23709350009:	int3	
+0x2370935000a:	int3	
+0x2370935000b:	int3	
+0x2370935000c:	int3	
+0x2370935000d:	int3	
+0x2370935000e:	int3	
+0x2370935000f:	int3	
+0x23709350010:	int3	
+0x23709350011:	int3	
+0x23709350012:	int3	
+0x23709350013:	int3	
+0x23709350014:	int3	
+0x23709350015:	int3	
+0x23709350016:	int3	
+0x23709350017:	int3	
+0x23709350018:	int3	
+0x23709350019:	int3	
+0x2370935001a:	int3	
+0x2370935001b:	int3	
+0x2370935001c:	int3	
+0x2370935001d:	int3	
+0x2370935001e:	int3	
+0x2370935001f:	int3	
+0x23709350020:	int3	
+0x23709350021:	int3	
+0x23709350022:	int3	
+0x23709350023:	int3	
+0x23709350024:	int3	
+0x23709350025:	int3	
+0x23709350026:	int3	
+0x23709350027:	int3	
+0x23709350028:	int3	
+0x23709350029:	int3	
+0x2370935002a:	int3	
+0x2370935002b:	int3	
+0x2370935002c:	int3	
+0x2370935002d:	int3	
+0x2370935002e:	int3	
+0x2370935002f:	int3	
+0x23709350030:	int3	
+0x23709350031:	add	al, 0
+0x23709350033:	add	byte ptr es:[rax], al
+0x23709350036:	add	byte ptr [rcx], al
+0x23709350038:	add	cl, byte ptr [rax - 0x75]
+0x2370935003b:	and	byte ptr [r8 - 0x77], r9b"
+0,4556,SearchApp.exe,0x17cfaa90000,0x17cfaaf3fff,VadS,PAGE_EXECUTE_READWRITE,1,1,Disabled,N/A,"
+00 01 00 95 91 1c 38 31 f4 52 11 df a5 25 77 91 ......81.R...%w.
+1e 17 7d 07 ea ae e3 89 00 9a 02 90 08 fe 7b 02 ..}...........{.
+b8 4e fb 09 3d 00 98 00 03 00 4c 12 3b 02 c8 0f .N..=.....L.;...
+3b 00 7d 02 ec 39 cd 77 00 fb 98 55 d2 80 14 45 ;.}..9.w...U...E","
+0x17cfaa90000:	add	byte ptr [rcx], al
+0x17cfaa90002:	add	byte ptr [rbp + 0x31381c91], dl
+0x17cfaa90008:	hlt	
+0x17cfaa90009:	push	rdx
+0x17cfaa9000a:	adc	edi, ebx
+0x17cfaa9000c:	movsd	dword ptr [rdi], dword ptr [rsi]
+0x17cfaa9000d:	and	eax, 0x171e9177
+0x17cfaa90012:	jge	0x17cfaa9001b"
+

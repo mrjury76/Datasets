@@ -1,0 +1,71 @@
+==================================================
+ Volatility 3 Feature Extraction
+ Family:    WannaCry
+ Snapshot:  /mnt/d/Patrick/VMSnapshots/WannaCry_20260326_193131/T030_rep05/WannaCry_T030_rep05.vmem
+ Started:   2026-03-29 14:45:16
+==================================================
+
+[+] Running windows.pstree to find WannaCry PIDs (hints: ['wannacry', 'tasksche', 'mssecsvc'])...
+==================================================
+ Volatility 3 Feature Extraction
+ Family:    WannaCry
+ Snapshot:  /mnt/d/Patrick/VMSnapshots/WannaCry_20260326_193131/T030_rep05/WannaCry_T030_rep05.vmem
+ Started:   2026-03-29 14:47:51
+==================================================
+
+[+] Running windows.pstree to find WannaCry PIDs (hints: ['wannacry', 'tasksche', 'mssecsvc'])...
+==================================================
+ Volatility 3 Feature Extraction
+ Family:    WannaCry
+ Snapshot:  /mnt/d/Patrick/VMSnapshots/WannaCry_20260326_193131/T030_rep05/WannaCry_T030_rep05.vmem
+ Started:   2026-03-29 20:05:09
+==================================================
+
+[+] Running windows.pstree to find WannaCry PIDs (hints: ['wannacry', 'tasksche', 'mssecsvc'])...
+    -> Parsed 96 processes
+    [+] Found WannaCry process: WannaCry.exe PID=540
+    [+] Added child: @WanaDecryptor PID=7596
+    [+] Added child: taskhsvc.exe PID=4256
+    [+] Added child: conhost.exe PID=3256
+    [+] Total WannaCry PIDs: ['540', '3256', '4256', '7596']
+
+[+] Running windows.pslist...
+    4 rows
+
+[+] Running windows.psscan...
+    4 rows
+
+[+] Running windows.cmdline...
+    4 rows
+
+[+] Running windows.dlllist...
+    136 rows
+
+[+] Running windows.ldrmodules...
+    138 rows
+
+[+] Running windows.malfind...
+    4 rows
+
+[+] Running windows.vadinfo...
+    336 rows
+
+[+] Running windows.handles...
+    632 rows
+
+[+] Running windows.filescan...
+    4120 rows
+
+[+] Running windows.svcscan...
+    49087 rows
+
+[+] Running windows.privileges...
+    140 rows
+
+[+] Running windows.netstat...
+    3 rows
+
+[✓] CSV saved: /mnt/d/Patrick/VMSnapshots/WannaCry_20260326_193131/T030_rep05/vol3_combined.csv
+[✓] Total rows: 54608
+[+] Done. Total time: 0:12:00.241014
+[+] Output directory: /mnt/d/Patrick/VMSnapshots/WannaCry_20260326_193131/T030_rep05

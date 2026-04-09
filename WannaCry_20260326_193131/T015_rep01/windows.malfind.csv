@@ -1,0 +1,47 @@
+TreeDepth,PID,Process,Start VPN,End VPN,Tag,Protection,CommitCharge,PrivateMemory,File output,Notes,Hexdump,Disasm
+0,3444,smartscreen.ex,0x2756fb40000,0x2756fb5ffff,VadS,PAGE_EXECUTE_READWRITE,1,1,Disabled,N/A,"
+08 0f b7 54 05 00 66 41 23 d4 48 8b cb 66 41 3b ...T..fA#.H..fA;
+d6 8b d5 0f 85 e2 fe 06 00 e8 72 0e 00 00 44 8b ..........r...D.
+f0 83 f8 04 0f 87 04 ff 06 00 41 bd 00 70 00 00 ..........A..p..
+41 3b f7 0f 82 5c ff 06 00 8b 43 14 3b c6 0f 82 A;...\\....C.;...","
+0x2756fb40000:	or	byte ptr [rdi], cl
+0x2756fb40002:	mov	bh, 0x54
+0x2756fb40004:	add	eax, 0x23416600"
+0,3444,smartscreen.ex,0x27d70090000,0x27d700f3fff,VadS,PAGE_EXECUTE_READWRITE,0,1,Disabled,N/A,"
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................","
+0x27d70090000:	add	byte ptr [rax], al
+0x27d70090002:	add	byte ptr [rax], al
+0x27d70090004:	add	byte ptr [rax], al
+0x27d70090006:	add	byte ptr [rax], al
+0x27d70090008:	add	byte ptr [rax], al
+0x27d7009000a:	add	byte ptr [rax], al
+0x27d7009000c:	add	byte ptr [rax], al
+0x27d7009000e:	add	byte ptr [rax], al
+0x27d70090010:	add	byte ptr [rax], al
+0x27d70090012:	add	byte ptr [rax], al
+0x27d70090014:	add	byte ptr [rax], al
+0x27d70090016:	add	byte ptr [rax], al
+0x27d70090018:	add	byte ptr [rax], al
+0x27d7009001a:	add	byte ptr [rax], al
+0x27d7009001c:	add	byte ptr [rax], al
+0x27d7009001e:	add	byte ptr [rax], al
+0x27d70090020:	add	byte ptr [rax], al
+0x27d70090022:	add	byte ptr [rax], al
+0x27d70090024:	add	byte ptr [rax], al
+0x27d70090026:	add	byte ptr [rax], al
+0x27d70090028:	add	byte ptr [rax], al
+0x27d7009002a:	add	byte ptr [rax], al
+0x27d7009002c:	add	byte ptr [rax], al
+0x27d7009002e:	add	byte ptr [rax], al
+0x27d70090030:	add	byte ptr [rax], al
+0x27d70090032:	add	byte ptr [rax], al
+0x27d70090034:	add	byte ptr [rax], al
+0x27d70090036:	add	byte ptr [rax], al
+0x27d70090038:	add	byte ptr [rax], al
+0x27d7009003a:	add	byte ptr [rax], al
+0x27d7009003c:	add	byte ptr [rax], al
+0x27d7009003e:	add	byte ptr [rax], al"
+

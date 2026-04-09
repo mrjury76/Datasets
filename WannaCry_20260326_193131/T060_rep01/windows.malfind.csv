@@ -1,0 +1,110 @@
+TreeDepth,PID,Process,Start VPN,End VPN,Tag,Protection,CommitCharge,PrivateMemory,File output,Notes,Hexdump,Disasm
+0,4556,SearchApp.exe,0x17cf9910000,0x17cf992ffff,VadS,PAGE_EXECUTE_READWRITE,6,1,Disabled,N/A,"
+48 89 54 24 10 48 89 4c 24 08 4c 89 44 24 18 4c H.T$.H.L$.L.D$.L
+89 4c 24 20 48 8b 41 28 48 8b 48 08 48 8b 51 50 .L$ H.A(H.H.H.QP
+48 83 e2 f8 48 8b ca 48 b8 60 00 91 f9 7c 01 00 H...H..H.`...|..
+00 48 2b c8 48 81 f9 70 0f 00 00 76 09 48 c7 c1 .H+.H..p...v.H..","
+0x17cf9910000:	mov	qword ptr [rsp + 0x10], rdx
+0x17cf9910005:	mov	qword ptr [rsp + 8], rcx
+0x17cf991000a:	mov	qword ptr [rsp + 0x18], r8
+0x17cf991000f:	mov	qword ptr [rsp + 0x20], r9
+0x17cf9910014:	mov	rax, qword ptr [rcx + 0x28]
+0x17cf9910018:	mov	rcx, qword ptr [rax + 8]
+0x17cf991001c:	mov	rdx, qword ptr [rcx + 0x50]
+0x17cf9910020:	and	rdx, 0xfffffffffffffff8
+0x17cf9910024:	mov	rcx, rdx
+0x17cf9910027:	movabs	rax, 0x17cf9910060
+0x17cf9910031:	sub	rcx, rax
+0x17cf9910034:	cmp	rcx, 0xf70
+0x17cf991003b:	jbe	0x17cf9910046"
+0,4556,SearchApp.exe,0x17cfaa90000,0x17cfaaf3fff,VadS,PAGE_EXECUTE_READWRITE,1,1,Disabled,N/A,"
+48 b8 00 00 00 80 74 01 00 00 48 ff e0 cc cc cc H.....t...H.....
+48 b8 00 02 00 80 74 01 00 00 48 ff e0 cc cc cc H.....t...H.....
+48 b8 00 10 00 80 74 01 00 00 48 ff e0 cc cc cc H.....t...H.....
+48 b8 00 b0 0a 80 74 01 00 00 48 ff e0 cc cc cc H.....t...H.....","
+0x17cfaa90000:	movabs	rax, 0x17480000000
+0x17cfaa9000a:	jmp	rax
+0x17cfaa9000d:	int3	
+0x17cfaa9000e:	int3	
+0x17cfaa9000f:	int3	
+0x17cfaa90010:	movabs	rax, 0x17480000200
+0x17cfaa9001a:	jmp	rax
+0x17cfaa9001d:	int3	
+0x17cfaa9001e:	int3	
+0x17cfaa9001f:	int3	
+0x17cfaa90020:	movabs	rax, 0x17480001000
+0x17cfaa9002a:	jmp	rax
+0x17cfaa9002d:	int3	
+0x17cfaa9002e:	int3	
+0x17cfaa9002f:	int3	
+0x17cfaa90030:	movabs	rax, 0x174800ab000
+0x17cfaa9003a:	jmp	rax
+0x17cfaa9003d:	int3	
+0x17cfaa9003e:	int3	
+0x17cfaa9003f:	int3	"
+0,1532,sppsvc.exe,0x21bf1f40000,0x21bf1f4ffff,VadS,PAGE_EXECUTE_READ,16,1,Disabled,N/A,"
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................","
+0x21bf1f40000:	add	byte ptr [rax], al
+0x21bf1f40002:	add	byte ptr [rax], al
+0x21bf1f40004:	add	byte ptr [rax], al
+0x21bf1f40006:	add	byte ptr [rax], al
+0x21bf1f40008:	add	byte ptr [rax], al
+0x21bf1f4000a:	add	byte ptr [rax], al
+0x21bf1f4000c:	add	byte ptr [rax], al
+0x21bf1f4000e:	add	byte ptr [rax], al
+0x21bf1f40010:	add	byte ptr [rax], al
+0x21bf1f40012:	add	byte ptr [rax], al
+0x21bf1f40014:	add	byte ptr [rax], al
+0x21bf1f40016:	add	byte ptr [rax], al
+0x21bf1f40018:	add	byte ptr [rax], al
+0x21bf1f4001a:	add	byte ptr [rax], al
+0x21bf1f4001c:	add	byte ptr [rax], al
+0x21bf1f4001e:	add	byte ptr [rax], al
+0x21bf1f40020:	add	byte ptr [rax], al
+0x21bf1f40022:	add	byte ptr [rax], al
+0x21bf1f40024:	add	byte ptr [rax], al
+0x21bf1f40026:	add	byte ptr [rax], al
+0x21bf1f40028:	add	byte ptr [rax], al
+0x21bf1f4002a:	add	byte ptr [rax], al
+0x21bf1f4002c:	add	byte ptr [rax], al
+0x21bf1f4002e:	add	byte ptr [rax], al
+0x21bf1f40030:	add	byte ptr [rax], al
+0x21bf1f40032:	add	byte ptr [rax], al
+0x21bf1f40034:	add	byte ptr [rax], al
+0x21bf1f40036:	add	byte ptr [rax], al
+0x21bf1f40038:	add	byte ptr [rax], al
+0x21bf1f4003a:	add	byte ptr [rax], al
+0x21bf1f4003c:	add	byte ptr [rax], al
+0x21bf1f4003e:	add	byte ptr [rax], al"
+0,1532,sppsvc.exe,0x21bf1f30000,0x21bf1f3ffff,VadS,PAGE_EXECUTE_READ,16,1,Disabled,N/A,"
+f8 26 43 10 db 7d 00 00 36 00 00 00 00 00 00 00 .&C..}..6.......
+48 8d 15 f9 ff ff ff 48 8b 0c 24 48 89 54 24 10 H......H..$H.T$.
+53 55 56 57 41 54 41 55 41 56 41 57 48 83 ec 38 SUVWATAUAVAWH..8
+4c 8b 79 10 4c 8d 05 bd b0 06 00 48 8b 01 4d 8b L.y.L......H..M.","
+0x21bf1f30000:	clc	
+0x21bf1f30001:	adc	r11b, bl
+0x21bf1f30005:	jge	0x21bf1f30007
+0x21bf1f30007:	add	byte ptr [rsi], dh
+0x21bf1f30009:	add	byte ptr [rax], al
+0x21bf1f3000b:	add	byte ptr [rax], al
+0x21bf1f3000d:	add	byte ptr [rax], al
+0x21bf1f3000f:	add	byte ptr [rax - 0x73], cl
+0x21bf1f30012:	adc	eax, 0xfffffff9
+0x21bf1f30017:	mov	rcx, qword ptr [rsp]
+0x21bf1f3001b:	mov	qword ptr [rsp + 0x10], rdx
+0x21bf1f30020:	push	rbx
+0x21bf1f30021:	push	rbp
+0x21bf1f30022:	push	rsi
+0x21bf1f30023:	push	rdi
+0x21bf1f30024:	push	r12
+0x21bf1f30026:	push	r13
+0x21bf1f30028:	push	r14
+0x21bf1f3002a:	push	r15
+0x21bf1f3002c:	sub	rsp, 0x38
+0x21bf1f30030:	mov	r15, qword ptr [rcx + 0x10]
+0x21bf1f30034:	lea	r8, [rip + 0x6b0bd]
+0x21bf1f3003b:	mov	rax, qword ptr [rcx]"
+

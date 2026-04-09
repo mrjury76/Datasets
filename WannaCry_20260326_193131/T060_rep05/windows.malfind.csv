@@ -1,0 +1,88 @@
+TreeDepth,PID,Process,Start VPN,End VPN,Tag,Protection,CommitCharge,PrivateMemory,File output,Notes,Hexdump,Disasm
+0,4556,SearchApp.exe,0x17cf9910000,0x17cf992ffff,VadS,PAGE_EXECUTE_READWRITE,6,1,Disabled,N/A,"
+48 89 54 24 10 48 89 4c 24 08 4c 89 44 24 18 4c H.T$.H.L$.L.D$.L
+89 4c 24 20 48 8b 41 28 48 8b 48 08 48 8b 51 50 .L$ H.A(H.H.H.QP
+48 83 e2 f8 48 8b ca 48 b8 60 00 91 f9 7c 01 00 H...H..H.`...|..
+00 48 2b c8 48 81 f9 70 0f 00 00 76 09 48 c7 c1 .H+.H..p...v.H..","
+0x17cf9910000:	mov	qword ptr [rsp + 0x10], rdx
+0x17cf9910005:	mov	qword ptr [rsp + 8], rcx
+0x17cf991000a:	mov	qword ptr [rsp + 0x18], r8
+0x17cf991000f:	mov	qword ptr [rsp + 0x20], r9
+0x17cf9910014:	mov	rax, qword ptr [rcx + 0x28]
+0x17cf9910018:	mov	rcx, qword ptr [rax + 8]
+0x17cf991001c:	mov	rdx, qword ptr [rcx + 0x50]
+0x17cf9910020:	and	rdx, 0xfffffffffffffff8
+0x17cf9910024:	mov	rcx, rdx
+0x17cf9910027:	movabs	rax, 0x17cf9910060
+0x17cf9910031:	sub	rcx, rax
+0x17cf9910034:	cmp	rcx, 0xf70
+0x17cf991003b:	jbe	0x17cf9910046"
+0,4556,SearchApp.exe,0x17cfaa90000,0x17cfaaf3fff,VadS,PAGE_EXECUTE_READWRITE,1,1,Disabled,N/A,"
+48 b8 00 00 00 80 74 01 00 00 48 ff e0 cc cc cc H.....t...H.....
+48 b8 00 02 00 80 74 01 00 00 48 ff e0 cc cc cc H.....t...H.....
+48 b8 00 10 00 80 74 01 00 00 48 ff e0 cc cc cc H.....t...H.....
+48 b8 00 b0 0a 80 74 01 00 00 48 ff e0 cc cc cc H.....t...H.....","
+0x17cfaa90000:	movabs	rax, 0x17480000000
+0x17cfaa9000a:	jmp	rax
+0x17cfaa9000d:	int3	
+0x17cfaa9000e:	int3	
+0x17cfaa9000f:	int3	
+0x17cfaa90010:	movabs	rax, 0x17480000200
+0x17cfaa9001a:	jmp	rax
+0x17cfaa9001d:	int3	
+0x17cfaa9001e:	int3	
+0x17cfaa9001f:	int3	
+0x17cfaa90020:	movabs	rax, 0x17480001000
+0x17cfaa9002a:	jmp	rax
+0x17cfaa9002d:	int3	
+0x17cfaa9002e:	int3	
+0x17cfaa9002f:	int3	
+0x17cfaa90030:	movabs	rax, 0x174800ab000
+0x17cfaa9003a:	jmp	rax
+0x17cfaa9003d:	int3	
+0x17cfaa9003e:	int3	
+0x17cfaa9003f:	int3	"
+0,1544,sppsvc.exe,0x1a4861c0000,0x1a4861cffff,VadS,PAGE_EXECUTE_READ,16,1,Disabled,N/A,"
+24 63 d5 c2 51 7e 00 00 36 00 00 00 00 00 00 00 $c..Q~..6.......
+48 8d 15 f9 ff ff ff 48 8b 0c 24 48 8b c4 48 89 H......H..$H..H.
+58 08 48 89 68 10 48 89 70 18 48 89 78 20 41 56 X.H.h.H.p.H.x AV
+48 83 ec 20 4c 8b 71 08 48 8b da 48 8b 7a f8 48 H.. L.q.H..H.z.H","
+0x1a4861c0000:	and	al, 0x63"
+0,1544,sppsvc.exe,0x1a486980000,0x1a48698ffff,VadS,PAGE_EXECUTE_READ,16,1,Disabled,N/A,"
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................","
+0x1a486980000:	add	byte ptr [rax], al
+0x1a486980002:	add	byte ptr [rax], al
+0x1a486980004:	add	byte ptr [rax], al
+0x1a486980006:	add	byte ptr [rax], al
+0x1a486980008:	add	byte ptr [rax], al
+0x1a48698000a:	add	byte ptr [rax], al
+0x1a48698000c:	add	byte ptr [rax], al
+0x1a48698000e:	add	byte ptr [rax], al
+0x1a486980010:	add	byte ptr [rax], al
+0x1a486980012:	add	byte ptr [rax], al
+0x1a486980014:	add	byte ptr [rax], al
+0x1a486980016:	add	byte ptr [rax], al
+0x1a486980018:	add	byte ptr [rax], al
+0x1a48698001a:	add	byte ptr [rax], al
+0x1a48698001c:	add	byte ptr [rax], al
+0x1a48698001e:	add	byte ptr [rax], al
+0x1a486980020:	add	byte ptr [rax], al
+0x1a486980022:	add	byte ptr [rax], al
+0x1a486980024:	add	byte ptr [rax], al
+0x1a486980026:	add	byte ptr [rax], al
+0x1a486980028:	add	byte ptr [rax], al
+0x1a48698002a:	add	byte ptr [rax], al
+0x1a48698002c:	add	byte ptr [rax], al
+0x1a48698002e:	add	byte ptr [rax], al
+0x1a486980030:	add	byte ptr [rax], al
+0x1a486980032:	add	byte ptr [rax], al
+0x1a486980034:	add	byte ptr [rax], al
+0x1a486980036:	add	byte ptr [rax], al
+0x1a486980038:	add	byte ptr [rax], al
+0x1a48698003a:	add	byte ptr [rax], al
+0x1a48698003c:	add	byte ptr [rax], al
+0x1a48698003e:	add	byte ptr [rax], al"
+

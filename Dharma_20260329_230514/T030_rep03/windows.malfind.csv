@@ -1,0 +1,11 @@
+TreeDepth,PID,Process,Start VPN,End VPN,Tag,Protection,CommitCharge,PrivateMemory,File output,Notes,Hexdump,Disasm
+0,2320,MsMpEng.exe,0x23754b80000,0x23754b80fff,VadS,PAGE_EXECUTE_READWRITE,1,1,Disabled,N/A,"
+b8 27 3c c9 fe 7f 00 00 70 27 3c c9 fe 7f 00 00 .'<.....p'<.....
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+28 28 61 eb fe 7f 00 00 00 00 00 00 00 00 00 00 ((a.............
+01 00 00 00 00 00 00 00 02 00 00 00 00 00 00 00 ................","
+0x23754b80000:	mov	eax, 0xfec93c27
+0x23754b80005:	jg	0x23754b80007
+0x23754b80007:	add	byte ptr [rax + 0x27], dh
+0x23754b8000a:	cmp	al, 0xc9"
+

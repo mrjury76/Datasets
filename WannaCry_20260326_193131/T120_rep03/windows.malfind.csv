@@ -1,0 +1,43 @@
+TreeDepth,PID,Process,Start VPN,End VPN,Tag,Protection,CommitCharge,PrivateMemory,File output,Notes,Hexdump,Disasm
+0,2320,MsMpEng.exe,0x23710cd0000,0x23710cd1fff,VadS,PAGE_EXECUTE_READWRITE,2,1,Disabled,N/A,"
+68 83 0a 0a 88 80 40 00 90 06 00 bb 3f 47 f7 22 h.....@.....?G.""
+40 00 01 94 b0 c4 ee a8 4d 5b 18 f6 52 f7 19 21 @.......M[..R..!
+36 a9 93 ce 87 c8 34 9e 00 e3 18 03 70 a0 a0 41 6.....4.....p..A
+05 01 16 28 5c 9d bb 58 59 38 01 ed 19 58 88 ba ...(\\..XY8...X..","
+0x23710cd0000:	push	-0x77f5f57d
+0x23710cd0005:	add	byte ptr [rax], 0x90"
+0,2320,MsMpEng.exe,0x23710ce0000,0x23710ce0fff,VadS,PAGE_EXECUTE_READWRITE,1,1,Disabled,N/A,"
+00 35 58 03 4e 74 66 66 00 00 00 00 00 00 00 00 .5X.Ntff........
+02 07 58 01 48 0a 00 01 b3 ac 00 00 00 00 01 00 ..X.H...........
+00 00 00 00 00 00 00 00 02 00 00 00 00 00 00 00 ................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................","
+0x23710ce0000:	add	byte ptr [rip + 0x744e0358], dh
+0x23710ce0006:	add	byte ptr [rax], al
+0x23710ce000a:	add	byte ptr [rax], al
+0x23710ce000c:	add	byte ptr [rax], al
+0x23710ce000e:	add	byte ptr [rax], al
+0x23710ce0010:	add	al, byte ptr [rdi]
+0x23710ce0012:	pop	rax
+0x23710ce0013:	add	dword ptr [rax + 0xa], ecx
+0x23710ce0016:	add	byte ptr [rcx], al
+0x23710ce0018:	mov	bl, 0xac
+0x23710ce001a:	add	byte ptr [rax], al
+0x23710ce001c:	add	byte ptr [rax], al
+0x23710ce001e:	add	dword ptr [rax], eax
+0x23710ce0020:	add	byte ptr [rax], al
+0x23710ce0022:	add	byte ptr [rax], al
+0x23710ce0024:	add	byte ptr [rax], al
+0x23710ce0026:	add	byte ptr [rax], al
+0x23710ce0028:	add	al, byte ptr [rax]
+0x23710ce002a:	add	byte ptr [rax], al
+0x23710ce002c:	add	byte ptr [rax], al
+0x23710ce002e:	add	byte ptr [rax], al
+0x23710ce0030:	add	byte ptr [rax], al
+0x23710ce0032:	add	byte ptr [rax], al
+0x23710ce0034:	add	byte ptr [rax], al
+0x23710ce0036:	add	byte ptr [rax], al
+0x23710ce0038:	add	byte ptr [rax], al
+0x23710ce003a:	add	byte ptr [rax], al
+0x23710ce003c:	add	byte ptr [rax], al
+0x23710ce003e:	add	byte ptr [rax], al"
+

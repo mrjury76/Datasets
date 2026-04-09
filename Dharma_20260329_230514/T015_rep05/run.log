@@ -1,0 +1,45 @@
+==================================================
+ Volatility 3 Feature Extraction
+ Family:    Dharma
+ Snapshot:  /mnt/d/Patrick/VMSnapshots/Dharma_20260329_230514/T015_rep05/Dharma_T015_rep05.vmem
+ Started:   2026-03-30 01:37:07
+==================================================
+
+[+] Running windows.pstree to find Dharma PIDs (hints: ['dharma', 'csrss'])...
+    -> Parsed 105 processes
+    [+] Found Dharma process: csrss.exe PID=420
+    [+] Found Dharma process: Dharma.exe PID=7336
+    [+] Found Dharma process: csrss.exe PID=504
+    [+] Added child: cmd.exe PID=6084
+    [+] Added child: vssadmin.exe PID=9856
+    [+] Added child: mode.com PID=9532
+    [+] Total Dharma PIDs: ['420', '504', '6084', '7336', '9532', '9856']
+[+] Done: windows.pslist
+[+] Done: windows.cmdline
+[+] Done: windows.netstat
+[+] Done: windows.privileges
+[+] Done: windows.dlllist
+[+] Done: windows.ldrmodules
+[+] Done: windows.psscan
+[+] Done: windows.filescan
+[+] Done: windows.handles
+[+] Done: windows.malfind
+[+] Done: windows.vadinfo
+[+] Done: windows.svcscan
+    windows.pslist: 6 rows
+    windows.psscan: 6 rows
+    windows.cmdline: 6 rows
+    windows.dlllist: 51 rows
+    windows.ldrmodules: 35 rows
+    windows.malfind: 12 rows
+    windows.vadinfo: 344 rows
+    windows.handles: 1105 rows
+    windows.filescan: 4839 rows
+    windows.svcscan: 49973 rows
+    windows.privileges: 210 rows
+    windows.netstat: 40 rows
+
+[✓] CSV saved: /mnt/d/Patrick/VMSnapshots/Dharma_20260329_230514/T015_rep05/vol3_combined.csv
+[✓] Total rows: 56627
+[+] Done. Total time: 0:05:19.013841
+[+] Output directory: /mnt/d/Patrick/VMSnapshots/Dharma_20260329_230514/T015_rep05

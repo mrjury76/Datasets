@@ -1,0 +1,100 @@
+TreeDepth,PID,Process,Args
+0,4,System,-
+0,92,Registry,-
+0,308,smss.exe,-
+0,420,csrss.exe,-
+0,496,wininit.exe,-
+0,504,csrss.exe,-
+0,564,winlogon.exe,-
+0,636,services.exe,C:\\Windows\\system32\\services.exe
+0,660,lsass.exe,C:\\Windows\\system32\\lsass.exe
+0,764,svchost.exe,C:\\Windows\\system32\\svchost.exe -k DcomLaunch -p
+0,792,fontdrvhost.ex,-
+0,796,fontdrvhost.ex,-
+0,884,svchost.exe,C:\\Windows\\system32\\svchost.exe -k RPCSS -p
+0,968,dwm.exe,"""dwm.exe"""
+0,360,svchost.exe,C:\\Windows\\system32\\svchost.exe -k netsvcs -p
+0,680,svchost.exe,C:\\Windows\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p
+0,1044,svchost.exe,C:\\Windows\\system32\\svchost.exe -k LocalServiceNoNetwork -p
+0,1052,svchost.exe,C:\\Windows\\system32\\svchost.exe -k LocalServiceNetworkRestricted -p
+0,1128,upfc.exe,C:\\Windows\\System32\\Upfc.exe /launchtype boot /cv C2G7yfVGHEyndkYr4NNN8w.0
+0,1196,svchost.exe,C:\\Windows\\system32\\svchost.exe -k LocalService -p
+0,1328,MemCompression,-
+0,1392,svchost.exe,C:\\Windows\\System32\\svchost.exe -k NetworkService -p
+0,1536,svchost.exe,C:\\Windows\\System32\\svchost.exe -k LocalServiceNetworkRestricted -p
+0,1676,svchost.exe,畘ᔈ￿畘ᔈ￿
+0,1700,svchost.exe,-
+0,1708,svchost.exe,C:\\Windows\\system32\\svchost.exe -k appmodel -p
+0,1820,spoolsv.exe,-
+0,1880,svchost.exe,C:\\Windows\\system32\\svchost.exe -k LocalServiceNoNetworkFirewall -p
+0,1992,svchost.exe,C:\\Windows\\system32\\svchost.exe -k LocalService -p
+0,2012,svchost.exe,-
+0,2080,svchost.exe,-
+0,2192,svchost.exe,-
+0,2264,vmtoolsd.exe,"""C:\\Program Files\\VMware\\VMware Tools\\vmtoolsd.exe"""
+0,2272,VGAuthService.,-
+0,2280,vm3dservice.ex,-
+0,2320,MsMpEng.exe,"""C:\\Program Files\\Windows Defender\\MsMpEng.exe"""
+0,2364,Sysmon64.exe,C:\\Windows\\Sysmon64.exe
+0,2460,vm3dservice.ex,-
+0,2764,dllhost.exe,-
+0,2944,svchost.exe,C:\\Windows\\system32\\svchost.exe -k wsappx -p
+0,2968,msdtc.exe,-
+0,608,VSSVC.exe,-
+0,2200,unsecapp.exe,C:\\Windows\\system32\\wbem\\unsecapp.exe -Embedding
+0,2616,WmiPrvSE.exe,C:\\Windows\\system32\\wbem\\wmiprvse.exe
+0,3204,WmiPrvSE.exe,C:\\Windows\\system32\\wbem\\wmiprvse.exe
+0,3220,sihost.exe,sihost.exe
+0,3268,svchost.exe,C:\\Windows\\system32\\svchost.exe -k UnistackSvcGroup
+0,3328,MicrosoftEdgeU,-
+0,3336,taskhostw.exe,-
+0,3484,ctfmon.exe,"""ctfmon.exe"""
+0,3668,userinit.exe,-
+0,3720,explorer.exe,C:\\Windows\\Explorer.EXE
+0,4080,svchost.exe,C:\\Windows\\system32\\svchost.exe -k ClipboardSvcGroup -p
+0,4380,StartMenuExper,"""C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe"" -ServerName:App.AppXywbrabmsek0gm3tkwpr5kwzbs55tkqay.mca"
+0,4448,RuntimeBroker.,C:\\Windows\\System32\\RuntimeBroker.exe -Embedding
+0,4556,SearchApp.exe,-
+0,4564,SearchIndexer.,C:\\Windows\\system32\\SearchIndexer.exe /Embedding
+0,4668,RuntimeBroker.,C:\\Windows\\System32\\RuntimeBroker.exe -Embedding
+0,1816,RuntimeBroker.,C:\\Windows\\System32\\RuntimeBroker.exe -Embedding
+0,4220,svchost.exe,-
+0,3444,smartscreen.ex,C:\\Windows\\System32\\smartscreen.exe -Embedding
+0,4872,SecurityHealth,"""C:\\Windows\\System32\\SecurityHealthSystray.exe"" "
+0,1752,SecurityHealth,C:\\Windows\\system32\\SecurityHealthService.exe
+0,5236,vmtoolsd.exe,"""C:\\Program Files\\VMware\\VMware Tools\\vmtoolsd.exe"" -n vmusr"
+0,5332,TextInputHost.,"""C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\InputApp\\TextInputHost.exe"" -ServerName:InputApp.AppX9jnwykgrccxc8by3hsrsh07r423xzvav.mca"
+0,5340,OneDrive.exe,"""C:\\Users\\Patrick\\AppData\\Local\\Microsoft\\OneDrive\\OneDrive.exe"" /background"
+0,5560,dllhost.exe,-
+0,5880,ApplicationFra,-
+0,5904,M365Copilot.ex,"""C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2603.45021.0_x64__8wekyb3d8bbwe\\M365Copilot.exe"" ms-getoffice: autostart reason=AutoStarter"
+0,5916,SecHealthUI.ex,"""C:\\Windows\\SystemApps\\Microsoft.Windows.SecHealthUI_cw5n1h2txyewy\\SecHealthUI.exe"" -ServerName:SecHealthUI.AppXep4x2tbtjws1v9qqs0rmb3hxykvkpqtn.mca"
+0,1728,SecurityHealth,C:\\Windows\\System32\\SecurityHealthHost.exe {E041C90B-68BA-42C9-991E-477B73A75C90} -Embedding
+0,6476,RuntimeBroker.,C:\\Windows\\System32\\RuntimeBroker.exe -Embedding
+0,6696,msedgewebview2,"""C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.62\\msedgewebview2.exe"" --embedded-browser-webview=1 --webview-exe-name=M365Copilot.exe --webview-exe-version=19.2603.45021.0 --user-data-dir=""C:\\Users\\Patrick\\AppData\\Local\\Packages\\Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe\\LocalState\\EBWebView"" --noerrdialogs --embedded-browser-webview-dpi-awareness=2 --disable-features=msEnhancedTrackingPreventionEnabled --enable-features=msSingleSignOnOSForPrimaryAccountIsShared --mojo-named-platform-channel-pipe=5904.6664.9395510796428859720"
+0,6740,svchost.exe,-
+0,6772,msedgewebview2,-
+0,7060,msedgewebview2,-
+0,7088,msedgewebview2,-
+0,388,msedgewebview2,-
+0,7304,msedgewebview2,-
+0,7572,audiodg.exe,C:\\Windows\\system32\\AUDIODG.EXE 0x514
+0,7668,SecurityHealth,C:\\Windows\\System32\\SecurityHealthHost.exe {6CED0DAA-4CDE-49C9-BA3A-AE163DC3D7AF} -Embedding
+0,7860,Taskmgr.exe,"""C:\\Windows\\System32\\Taskmgr.exe"" /2"
+0,7300,StoreDesktopEx,"""C:\\Program Files\\WindowsApps\\Microsoft.WindowsStore_22601.1401.3.0_x64__8wekyb3d8bbwe\\StoreDesktopExtension.exe"" -Embedding"
+0,6632,ShellExperienc,"""C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe"" -ServerName:App.AppXtk181tbxbce2qsex02s8tw7hfxa9xb3t.mca"
+0,7480,RuntimeBroker.,C:\\Windows\\System32\\RuntimeBroker.exe -Embedding
+0,7984,WannaCry.exe,"""C:\\Malware\\WannaCry\\WannaCry.exe"""
+0,5672,@WanaDecryptor,-
+0,5468,taskhsvc.exe,-
+0,6076,conhost.exe,-
+0,8076,@WanaDecryptor,-
+0,4148,svchost.exe,C:\\Windows\\System32\\svchost.exe -k NetworkService -p
+0,7556,SgrmBroker.exe,C:\\Windows\\system32\\SgrmBroker.exe
+0,4932,svchost.exe,C:\\Windows\\System32\\svchost.exe -k LocalServiceNetworkRestricted -p
+0,488,svchost.exe,C:\\Windows\\system32\\svchost.exe -k wusvcs -p
+0,2572,backgroundTask,"""C:\\Windows\\system32\\backgroundTaskHost.exe"" -ServerName:App.AppXmtcan0h2tfbfy7k9kn8hbxb6dmzz1zh0.mca"
+0,2976,RuntimeBroker.,C:\\Windows\\System32\\RuntimeBroker.exe -Embedding
+0,3608,RuntimeBroker.,C:\\Windows\\System32\\RuntimeBroker.exe -Embedding
+0,2932,WMIADAP.exe,wmiadap.exe /F /T /R
+

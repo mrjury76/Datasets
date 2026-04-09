@@ -1,0 +1,5 @@
+# VM memory snapshots (too large for GitHub)
+*.vmem
+
+# Benign dataset (still collecting)
+Benign_*/

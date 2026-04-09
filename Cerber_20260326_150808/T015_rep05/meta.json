@@ -1,0 +1,11 @@
+{
+    "stage_hint":  0,
+    "snap_time":  "2026-03-26T16:47:02.0153622-07:00",
+    "rep":  5,
+    "run":  25,
+    "launch_time":  "2026-03-26T16:45:25.7694139-07:00",
+    "snap_name":  "Cerber_T015_rep05",
+    "actual_offset_s":  15,
+    "family":  "Cerber",
+    "target_offset_s":  15
+}

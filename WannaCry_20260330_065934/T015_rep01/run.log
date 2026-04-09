@@ -1,0 +1,40 @@
+==================================================
+ Volatility 3 Feature Extraction
+ Family:    WannaCry
+ Snapshot:  /mnt/d/Patrick/VMSnapshots/WannaCry_20260330_065934/T015_rep01/WannaCry_T015_rep01.vmem
+ Started:   2026-03-30 16:27:55
+==================================================
+
+[+] Running windows.pstree to find WannaCry PIDs (hints: ['wannacry', 'tasksche', 'mssecsvc'])...
+    -> Parsed 94 processes
+    [+] Found WannaCry process: WannaCry.exe PID=9136
+    [+] Total WannaCry PIDs: ['9136']
+[+] Done: windows.privileges
+[+] Done: windows.pslist
+[+] Done: windows.cmdline
+[+] Done: windows.netstat
+[+] Done: windows.svcscan
+[+] Done: windows.dlllist
+[+] Done: windows.ldrmodules
+[+] Done: windows.psscan
+[+] Done: windows.filescan
+[+] Done: windows.handles
+[+] Done: windows.malfind
+[+] Done: windows.vadinfo
+    windows.pslist: 1 rows
+    windows.psscan: 1 rows
+    windows.cmdline: 1 rows
+    windows.dlllist: 34 rows
+    windows.ldrmodules: 34 rows
+    windows.malfind: 1 rows
+    windows.vadinfo: 93 rows
+    windows.handles: 172 rows
+    windows.filescan: 7095 rows
+    windows.svcscan: 0 rows
+    windows.privileges: 35 rows
+    windows.netstat: 40 rows
+
+[✓] CSV saved: /mnt/d/Patrick/VMSnapshots/WannaCry_20260330_065934/T015_rep01/vol3_combined.csv
+[✓] Total rows: 7507
+[+] Done. Total time: 0:03:36.514913
+[+] Output directory: /mnt/d/Patrick/VMSnapshots/WannaCry_20260330_065934/T015_rep01

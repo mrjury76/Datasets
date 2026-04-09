@@ -1,0 +1,124 @@
+TreeDepth,PID,Process,Args
+0,4,System,-
+0,92,Registry,-
+0,308,smss.exe,-
+0,420,csrss.exe,-
+0,496,wininit.exe,-
+0,504,csrss.exe,-
+0,564,winlogon.exe,-
+0,636,services.exe,C:\\Windows\\system32\\services.exe
+0,660,lsass.exe,C:\\Windows\\system32\\lsass.exe
+0,764,svchost.exe,C:\\Windows\\system32\\svchost.exe -k DcomLaunch -p
+0,792,fontdrvhost.ex,-
+0,796,fontdrvhost.ex,"""fontdrvhost.exe"""
+0,884,svchost.exe,C:\\Windows\\system32\\svchost.exe -k RPCSS -p
+0,968,dwm.exe,-
+0,360,svchost.exe,C:\\Windows\\system32\\svchost.exe -k netsvcs -p
+0,680,svchost.exe,C:\\Windows\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p
+0,1044,svchost.exe,-
+0,1052,svchost.exe,C:\\Windows\\system32\\svchost.exe -k LocalServiceNetworkRestricted -p
+0,1196,svchost.exe,C:\\Windows\\system32\\svchost.exe -k LocalService -p
+0,1328,MemCompression,-
+0,1392,svchost.exe,C:\\Windows\\System32\\svchost.exe -k NetworkService -p
+0,1536,svchost.exe,C:\\Windows\\System32\\svchost.exe -k LocalServiceNetworkRestricted -p
+0,1676,svchost.exe,-
+0,1700,svchost.exe,-
+0,1708,svchost.exe,C:\\Windows\\system32\\svchost.exe -k appmodel -p
+0,1820,spoolsv.exe,C:\\Windows\\System32\\spoolsv.exe
+0,1880,svchost.exe,-
+0,1992,svchost.exe,-
+0,2012,svchost.exe,C:\\Windows\\System32\\svchost.exe -k LocalServiceNetworkRestricted
+0,2080,svchost.exe,-
+0,2192,svchost.exe,-
+0,2264,vmtoolsd.exe,"""C:\\Program Files\\VMware\\VMware Tools\\vmtoolsd.exe"""
+0,2272,VGAuthService.,-
+0,2280,vm3dservice.ex,-
+0,2320,MsMpEng.exe,"""C:\\Program Files\\Windows Defender\\MsMpEng.exe"""
+0,2364,Sysmon64.exe,C:\\Windows\\Sysmon64.exe
+0,2460,vm3dservice.ex,-
+0,2764,dllhost.exe,-
+0,2944,svchost.exe,C:\\Windows\\system32\\svchost.exe -k wsappx -p
+0,2968,msdtc.exe,-
+0,2200,unsecapp.exe,-
+0,2616,WmiPrvSE.exe,C:\\Windows\\system32\\wbem\\wmiprvse.exe
+0,3204,WmiPrvSE.exe,-
+0,3220,sihost.exe,sihost.exe
+0,3268,svchost.exe,C:\\Windows\\system32\\svchost.exe -k UnistackSvcGroup
+0,3328,MicrosoftEdgeU,-
+0,3336,taskhostw.exe,taskhostw.exe {222A245B-E637-4AE9-A93F-A59CA119A75E}
+0,3484,ctfmon.exe,-
+0,3668,userinit.exe,-
+0,3720,explorer.exe,C:\\Windows\\Explorer.EXE
+0,4080,svchost.exe,C:\\Windows\\system32\\svchost.exe -k ClipboardSvcGroup -p
+0,4380,StartMenuExper,"""C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe"" -ServerName:App.AppXywbrabmsek0gm3tkwpr5kwzbs55tkqay.mca"
+0,4448,RuntimeBroker.,C:\\Windows\\System32\\RuntimeBroker.exe -Embedding
+0,4556,SearchApp.exe,-
+0,4564,SearchIndexer.,C:\\Windows\\system32\\SearchIndexer.exe /Embedding
+0,4668,RuntimeBroker.,C:\\Windows\\System32\\RuntimeBroker.exe -Embedding
+0,1816,RuntimeBroker.,C:\\Windows\\System32\\RuntimeBroker.exe -Embedding
+0,4220,svchost.exe,-
+0,3444,smartscreen.ex,-
+0,4872,SecurityHealth,"""C:\\Windows\\System32\\SecurityHealthSystray.exe"" "
+0,1752,SecurityHealth,C:\\Windows\\system32\\SecurityHealthService.exe
+0,5236,vmtoolsd.exe,-
+0,5332,TextInputHost.,-
+0,5340,OneDrive.exe,-
+0,5560,dllhost.exe,-
+0,5880,ApplicationFra,-
+0,5904,M365Copilot.ex,"""C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2603.45021.0_x64__8wekyb3d8bbwe\\M365Copilot.exe"" ms-getoffice: autostart reason=AutoStarter"
+0,5916,SecHealthUI.ex,"""C:\\Windows\\SystemApps\\Microsoft.Windows.SecHealthUI_cw5n1h2txyewy\\SecHealthUI.exe"" -ServerName:SecHealthUI.AppXep4x2tbtjws1v9qqs0rmb3hxykvkpqtn.mca"
+0,1728,SecurityHealth,C:\\Windows\\System32\\SecurityHealthHost.exe {E041C90B-68BA-42C9-991E-477B73A75C90} -Embedding
+0,6476,RuntimeBroker.,-
+0,6696,msedgewebview2,"""C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.62\\msedgewebview2.exe"" --embedded-browser-webview=1 --webview-exe-name=M365Copilot.exe --webview-exe-version=19.2603.45021.0 --user-data-dir=""C:\\Users\\Patrick\\AppData\\Local\\Packages\\Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe\\LocalState\\EBWebView"" --noerrdialogs --embedded-browser-webview-dpi-awareness=2 --disable-features=msEnhancedTrackingPreventionEnabled --enable-features=msSingleSignOnOSForPrimaryAccountIsShared --mojo-named-platform-channel-pipe=5904.6664.9395510796428859720"
+0,6740,svchost.exe,-
+0,6772,msedgewebview2,-
+0,7060,msedgewebview2,-
+0,7088,msedgewebview2,-
+0,388,msedgewebview2,-
+0,7304,msedgewebview2,-
+0,7572,audiodg.exe,-
+0,7668,SecurityHealth,-
+0,7860,Taskmgr.exe,"""C:\\Windows\\System32\\Taskmgr.exe"" /2"
+0,7372,StoreDesktopEx,-
+0,5732,ShellExperienc,-
+0,7472,RuntimeBroker.,C:\\Windows\\System32\\RuntimeBroker.exe -Embedding
+0,512,WannaCry.exe,-
+0,6684,@WanaDecryptor,-
+0,8188,taskhsvc.exe,-
+0,5848,conhost.exe,-
+0,4156,@WanaDecryptor,-
+0,6124,svchost.exe,C:\\Windows\\System32\\svchost.exe -k NetworkService -p
+0,8164,SgrmBroker.exe,C:\\Windows\\system32\\SgrmBroker.exe
+0,5964,svchost.exe,C:\\Windows\\System32\\svchost.exe -k LocalServiceNetworkRestricted -p
+0,3704,backgroundTask,-
+0,2104,RuntimeBroker.,-
+0,7180,MoUsoCoreWorke,-
+0,5776,provtool.exe,C:\\Windows\\system32\\ProvTool.exe /turn 5 /source LogonIdleTask
+0,5752,svchost.exe,-
+0,3736,svchost.exe,C:\\Windows\\system32\\svchost.exe -k defragsvc
+0,4484,taskhostw.exe,taskhostw.exe
+0,1576,lpremove.exe,-
+0,1424,CompatTelRunne,-
+0,3688,conhost.exe,\\??\\C:\\Windows\\system32\\conhost.exe 0x4
+0,7184,conhost.exe,\\??\\C:\\Windows\\system32\\conhost.exe 0x4
+0,3920,MpCmdRun.exe,"""C:\\Program Files\\Windows Defender\\MpCmdRun.exe"" Scan -ScheduleJob -ScanTrigger 55"
+0,3700,MpCmdRun.exe,"""C:\\Program Files\\Windows Defender\\MpCmdRun.exe"" -IdleTask -TaskName WdCacheMaintenance"
+0,2920,taskhostw.exe,taskhostw.exe /RuntimeWide
+0,5480,Defrag.exe,C:\\Windows\\system32\\defrag.exe -c -h -o -$
+0,3836,cleanmgr.exe,C:\\Windows\\system32\\cleanmgr.exe /autoclean /d C:
+0,4784,tzsync.exe,C:\\Windows\\system32\\tzsync.exe
+0,5936,conhost.exe,\\??\\C:\\Windows\\system32\\conhost.exe 0x4
+0,6728,conhost.exe,-
+0,6804,TrustedInstall,C:\\Windows\\servicing\\TrustedInstaller.exe
+0,8120,TiWorker.exe,C:\\Windows\\winsxs\\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.621_none_e7694895260e0b6d\\TiWorker.exe -Embedding
+0,1456,conhost.exe,-
+0,5196,conhost.exe,\\??\\C:\\Windows\\system32\\conhost.exe 0x4
+0,1004,ngentask.exe,"""C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\NGenTask.exe"" /RuntimeWide /StopEvent:428"
+0,580,ngentask.exe,-
+0,2296,conhost.exe,\\??\\C:\\Windows\\system32\\conhost.exe 0x4
+0,2728,conhost.exe,-
+0,2808,ngen.exe,"""C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\ngen.exe"" ExecuteQueuedItems /LegacyServiceBehavior"
+0,2704,SIHClient.exe,C:\\Windows\\System32\\sihclient.exe /boot-periodic /cv C2G7yfVGHEyndkYr4NNN8w.0.1
+0,7852,ngen.exe,-
+0,7704,mscorsvw.exe,"C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\mscorsvw.exe -StartupEvent 2f0 -InterruptEvent 0 -NGENProcess 2b4 -Pipe 2ac -Comment ""NGen Worker Process"""
+

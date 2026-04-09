@@ -1,0 +1,51 @@
+==================================================
+ Volatility 3 Feature Extraction
+ Family:    Jigsaw
+ Snapshot:  /mnt/d/Patrick/VMSnapshots/Jigsaw_20260326_171020/T015_rep04/Jigsaw_T015_rep04.vmem
+ Started:   2026-03-29 13:32:20
+==================================================
+
+[+] Running windows.pstree to find Jigsaw PIDs (hints: ['jigsaw'])...
+    -> Parsed 89 processes
+    [!] No Jigsaw processes found. Running without PID filter.
+
+[+] Running windows.pslist...
+    89 rows
+
+[+] Running windows.psscan...
+    92 rows
+
+[+] Running windows.cmdline...
+    89 rows
+
+[+] Running windows.dlllist...
+    4962 rows
+
+[+] Running windows.ldrmodules...
+    890 rows
+
+[+] Running windows.malfind...
+    6 rows
+
+[+] Running windows.vadinfo...
+    16142 rows
+
+[+] Running windows.handles...
+    39335 rows
+
+[+] Running windows.filescan...
+    4354 rows
+
+[+] Running windows.svcscan...
+    1395 rows
+
+[+] Running windows.privileges...
+    3115 rows
+
+[+] Running windows.netstat...
+    39 rows
+
+[✓] CSV saved: /mnt/d/Patrick/VMSnapshots/Jigsaw_20260326_171020/T015_rep04/vol3_combined.csv
+[✓] Total rows: 70508
+[+] Done. Total time: 0:09:35.395809
+[+] Output directory: /mnt/d/Patrick/VMSnapshots/Jigsaw_20260326_171020/T015_rep04

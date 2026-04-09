@@ -1,0 +1,28 @@
+TreeDepth,PID,Process,Start VPN,End VPN,Tag,Protection,CommitCharge,PrivateMemory,File output,Notes,Hexdump,Disasm
+0,4556,SearchApp.exe,0x17cf9910000,0x17cf992ffff,VadS,PAGE_EXECUTE_READWRITE,6,1,Disabled,N/A,"
+52 43 52 44 28 00 09 00 ec 27 13 23 00 00 00 00 RCRD(....'.#....
+01 00 00 00 1a 00 14 00 60 0f 00 00 00 00 00 00 ........`.......
+d3 27 13 23 00 00 00 00 35 e1 00 00 00 00 00 00 .'.#....5.......
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................","
+0x17cf9910000:	push	rdx
+0x17cf9910001:	push	r10
+0x17cf9910003:	sub	byte ptr [rax], r8b
+0x17cf9910006:	or	dword ptr [rax], eax
+0x17cf9910008:	in	al, dx"
+0,4556,SearchApp.exe,0x17cfaa90000,0x17cfaaf3fff,VadS,PAGE_EXECUTE_READWRITE,1,1,Disabled,N/A,"
+83 bb 98 02 00 00 00 0f 84 a3 85 07 00 45 32 ff .............E2.
+48 8d bb c0 05 00 00 48 8b 07 48 89 83 c8 05 00 H......H..H.....
+00 4c 8d 4c 24 30 45 33 c0 48 8d 15 00 ec ff ff .L.L$0E3.H......
+48 8d 0d 31 ca 14 00 48 ff 15 82 ae 11 00 0f 1f H..1...H........","
+0x17cfaa90000:	cmp	dword ptr [rbx + 0x298], 0
+0x17cfaa90007:	je	0x17cfab085b0
+0x17cfaa9000d:	xor	r15b, r15b
+0x17cfaa90010:	lea	rdi, [rbx + 0x5c0]
+0x17cfaa90017:	mov	rax, qword ptr [rdi]
+0x17cfaa9001a:	mov	qword ptr [rbx + 0x5c8], rax
+0x17cfaa90021:	lea	r9, [rsp + 0x30]
+0x17cfaa90026:	xor	r8d, r8d
+0x17cfaa90029:	lea	rdx, [rip - 0x1400]
+0x17cfaa90030:	lea	rcx, [rip + 0x14ca31]
+0x17cfaa90037:	call	qword ptr [rip + 0x11ae82]"
+

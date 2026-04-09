@@ -1,0 +1,40 @@
+==================================================
+ Volatility 3 Feature Extraction
+ Family:    Cerber
+ Snapshot:  /mnt/d/Patrick/VMSnapshots/Cerber_20260330_020139/T015_rep05/Cerber_T015_rep05.vmem
+ Started:   2026-03-30 10:37:15
+==================================================
+
+[+] Running windows.pstree to find Cerber PIDs (hints: ['cerber'])...
+    -> Parsed 89 processes
+    [+] Found Cerber process: cerber.exe PID=2436
+    [+] Total Cerber PIDs: ['2436']
+[+] Done: windows.privileges
+[+] Done: windows.pslist
+[+] Done: windows.netstat
+[+] Done: windows.cmdline
+[+] Done: windows.dlllist
+[+] Done: windows.svcscan
+[+] Done: windows.psscan
+[+] Done: windows.ldrmodules
+[+] Done: windows.filescan
+[+] Done: windows.handles
+[+] Done: windows.malfind
+[+] Done: windows.vadinfo
+    windows.pslist: 1 rows
+    windows.psscan: 1 rows
+    windows.cmdline: 1 rows
+    windows.dlllist: 59 rows
+    windows.ldrmodules: 63 rows
+    windows.malfind: 9 rows
+    windows.vadinfo: 143 rows
+    windows.handles: 267 rows
+    windows.filescan: 5810 rows
+    windows.svcscan: 1379 rows
+    windows.privileges: 35 rows
+    windows.netstat: 41 rows
+
+[✓] CSV saved: /mnt/d/Patrick/VMSnapshots/Cerber_20260330_020139/T015_rep05/vol3_combined.csv
+[✓] Total rows: 7809
+[+] Done. Total time: 0:03:32.075151
+[+] Output directory: /mnt/d/Patrick/VMSnapshots/Cerber_20260330_020139/T015_rep05

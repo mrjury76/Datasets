@@ -1,0 +1,81 @@
+==================================================
+ Volatility 3 Feature Extraction
+ Family:    Jigsaw
+ Snapshot:  /mnt/d/Patrick/VMSnapshots/Jigsaw_20260326_171020/T030_rep04/Jigsaw_T030_rep04.vmem
+ Started:   2026-03-29 14:21:40
+==================================================
+
+[+] Running windows.pstree to find Jigsaw PIDs (hints: ['jigsaw'])...
+    -> Parsed 94 processes
+    [!] No Jigsaw processes found. Running without PID filter.
+
+[+] Running windows.pslist...
+    94 rows
+
+[+] Running windows.psscan...
+    95 rows
+
+[+] Running windows.cmdline...
+    94 rows
+
+[+] Running windows.dlllist...
+    5390 rows
+
+[+] Running windows.ldrmodules...
+    5423 rows
+
+[+] Running windows.malfind...
+    11 rows
+
+[+] Running windows.vadinfo...
+==================================================
+ Volatility 3 Feature Extraction
+ Family:    Jigsaw
+ Snapshot:  /mnt/d/Patrick/VMSnapshots/Jigsaw_20260326_171020/T030_rep04/Jigsaw_T030_rep04.vmem
+ Started:   2026-03-29 15:20:20
+==================================================
+
+[+] Running windows.pstree to find Jigsaw PIDs (hints: ['jigsaw'])...
+    -> Parsed 94 processes
+    [!] No Jigsaw processes found. Running without PID filter.
+
+[+] Running windows.pslist...
+    94 rows
+
+[+] Running windows.psscan...
+    95 rows
+
+[+] Running windows.cmdline...
+    94 rows
+
+[+] Running windows.dlllist...
+    5390 rows
+
+[+] Running windows.ldrmodules...
+    5423 rows
+
+[+] Running windows.malfind...
+    11 rows
+
+[+] Running windows.vadinfo...
+    16391 rows
+
+[+] Running windows.handles...
+    40757 rows
+
+[+] Running windows.filescan...
+    4397 rows
+
+[+] Running windows.svcscan...
+    1395 rows
+
+[+] Running windows.privileges...
+    3290 rows
+
+[+] Running windows.netstat...
+    39 rows
+
+[✓] CSV saved: /mnt/d/Patrick/VMSnapshots/Jigsaw_20260326_171020/T030_rep04/vol3_combined.csv
+[✓] Total rows: 77376
+[+] Done. Total time: 0:09:21.971859
+[+] Output directory: /mnt/d/Patrick/VMSnapshots/Jigsaw_20260326_171020/T030_rep04

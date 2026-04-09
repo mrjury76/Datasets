@@ -1,0 +1,113 @@
+TreeDepth,PID,Process,Start VPN,End VPN,Tag,Protection,CommitCharge,PrivateMemory,File output,Notes,Hexdump,Disasm
+0,2320,MsMpEng.exe,0x23757710000,0x2375780ffff,VadS,PAGE_EXECUTE_READWRITE,256,1,Disabled,N/A,"
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................","
+0x23757710000:	add	byte ptr [rax], al
+0x23757710002:	add	byte ptr [rax], al
+0x23757710004:	add	byte ptr [rax], al
+0x23757710006:	add	byte ptr [rax], al
+0x23757710008:	add	byte ptr [rax], al
+0x2375771000a:	add	byte ptr [rax], al
+0x2375771000c:	add	byte ptr [rax], al
+0x2375771000e:	add	byte ptr [rax], al
+0x23757710010:	add	byte ptr [rax], al
+0x23757710012:	add	byte ptr [rax], al
+0x23757710014:	add	byte ptr [rax], al
+0x23757710016:	add	byte ptr [rax], al
+0x23757710018:	add	byte ptr [rax], al
+0x2375771001a:	add	byte ptr [rax], al
+0x2375771001c:	add	byte ptr [rax], al
+0x2375771001e:	add	byte ptr [rax], al
+0x23757710020:	add	byte ptr [rax], al
+0x23757710022:	add	byte ptr [rax], al
+0x23757710024:	add	byte ptr [rax], al
+0x23757710026:	add	byte ptr [rax], al
+0x23757710028:	add	byte ptr [rax], al
+0x2375771002a:	add	byte ptr [rax], al
+0x2375771002c:	add	byte ptr [rax], al
+0x2375771002e:	add	byte ptr [rax], al
+0x23757710030:	add	byte ptr [rax], al
+0x23757710032:	add	byte ptr [rax], al
+0x23757710034:	add	byte ptr [rax], al
+0x23757710036:	add	byte ptr [rax], al
+0x23757710038:	add	byte ptr [rax], al
+0x2375771003a:	add	byte ptr [rax], al
+0x2375771003c:	add	byte ptr [rax], al
+0x2375771003e:	add	byte ptr [rax], al"
+0,10164,sppsvc.exe,0x16d5d7b0000,0x16d5d7bffff,VadS,PAGE_EXECUTE_READ,16,1,Disabled,N/A,"
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................","
+0x16d5d7b0000:	add	byte ptr [rax], al
+0x16d5d7b0002:	add	byte ptr [rax], al
+0x16d5d7b0004:	add	byte ptr [rax], al
+0x16d5d7b0006:	add	byte ptr [rax], al
+0x16d5d7b0008:	add	byte ptr [rax], al
+0x16d5d7b000a:	add	byte ptr [rax], al
+0x16d5d7b000c:	add	byte ptr [rax], al
+0x16d5d7b000e:	add	byte ptr [rax], al
+0x16d5d7b0010:	add	byte ptr [rax], al
+0x16d5d7b0012:	add	byte ptr [rax], al
+0x16d5d7b0014:	add	byte ptr [rax], al
+0x16d5d7b0016:	add	byte ptr [rax], al
+0x16d5d7b0018:	add	byte ptr [rax], al
+0x16d5d7b001a:	add	byte ptr [rax], al
+0x16d5d7b001c:	add	byte ptr [rax], al
+0x16d5d7b001e:	add	byte ptr [rax], al
+0x16d5d7b0020:	add	byte ptr [rax], al
+0x16d5d7b0022:	add	byte ptr [rax], al
+0x16d5d7b0024:	add	byte ptr [rax], al
+0x16d5d7b0026:	add	byte ptr [rax], al
+0x16d5d7b0028:	add	byte ptr [rax], al
+0x16d5d7b002a:	add	byte ptr [rax], al
+0x16d5d7b002c:	add	byte ptr [rax], al
+0x16d5d7b002e:	add	byte ptr [rax], al
+0x16d5d7b0030:	add	byte ptr [rax], al
+0x16d5d7b0032:	add	byte ptr [rax], al
+0x16d5d7b0034:	add	byte ptr [rax], al
+0x16d5d7b0036:	add	byte ptr [rax], al
+0x16d5d7b0038:	add	byte ptr [rax], al
+0x16d5d7b003a:	add	byte ptr [rax], al
+0x16d5d7b003c:	add	byte ptr [rax], al
+0x16d5d7b003e:	add	byte ptr [rax], al"
+0,10164,sppsvc.exe,0x16d5d8c0000,0x16d5d8cffff,VadS,PAGE_EXECUTE_READ,16,1,Disabled,N/A,"
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................","
+0x16d5d8c0000:	add	byte ptr [rax], al
+0x16d5d8c0002:	add	byte ptr [rax], al
+0x16d5d8c0004:	add	byte ptr [rax], al
+0x16d5d8c0006:	add	byte ptr [rax], al
+0x16d5d8c0008:	add	byte ptr [rax], al
+0x16d5d8c000a:	add	byte ptr [rax], al
+0x16d5d8c000c:	add	byte ptr [rax], al
+0x16d5d8c000e:	add	byte ptr [rax], al
+0x16d5d8c0010:	add	byte ptr [rax], al
+0x16d5d8c0012:	add	byte ptr [rax], al
+0x16d5d8c0014:	add	byte ptr [rax], al
+0x16d5d8c0016:	add	byte ptr [rax], al
+0x16d5d8c0018:	add	byte ptr [rax], al
+0x16d5d8c001a:	add	byte ptr [rax], al
+0x16d5d8c001c:	add	byte ptr [rax], al
+0x16d5d8c001e:	add	byte ptr [rax], al
+0x16d5d8c0020:	add	byte ptr [rax], al
+0x16d5d8c0022:	add	byte ptr [rax], al
+0x16d5d8c0024:	add	byte ptr [rax], al
+0x16d5d8c0026:	add	byte ptr [rax], al
+0x16d5d8c0028:	add	byte ptr [rax], al
+0x16d5d8c002a:	add	byte ptr [rax], al
+0x16d5d8c002c:	add	byte ptr [rax], al
+0x16d5d8c002e:	add	byte ptr [rax], al
+0x16d5d8c0030:	add	byte ptr [rax], al
+0x16d5d8c0032:	add	byte ptr [rax], al
+0x16d5d8c0034:	add	byte ptr [rax], al
+0x16d5d8c0036:	add	byte ptr [rax], al
+0x16d5d8c0038:	add	byte ptr [rax], al
+0x16d5d8c003a:	add	byte ptr [rax], al
+0x16d5d8c003c:	add	byte ptr [rax], al
+0x16d5d8c003e:	add	byte ptr [rax], al"
+

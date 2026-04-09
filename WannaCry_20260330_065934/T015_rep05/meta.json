@@ -1,0 +1,11 @@
+{
+    "stage_hint":  0,
+    "snap_time":  "2026-03-30T08:23:52.9116222-07:00",
+    "rep":  5,
+    "run":  21,
+    "launch_time":  "2026-03-30T08:22:10.7236776-07:00",
+    "snap_name":  "WannaCry_T015_rep05",
+    "actual_offset_s":  15,
+    "family":  "WannaCry",
+    "target_offset_s":  15
+}

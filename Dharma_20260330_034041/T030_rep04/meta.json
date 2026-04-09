@@ -1,0 +1,11 @@
+{
+    "stage_hint":  1,
+    "snap_time":  "2026-03-30T04:45:53.5475809-07:00",
+    "rep":  4,
+    "run":  17,
+    "launch_time":  "2026-03-30T04:43:58.5421961-07:00",
+    "snap_name":  "Dharma_T030_rep04",
+    "actual_offset_s":  30,
+    "family":  "Dharma",
+    "target_offset_s":  30
+}

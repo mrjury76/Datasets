@@ -1,0 +1,105 @@
+TreeDepth,PID,Process,Start VPN,End VPN,Tag,Protection,CommitCharge,PrivateMemory,File output,Notes,Hexdump,Disasm
+0,2320,MsMpEng.exe,0x23757710000,0x2375780ffff,VadS,PAGE_EXECUTE_READWRITE,256,1,Disabled,N/A,"
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................","
+0x23757710000:	add	byte ptr [rax], al
+0x23757710002:	add	byte ptr [rax], al
+0x23757710004:	add	byte ptr [rax], al
+0x23757710006:	add	byte ptr [rax], al
+0x23757710008:	add	byte ptr [rax], al
+0x2375771000a:	add	byte ptr [rax], al
+0x2375771000c:	add	byte ptr [rax], al
+0x2375771000e:	add	byte ptr [rax], al
+0x23757710010:	add	byte ptr [rax], al
+0x23757710012:	add	byte ptr [rax], al
+0x23757710014:	add	byte ptr [rax], al
+0x23757710016:	add	byte ptr [rax], al
+0x23757710018:	add	byte ptr [rax], al
+0x2375771001a:	add	byte ptr [rax], al
+0x2375771001c:	add	byte ptr [rax], al
+0x2375771001e:	add	byte ptr [rax], al
+0x23757710020:	add	byte ptr [rax], al
+0x23757710022:	add	byte ptr [rax], al
+0x23757710024:	add	byte ptr [rax], al
+0x23757710026:	add	byte ptr [rax], al
+0x23757710028:	add	byte ptr [rax], al
+0x2375771002a:	add	byte ptr [rax], al
+0x2375771002c:	add	byte ptr [rax], al
+0x2375771002e:	add	byte ptr [rax], al
+0x23757710030:	add	byte ptr [rax], al
+0x23757710032:	add	byte ptr [rax], al
+0x23757710034:	add	byte ptr [rax], al
+0x23757710036:	add	byte ptr [rax], al
+0x23757710038:	add	byte ptr [rax], al
+0x2375771003a:	add	byte ptr [rax], al
+0x2375771003c:	add	byte ptr [rax], al
+0x2375771003e:	add	byte ptr [rax], al"
+0,10232,sppsvc.exe,0x2133aaf0000,0x2133aafffff,VadS,PAGE_EXECUTE_READ,16,1,Disabled,N/A,"
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................","
+0x2133aaf0000:	add	byte ptr [rax], al
+0x2133aaf0002:	add	byte ptr [rax], al
+0x2133aaf0004:	add	byte ptr [rax], al
+0x2133aaf0006:	add	byte ptr [rax], al
+0x2133aaf0008:	add	byte ptr [rax], al
+0x2133aaf000a:	add	byte ptr [rax], al
+0x2133aaf000c:	add	byte ptr [rax], al
+0x2133aaf000e:	add	byte ptr [rax], al
+0x2133aaf0010:	add	byte ptr [rax], al
+0x2133aaf0012:	add	byte ptr [rax], al
+0x2133aaf0014:	add	byte ptr [rax], al
+0x2133aaf0016:	add	byte ptr [rax], al
+0x2133aaf0018:	add	byte ptr [rax], al
+0x2133aaf001a:	add	byte ptr [rax], al
+0x2133aaf001c:	add	byte ptr [rax], al
+0x2133aaf001e:	add	byte ptr [rax], al
+0x2133aaf0020:	add	byte ptr [rax], al
+0x2133aaf0022:	add	byte ptr [rax], al
+0x2133aaf0024:	add	byte ptr [rax], al
+0x2133aaf0026:	add	byte ptr [rax], al
+0x2133aaf0028:	add	byte ptr [rax], al
+0x2133aaf002a:	add	byte ptr [rax], al
+0x2133aaf002c:	add	byte ptr [rax], al
+0x2133aaf002e:	add	byte ptr [rax], al
+0x2133aaf0030:	add	byte ptr [rax], al
+0x2133aaf0032:	add	byte ptr [rax], al
+0x2133aaf0034:	add	byte ptr [rax], al
+0x2133aaf0036:	add	byte ptr [rax], al
+0x2133aaf0038:	add	byte ptr [rax], al
+0x2133aaf003a:	add	byte ptr [rax], al
+0x2133aaf003c:	add	byte ptr [rax], al
+0x2133aaf003e:	add	byte ptr [rax], al"
+0,10232,sppsvc.exe,0x2133aae0000,0x2133aaeffff,VadS,PAGE_EXECUTE_READ,16,1,Disabled,N/A,"
+e0 43 e5 e8 e3 7d 00 00 36 00 00 00 00 00 00 00 .C...}..6.......
+48 8d 15 f9 ff ff ff 48 8b 0c 24 48 89 54 24 10 H......H..$H.T$.
+53 55 56 57 41 54 41 55 41 56 41 57 48 83 ec 28 SUVWATAUAVAWH..(
+4c 8b 79 10 4c 8b 49 08 49 8b f7 48 8b 42 f8 4c L.y.L.I.I..H.B.L","
+0x2133aae0000:	loopne	0x2133aae0045
+0x2133aae0002:	in	eax, 0xe8
+0x2133aae0004:	jrcxz	0x2133aae0083
+0x2133aae0006:	add	byte ptr [rax], al
+0x2133aae0008:	add	byte ptr ss:[rax], al
+0x2133aae000b:	add	byte ptr [rax], al
+0x2133aae000d:	add	byte ptr [rax], al
+0x2133aae000f:	add	byte ptr [rax - 0x73], cl
+0x2133aae0012:	adc	eax, 0xfffffff9
+0x2133aae0017:	mov	rcx, qword ptr [rsp]
+0x2133aae001b:	mov	qword ptr [rsp + 0x10], rdx
+0x2133aae0020:	push	rbx
+0x2133aae0021:	push	rbp
+0x2133aae0022:	push	rsi
+0x2133aae0023:	push	rdi
+0x2133aae0024:	push	r12
+0x2133aae0026:	push	r13
+0x2133aae0028:	push	r14
+0x2133aae002a:	push	r15
+0x2133aae002c:	sub	rsp, 0x28
+0x2133aae0030:	mov	r15, qword ptr [rcx + 0x10]
+0x2133aae0034:	mov	r9, qword ptr [rcx + 8]
+0x2133aae0038:	mov	rsi, r15
+0x2133aae003b:	mov	rax, qword ptr [rdx - 8]"
+

@@ -1,0 +1,51 @@
+==================================================
+ Volatility 3 Feature Extraction
+ Family:    Cerber
+ Snapshot:  /mnt/d/Patrick/VMSnapshots/Cerber_20260326_150808/T240_rep02/Cerber_T240_rep02.vmem
+ Started:   2026-03-29 18:53:18
+==================================================
+
+[+] Running windows.pstree to find Cerber PIDs (hints: ['cerber'])...
+    -> Parsed 117 processes
+    [!] No Cerber processes found. Running without PID filter.
+
+[+] Running windows.pslist...
+    117 rows
+
+[+] Running windows.psscan...
+    117 rows
+
+[+] Running windows.cmdline...
+    117 rows
+
+[+] Running windows.dlllist...
+    3016 rows
+
+[+] Running windows.ldrmodules...
+    552 rows
+
+[+] Running windows.malfind...
+    16 rows
+
+[+] Running windows.vadinfo...
+    18313 rows
+
+[+] Running windows.handles...
+    37861 rows
+
+[+] Running windows.filescan...
+    13474 rows
+
+[+] Running windows.svcscan...
+    0 rows
+
+[+] Running windows.privileges...
+    4095 rows
+
+[+] Running windows.netstat...
+    41 rows
+
+[✓] CSV saved: /mnt/d/Patrick/VMSnapshots/Cerber_20260326_150808/T240_rep02/vol3_combined.csv
+[✓] Total rows: 77719
+[+] Done. Total time: 0:08:28.706497
+[+] Output directory: /mnt/d/Patrick/VMSnapshots/Cerber_20260326_150808/T240_rep02
