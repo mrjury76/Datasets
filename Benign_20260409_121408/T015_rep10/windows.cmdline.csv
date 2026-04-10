@@ -1,0 +1,113 @@
+TreeDepth,PID,Process,Args
+0,4,System,-
+0,92,Registry,-
+0,308,smss.exe,-
+0,420,csrss.exe,-
+0,496,wininit.exe,-
+0,504,csrss.exe,-
+0,564,winlogon.exe,-
+0,636,services.exe,C:\\Windows\\system32\\services.exe
+0,660,lsass.exe,C:\\Windows\\system32\\lsass.exe
+0,764,svchost.exe,C:\\Windows\\system32\\svchost.exe -k DcomLaunch -p
+0,792,fontdrvhost.ex,-
+0,796,fontdrvhost.ex,-
+0,884,svchost.exe,C:\\Windows\\system32\\svchost.exe -k RPCSS -p
+0,968,dwm.exe,"""dwm.exe"""
+0,360,svchost.exe,C:\\Windows\\system32\\svchost.exe -k netsvcs -p
+0,680,svchost.exe,C:\\Windows\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p
+0,1044,svchost.exe,C:\\Windows\\system32\\svchost.exe -k LocalServiceNoNetwork -p
+0,1052,svchost.exe,C:\\Windows\\system32\\svchost.exe -k LocalServiceNetworkRestricted -p
+0,1196,svchost.exe,C:\\Windows\\system32\\svchost.exe -k LocalService -p
+0,1328,MemCompression,-
+0,1392,svchost.exe,C:\\Windows\\System32\\svchost.exe -k NetworkService -p
+0,1536,svchost.exe,C:\\Windows\\System32\\svchost.exe -k LocalServiceNetworkRestricted -p
+0,1676,svchost.exe,-
+0,1700,svchost.exe,-
+0,1708,svchost.exe,-
+0,1820,spoolsv.exe,-
+0,1880,svchost.exe,-
+0,1992,svchost.exe,-
+0,2012,svchost.exe,-
+0,2080,svchost.exe,-
+0,2192,svchost.exe,-
+0,2264,vmtoolsd.exe,"""C:\\Program Files\\VMware\\VMware Tools\\vmtoolsd.exe"""
+0,2272,VGAuthService.,-
+0,2280,vm3dservice.ex,-
+0,2320,MsMpEng.exe,"""C:\\Program Files\\Windows Defender\\MsMpEng.exe"""
+0,2364,Sysmon64.exe,C:\\Windows\\Sysmon64.exe
+0,2460,vm3dservice.ex,-
+0,2764,dllhost.exe,-
+0,2968,msdtc.exe,-
+0,2200,unsecapp.exe,-
+0,2616,WmiPrvSE.exe,C:\\Windows\\system32\\wbem\\wmiprvse.exe
+0,3220,sihost.exe,sihost.exe
+0,3268,svchost.exe,C:\\Windows\\system32\\svchost.exe -k UnistackSvcGroup
+0,3328,MicrosoftEdgeU,-
+0,3336,taskhostw.exe,taskhostw.exe {222A245B-E637-4AE9-A93F-A59CA119A75E}
+0,3484,ctfmon.exe,-
+0,3668,userinit.exe,-
+0,3720,explorer.exe,C:\\Windows\\Explorer.EXE
+0,4080,svchost.exe,C:\\Windows\\system32\\svchost.exe -k ClipboardSvcGroup -p
+0,4380,StartMenuExper,-
+0,4448,RuntimeBroker.,-
+0,4556,SearchApp.exe,-
+0,4564,SearchIndexer.,C:\\Windows\\system32\\SearchIndexer.exe /Embedding
+0,4668,RuntimeBroker.,-
+0,1816,RuntimeBroker.,-
+0,4220,svchost.exe,-
+0,4872,SecurityHealth,-
+0,1752,SecurityHealth,C:\\Windows\\system32\\SecurityHealthService.exe
+0,5236,vmtoolsd.exe,-
+0,5332,TextInputHost.,"""C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\InputApp\\TextInputHost.exe"" -ServerName:InputApp.AppX9jnwykgrccxc8by3hsrsh07r423xzvav.mca"
+0,5340,OneDrive.exe,"""C:\\Users\\Patrick\\AppData\\Local\\Microsoft\\OneDrive\\OneDrive.exe"" /background"
+0,5560,dllhost.exe,-
+0,5880,ApplicationFra,C:\\Windows\\system32\\ApplicationFrameHost.exe -Embedding
+0,6696,msedgewebview2,-
+0,6740,svchost.exe,-
+0,7860,Taskmgr.exe,"""C:\\Windows\\System32\\Taskmgr.exe"" /2"
+0,7540,ShellExperienc,"""C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe"" -ServerName:App.AppXtk181tbxbce2qsex02s8tw7hfxa9xb3t.mca"
+0,4812,RuntimeBroker.,-
+0,4104,svchost.exe,-
+0,9848,SgrmBroker.exe,-
+0,9980,svchost.exe,C:\\Windows\\System32\\svchost.exe -k LocalServiceNetworkRestricted -p
+0,7324,M365Copilot.ex,-
+0,9540,RuntimeBroker.,-
+0,1604,msedgewebview2,-
+0,3180,msedgewebview2,-
+0,2004,msedgewebview2,-
+0,1164,msedgewebview2,-
+0,1932,msedgewebview2,-
+0,5352,msedgewebview2,-
+0,6236,OneDrive.Sync.,"""C:\\Users\\Patrick\\AppData\\Local\\Microsoft\\OneDrive\\26.035.0222.0002_1\\OneDrive.Sync.Service.exe"" /silentConfig"
+0,2092,UserOOBEBroker,-
+0,632,OpenWith.exe,-
+0,8964,taskhostw.exe,-
+0,340,smartscreen.ex,C:\\Windows\\System32\\smartscreen.exe -Embedding
+0,2692,audiodg.exe,C:\\Windows\\system32\\AUDIODG.EXE 0x514
+0,10116,svchost.exe,-
+0,7400,upfc.exe,C:\\Windows\\System32\\Upfc.exe /launchtype periodic /cv C7sdHI3ODU277xE6z/uy4w.0
+0,6440,StoreDesktopEx,-
+0,5392,MoUsoCoreWorke,-
+0,7172,WmiPrvSE.exe,-
+0,6700,TrustedInstall,-
+0,8596,TiWorker.exe,-
+0,6480,Calculator.exe,"""C:\\Program Files\\WindowsApps\\Microsoft.WindowsCalculator_10.1906.55.0_x64__8wekyb3d8bbwe\\Calculator.exe"" -ServerName:App.AppXsm3pg4n7er43kdh1qp4e79f1j7am68r8.mca"
+0,7524,RuntimeBroker.,C:\\Windows\\System32\\RuntimeBroker.exe -Embedding
+0,344,explorer.exe,"C:\\Windows\\explorer.exe /factory,{75dff2b7-6936-4c06-a8bb-676a7b00b24b} -Embedding"
+0,9916,firefox.exe,"""C:\\Program Files\\Mozilla Firefox\\firefox.exe"""
+0,1216,crashhelper.ex,-
+0,6656,firefox.exe,"""C:\\Program Files\\Mozilla Firefox\\firefox.exe"" -contentproc -parentBuildID 20260318190823 -prefsHandle 1776:35552 -prefMapHandle 1780:294132 -ipcHandle 1800 -initialChannelId {c7648002-f179-41e1-957f-5c4e5c9dac45} -parentPid 9916 -crashReporter ""\\\\.\\pipe\\gecko-crash-server-pipe.9916"" -crashHelper 1820 -appDir ""C:\\Program Files\\Mozilla Firefox\\browser"" - 1 gpu"
+0,6344,firefox.exe,"""C:\\Program Files\\Mozilla Firefox\\firefox.exe"" -contentproc -parentBuildID 20260318190823 -prefsHandle 3108:35619 -prefMapHandle 3112:294132 -ipcHandle 3116 -initialChannelId {5596f48d-1fc5-4f1f-8a27-7030d1e94cf6} -parentPid 9916 -crashReporter ""\\\\.\\pipe\\gecko-crash-server-pipe.9916"" -crashHelper 3124 -win32kLockedDown -appDir ""C:\\Program Files\\Mozilla Firefox\\browser"" - 2 socket"
+0,9864,firefox.exe,"""C:\\Program Files\\Mozilla Firefox\\firefox.exe"" -contentproc -parentBuildID 20260318190823 -prefsHandle 2416:35905 -prefMapHandle 2252:294132 -ipcHandle 2584 -initialChannelId {e962f046-e2a6-4570-bda3-c986f7026739} -parentPid 9916 -crashReporter ""\\\\.\\pipe\\gecko-crash-server-pipe.9916"" -crashHelper 3276 -appDir ""C:\\Program Files\\Mozilla Firefox\\browser"" - 4 rdd"
+0,10012,firefox.exe,"""C:\\Program Files\\Mozilla Firefox\\firefox.exe"" -contentproc -isForBrowser -prefsHandle 3664:35905 -prefMapHandle 3668:294132 -jsInitHandle 3672:156136 -parentBuildID 20260318190823 -ipcHandle 3680 -initialChannelId {9b8774b4-f672-4170-9ed4-40e5c4d8d9a2} -parentPid 9916 -crashReporter ""\\\\.\\pipe\\gecko-crash-server-pipe.9916"" -crashHelper 3688 -win32kLockedDown -appDir ""C:\\Program Files\\Mozilla Firefox\\browser"" - 5 tab"
+0,3168,firefox.exe,"""C:\\Program Files\\Mozilla Firefox\\firefox.exe"" -contentproc -isForBrowser -prefsHandle 4220:32112 -prefMapHandle 4224:294132 -jsInitHandle 4228:156136 -parentBuildID 20260318190823 -ipcHandle 4236 -initialChannelId {f983ba91-2906-4a5d-b5dc-a755e368442c} -parentPid 9916 -crashReporter ""\\\\.\\pipe\\gecko-crash-server-pipe.9916"" -crashHelper 4244 -win32kLockedDown -appDir ""C:\\Program Files\\Mozilla Firefox\\browser"" - 6 tab"
+0,4932,firefox.exe,"""C:\\Program Files\\Mozilla Firefox\\firefox.exe"" -contentproc -isForBrowser -prefsHandle 3532:36029 -prefMapHandle 3536:294132 -jsInitHandle 2568:156136 -parentBuildID 20260318190823 -ipcHandle 2520 -initialChannelId {ccfc0f10-47ba-44af-92b9-c2bb5ab3b22f} -parentPid 9916 -crashReporter ""\\\\.\\pipe\\gecko-crash-server-pipe.9916"" -crashHelper 3648 -win32kLockedDown -appDir ""C:\\Program Files\\Mozilla Firefox\\browser"" - 7 tab"
+0,6084,firefox.exe,"""C:\\Program Files\\Mozilla Firefox\\firefox.exe"" -contentproc -parentBuildID 20260318190823 -sandboxingKind 0 -prefsHandle 5012:47620 -prefMapHandle 5016:294132 -ipcHandle 5024 -initialChannelId {ad5200f6-7c4b-4471-96f3-3b7872357f84} -parentPid 9916 -crashReporter ""\\\\.\\pipe\\gecko-crash-server-pipe.9916"" -crashHelper 5032 -win32kLockedDown -appDir ""C:\\Program Files\\Mozilla Firefox\\browser"" - 9 utility"
+0,8300,firefox.exe,"""C:\\Program Files\\Mozilla Firefox\\firefox.exe"" -contentproc -isForBrowser -prefsHandle 5188:43645 -prefMapHandle 5192:294132 -jsInitHandle 5196:156136 -parentBuildID 20260318190823 -ipcHandle 5172 -initialChannelId {02887870-8ff6-46b3-a706-005790fa0d71} -parentPid 9916 -crashReporter ""\\\\.\\pipe\\gecko-crash-server-pipe.9916"" -crashHelper 5204 -win32kLockedDown -appDir ""C:\\Program Files\\Mozilla Firefox\\browser"" - 10 tab"
+0,3888,firefox.exe,"""C:\\Program Files\\Mozilla Firefox\\firefox.exe"" -contentproc -isForBrowser -prefsHandle 5252:43645 -prefMapHandle 5256:294132 -jsInitHandle 5260:156136 -parentBuildID 20260318190823 -ipcHandle 5172 -initialChannelId {de2f6572-8168-4908-847e-29259b4a9acb} -parentPid 9916 -crashReporter ""\\\\.\\pipe\\gecko-crash-server-pipe.9916"" -crashHelper 5192 -win32kLockedDown -appDir ""C:\\Program Files\\Mozilla Firefox\\browser"" - 11 tab"
+0,3980,firefox.exe,"""C:\\Program Files\\Mozilla Firefox\\firefox.exe"" -contentproc -isForBrowser -prefsHandle 2636:43998 -prefMapHandle 5024:294132 -jsInitHandle 5872:156136 -parentBuildID 20260318190823 -ipcHandle 1080 -initialChannelId {8545b3bc-8fd6-46f2-b01b-c463ccd55b5f} -parentPid 9916 -crashReporter ""\\\\.\\pipe\\gecko-crash-server-pipe.9916"" -crashHelper 3028 -win32kLockedDown -appDir ""C:\\Program Files\\Mozilla Firefox\\browser"" - 12 tab"
+0,3296,firefox.exe,"""C:\\Program Files\\Mozilla Firefox\\firefox.exe"" -contentproc -parentBuildID 20260318190823 -sandboxingKind 1 -prefsHandle 5688:47973 -prefMapHandle 5576:294132 -ipcHandle 5024 -initialChannelId {896a6b89-0e68-4af2-8a63-ed1f051b67ef} -parentPid 9916 -crashReporter ""\\\\.\\pipe\\gecko-crash-server-pipe.9916"" -crashHelper 5988 -win32kLockedDown -appDir ""C:\\Program Files\\Mozilla Firefox\\browser"" - 13 utility"
+0,10140,firefox.exe,"""C:\\Program Files\\Mozilla Firefox\\firefox.exe"" -contentproc -parentBuildID 20260318190823 -sandboxingKind 2 -prefsHandle 5872:47973 -prefMapHandle 1080:294132 -ipcHandle 2856 -initialChannelId {5c8eae12-3126-4f71-abc0-6170610ef7f2} -parentPid 9916 -crashReporter ""\\\\.\\pipe\\gecko-crash-server-pipe.9916"" -crashHelper 6008 -appDir ""C:\\Program Files\\Mozilla Firefox\\browser"" - 14 utility"
+0,8652,SearchProtocol,"""C:\\Windows\\system32\\SearchProtocolHost.exe"" Global\\UsGthrFltPipeMssGthrPipe6_ Global\\UsGthrCtrlFltPipeMssGthrPipe6 1 -2147483646 ""Software\\Microsoft\\Windows Search"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows NT; MS Search 4.0 Robot)"" ""C:\\ProgramData\\Microsoft\\Search\\Data\\Temp\\usgthrsvc"" ""DownLevelDaemon"" "
+0,7232,SearchFilterHo,"""C:\\Windows\\system32\\SearchFilterHost.exe"" 0 800 804 812 8192 808 784 "
+

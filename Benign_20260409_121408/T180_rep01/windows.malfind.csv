@@ -1,0 +1,62 @@
+TreeDepth,PID,Process,Start VPN,End VPN,Tag,Protection,CommitCharge,PrivateMemory,File output,Notes,Hexdump,Disasm
+0,2320,MsMpEng.exe,0x23757710000,0x2375780ffff,VadS,PAGE_EXECUTE_READWRITE,256,1,Disabled,N/A,"
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................","
+0x23757710000:	add	byte ptr [rax], al
+0x23757710002:	add	byte ptr [rax], al
+0x23757710004:	add	byte ptr [rax], al
+0x23757710006:	add	byte ptr [rax], al
+0x23757710008:	add	byte ptr [rax], al
+0x2375771000a:	add	byte ptr [rax], al
+0x2375771000c:	add	byte ptr [rax], al
+0x2375771000e:	add	byte ptr [rax], al
+0x23757710010:	add	byte ptr [rax], al
+0x23757710012:	add	byte ptr [rax], al
+0x23757710014:	add	byte ptr [rax], al
+0x23757710016:	add	byte ptr [rax], al
+0x23757710018:	add	byte ptr [rax], al
+0x2375771001a:	add	byte ptr [rax], al
+0x2375771001c:	add	byte ptr [rax], al
+0x2375771001e:	add	byte ptr [rax], al
+0x23757710020:	add	byte ptr [rax], al
+0x23757710022:	add	byte ptr [rax], al
+0x23757710024:	add	byte ptr [rax], al
+0x23757710026:	add	byte ptr [rax], al
+0x23757710028:	add	byte ptr [rax], al
+0x2375771002a:	add	byte ptr [rax], al
+0x2375771002c:	add	byte ptr [rax], al
+0x2375771002e:	add	byte ptr [rax], al
+0x23757710030:	add	byte ptr [rax], al
+0x23757710032:	add	byte ptr [rax], al
+0x23757710034:	add	byte ptr [rax], al
+0x23757710036:	add	byte ptr [rax], al
+0x23757710038:	add	byte ptr [rax], al
+0x2375771003a:	add	byte ptr [rax], al
+0x2375771003c:	add	byte ptr [rax], al
+0x2375771003e:	add	byte ptr [rax], al"
+0,4556,SearchApp.exe,0x17cf9910000,0x17cf992ffff,VadS,PAGE_EXECUTE_READWRITE,6,1,Disabled,N/A,"
+24 0c 19 00 24 0c 1a 00 24 0c 1b 00 24 0c 1c 00 $...$...$...$...
+24 0c 1d 00 5f 0c 00 00 5f 0c 01 00 5f 0c 03 00 $..._..._..._...
+5f 0c 05 00 60 0c 00 00 60 0c 01 00 60 0c 03 00 _...`...`...`...
+60 0c 05 00 61 0c 00 00 61 0c 01 00 61 0c 03 00 `...a...a...a...","
+0x17cf9910000:	and	al, 0xc
+0x17cf9910002:	sbb	dword ptr [rax], eax
+0x17cf9910004:	and	al, 0xc
+0x17cf9910006:	sbb	al, byte ptr [rax]
+0x17cf9910008:	and	al, 0xc
+0x17cf991000a:	sbb	eax, dword ptr [rax]
+0x17cf991000c:	and	al, 0xc
+0x17cf991000e:	sbb	al, 0
+0x17cf9910010:	and	al, 0xc
+0x17cf9910012:	sbb	eax, 0xc5f00
+0x17cf9910017:	add	byte ptr [rdi + 0xc], bl
+0x17cf991001a:	add	dword ptr [rax], eax
+0x17cf991001c:	pop	rdi
+0x17cf991001d:	or	al, 3
+0x17cf991001f:	add	byte ptr [rdi + 0xc], bl
+0x17cf9910022:	add	eax, 0xc6000
+0x17cf9910027:	add	byte ptr [rax + 0xc], ah
+0x17cf991002a:	add	dword ptr [rax], eax"
+

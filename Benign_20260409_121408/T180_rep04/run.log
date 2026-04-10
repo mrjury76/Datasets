@@ -1,0 +1,37 @@
+==================================================
+ Volatility 3 Feature Extraction
+ Family:    Benign
+ Snapshot:  /mnt/d/Patrick/VMSnapshots/Datasets/Benign_20260409_121408/T180_rep04/Benign_T180_rep04_133757.vmem
+ Started:   2026-04-09 20:04:56
+==================================================
+
+[+] Benign family — no PID filter, capturing all processes.
+[+] Done: windows.pslist
+[+] Done: windows.privileges
+[+] Done: windows.netstat
+[+] Done: windows.cmdline
+[+] Done: windows.dlllist
+[+] Done: windows.svcscan
+[+] Done: windows.psscan
+[+] Done: windows.ldrmodules
+[+] Done: windows.filescan
+[+] Done: windows.handles
+[+] Done: windows.malfind
+[+] Done: windows.vadinfo
+    windows.pslist: 93 rows
+    windows.psscan: 111 rows
+    windows.cmdline: 93 rows
+    windows.dlllist: 5074 rows
+    windows.ldrmodules: 132 rows
+    windows.malfind: 2 rows
+    windows.vadinfo: 17061 rows
+    windows.handles: 39252 rows
+    windows.filescan: 5993 rows
+    windows.svcscan: 1362 rows
+    windows.privileges: 3255 rows
+    windows.netstat: 40 rows
+
+[✓] CSV saved: /mnt/d/Patrick/VMSnapshots/Datasets/Benign_20260409_121408/T180_rep04/vol3_combined.csv
+[✓] Total rows: 72468
+[+] Done. Total time: 0:03:59.720850
+[+] Output directory: /mnt/d/Patrick/VMSnapshots/Datasets/Benign_20260409_121408/T180_rep04

@@ -1,0 +1,654 @@
+TreeDepth,Pid,Process,Base,InLoad,InInit,InMem,MappedPath
+0,636,services.exe,0x7ff7ea850000,True,False,True,\\Windows\\System32\\services.exe
+0,636,services.exe,0x22d21170000,False,False,False,\\Windows\\System32\\en-US\\services.exe.mui
+0,660,lsass.exe,0x7ff68a6f0000,True,False,True,\\Windows\\System32\\lsass.exe
+0,660,lsass.exe,0x7ffeeb670000,True,True,True,\\Windows\\System32\\kernel32.dll
+0,660,lsass.exe,0x7ffeeaab0000,True,True,True,N/A
+0,660,lsass.exe,0x7ffeeaff0000,True,True,True,\\Windows\\System32\\user32.dll
+0,660,lsass.exe,0x7ffeec730000,True,True,True,\\Windows\\System32\\gdi32.dll
+0,660,lsass.exe,0x7ffeecad0000,True,True,True,N/A
+0,764,svchost.exe,0x7ffee92c0000,False,False,False,\\Windows\\System32\\rsaenh.dll
+0,764,svchost.exe,0x7ffeecad0000,True,True,True,N/A
+0,884,svchost.exe,0x1f62f340000,False,False,False,N/A
+0,884,svchost.exe,0x7ffee8230000,True,True,True,\\Windows\\System32\\rpcss.dll
+0,884,svchost.exe,0x7ffeeade0000,True,True,True,\\Windows\\System32\\rpcrt4.dll
+0,884,svchost.exe,0x7ffeea570000,True,True,True,\\Windows\\System32\\KernelBase.dll
+0,884,svchost.exe,0x7ffeeb310000,True,True,True,\\Windows\\System32\\combase.dll
+0,360,svchost.exe,0x25581510000,False,False,False,\\Windows\\System32\\en-US\\qmgr.dll.mui
+0,360,svchost.exe,0x255f8a00000,False,False,False,N/A
+0,360,svchost.exe,0x7ff6be0c0000,True,False,True,N/A
+0,360,svchost.exe,0x7ffed6c40000,True,True,True,N/A
+0,360,svchost.exe,0x7ffeddd30000,True,True,True,\\Windows\\System32\\qmgr.dll
+0,360,svchost.exe,0x7ffee5890000,True,True,True,\\Windows\\System32\\profsvc.dll
+0,360,svchost.exe,0x7ffeea570000,True,True,True,\\Windows\\System32\\KernelBase.dll
+0,360,svchost.exe,0x7ffeeb310000,True,True,True,\\Windows\\System32\\combase.dll
+0,360,svchost.exe,0x7ffeecad0000,True,True,True,N/A
+0,1052,svchost.exe,0x7ff6be0c0000,True,False,True,N/A
+0,1052,svchost.exe,0x7ffeeaab0000,True,True,True,N/A
+0,1536,svchost.exe,0x7ffee40c0000,True,True,True,N/A
+0,1536,svchost.exe,0x7ff6be0c0000,True,False,True,N/A
+0,1880,svchost.exe,0x7ffeecad0000,False,False,False,N/A
+0,2264,vmtoolsd.exe,0x7ffee9620000,True,True,True,\\Windows\\System32\\IPHLPAPI.DLL
+0,2264,vmtoolsd.exe,0x7ffeea0c0000,True,True,True,\\Windows\\System32\\userenv.dll
+0,2364,Sysmon64.exe,0x7ff7af260000,True,False,True,\\Windows\\Sysmon64.exe
+0,2364,Sysmon64.exe,0x7ffeeb670000,True,True,True,\\Windows\\System32\\kernel32.dll
+0,2616,WmiPrvSE.exe,0x2276ec50000,False,False,False,N/A
+0,2616,WmiPrvSE.exe,0x7ffed7050000,True,True,True,\\Windows\\System32\\wbem\\cimwin32.dll
+0,2616,WmiPrvSE.exe,0x7ffed7da0000,False,False,False,\\Windows\\System32\\wmitomi.dll
+0,3720,explorer.exe,0x8e0000,False,False,False,\\Windows\\en-US\\explorer.exe.mui
+0,3720,explorer.exe,0x7ff677df0000,True,False,True,\\Windows\\explorer.exe
+0,4564,SearchIndexer.,0x7ffee8380000,True,True,True,\\Windows\\System32\\windows.storage.dll
+0,4564,SearchIndexer.,0x7ffeeb670000,True,True,True,\\Windows\\System32\\kernel32.dll
+0,5340,OneDrive.exe,0x7ffeeaab0000,True,True,True,N/A
+0,7860,Taskmgr.exe,0x19e43970000,False,False,False,\\Windows\\System32\\en-US\\Taskmgr.exe.mui
+0,7860,Taskmgr.exe,0x7ff63fe30000,True,False,True,\\Windows\\System32\\Taskmgr.exe
+0,7860,Taskmgr.exe,0x7ffeebdb0000,True,True,True,\\Windows\\System32\\shell32.dll
+0,1604,msedgewebview2,0x7ff6da440000,False,False,False,\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.62\\msedgewebview2.exe
+0,1164,msedgewebview2,0x7ff6da440000,False,False,False,\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.62\\msedgewebview2.exe
+0,6236,OneDrive.Sync.,0x7ff62fd10000,True,False,True,\\Users\\Patrick\\AppData\\Local\\Microsoft\\OneDrive\\26.035.0222.0002_1\\OneDrive.Sync.Service.exe
+0,6236,OneDrive.Sync.,0x7ffeeaab0000,True,True,True,N/A
+0,2692,audiodg.exe,0x7ffeea570000,True,True,True,\\Windows\\System32\\KernelBase.dll
+0,2692,audiodg.exe,0x7ffee9ef0000,True,True,True,\\Windows\\System32\\devobj.dll
+0,2692,audiodg.exe,0x7ff6eb090000,True,False,True,\\Windows\\System32\\audiodg.exe
+0,2692,audiodg.exe,0x7ffee40c0000,True,True,True,N/A
+0,2692,audiodg.exe,0x7ffed8640000,True,True,True,N/A
+0,2692,audiodg.exe,0x7ffecb9a0000,True,True,True,N/A
+0,2692,audiodg.exe,0x7ffedd7f0000,True,True,True,N/A
+0,2692,audiodg.exe,0x7ffee8180000,True,True,True,\\Windows\\System32\\kernel.appcore.dll
+0,2692,audiodg.exe,0x7ffeea210000,True,True,True,\\Windows\\System32\\msvcp_win.dll
+0,2692,audiodg.exe,0x7ffeea070000,True,True,True,\\Windows\\System32\\powrprof.dll
+0,2692,audiodg.exe,0x7ffeea050000,True,True,True,\\Windows\\System32\\umpdc.dll
+0,2692,audiodg.exe,0x7ffeea3c0000,True,True,True,\\Windows\\System32\\ucrtbase.dll
+0,2692,audiodg.exe,0x7ffeea2b0000,True,True,True,\\Windows\\System32\\gdi32full.dll
+0,2692,audiodg.exe,0x7ffeea4f0000,True,True,True,\\Windows\\System32\\cfgmgr32.dll
+0,2692,audiodg.exe,0x7ffeea540000,True,True,True,\\Windows\\System32\\win32u.dll
+0,2692,audiodg.exe,0x7ffeeb670000,True,True,True,\\Windows\\System32\\kernel32.dll
+0,2692,audiodg.exe,0x7ffeeade0000,True,True,True,\\Windows\\System32\\rpcrt4.dll
+0,2692,audiodg.exe,0x7ffeeaab0000,True,True,True,N/A
+0,2692,audiodg.exe,0x7ffeeab30000,True,True,True,\\Windows\\System32\\clbcatq.dll
+0,2692,audiodg.exe,0x7ffeeb190000,True,True,True,\\Windows\\System32\\sechost.dll
+0,2692,audiodg.exe,0x7ffeeaff0000,True,True,True,\\Windows\\System32\\user32.dll
+0,2692,audiodg.exe,0x7ffeeaf40000,True,True,True,\\Windows\\System32\\advapi32.dll
+0,2692,audiodg.exe,0x7ffeeb310000,True,True,True,\\Windows\\System32\\combase.dll
+0,2692,audiodg.exe,0x7ffeec800000,True,True,True,\\Windows\\System32\\SHCore.dll
+0,2692,audiodg.exe,0x7ffeec730000,True,True,True,\\Windows\\System32\\gdi32.dll
+0,2692,audiodg.exe,0x7ffeec500000,True,True,True,\\Windows\\System32\\oleaut32.dll
+0,2692,audiodg.exe,0x7ffeec760000,True,True,True,\\Windows\\System32\\msvcrt.dll
+0,2692,audiodg.exe,0x7ffeecad0000,True,True,True,N/A
+0,5556,firefox.exe,0x171417f0000,False,False,False,\\Windows\\System32\\en-US\\mswsock.dll.mui
+0,5556,firefox.exe,0x17151af0000,False,False,False,\\Windows\\System32\\en-US\\wscapi.dll.mui
+0,5556,firefox.exe,0x17156260000,False,False,False,\\Windows\\System32\\en-US\\shlwapi.dll.mui
+0,5556,firefox.exe,0x17156250000,False,False,False,N/A
+0,5556,firefox.exe,0x17156280000,False,False,False,\\Windows\\System32\\en-US\\sechost.dll.mui
+0,5556,firefox.exe,0x17156270000,False,False,False,\\Windows\\System32\\en-US\\bcrypt.dll.mui
+0,5556,firefox.exe,0x17156290000,False,False,False,\\Windows\\System32\\en-US\\rpcrt4.dll.mui
+0,5556,firefox.exe,0x171562c0000,False,False,False,N/A
+0,5556,firefox.exe,0x17157200000,False,False,False,N/A
+0,5556,firefox.exe,0x17158790000,False,False,False,\\Windows\\System32\\en-US\\propsys.dll.mui
+0,5556,firefox.exe,0x17159d10000,False,False,False,\\Windows\\System32\\en-US\\user32.dll.mui
+0,5556,firefox.exe,0x17159d00000,False,False,False,\\Windows\\System32\\en-US\\advapi32.dll.mui
+0,5556,firefox.exe,0x17159db0000,False,False,False,\\Windows\\System32\\en-US\\dwmapi.dll.mui
+0,5556,firefox.exe,0x17159d30000,False,False,False,\\Windows\\System32\\en-US\\shell32.dll.mui
+0,5556,firefox.exe,0x17159d20000,False,False,False,N/A
+0,5556,firefox.exe,0x17159da0000,False,False,False,\\Windows\\System32\\en-US\\ole32.dll.mui
+0,5556,firefox.exe,0x17159dd0000,False,False,False,\\Windows\\System32\\en-US\\wsock32.dll.mui
+0,5556,firefox.exe,0x17159dc0000,False,False,False,\\Windows\\System32\\en-US\\ws2_32.dll.mui
+0,5556,firefox.exe,0x17159de0000,False,False,False,\\Windows\\System32\\en-US\\ncrypt.dll.mui
+0,5556,firefox.exe,0x17159df0000,False,False,False,\\Windows\\System32\\en-US\\ntasn1.dll.mui
+0,5556,firefox.exe,0x1715af10000,False,False,False,\\Windows\\System32\\en-US\\winmm.dll.mui
+0,5556,firefox.exe,0x1715af00000,False,False,False,\\Windows\\System32\\en-US\\DWrite.dll.mui
+0,5556,firefox.exe,0x1715af80000,False,False,False,\\Windows\\System32\\en-US\\Windows.UI.dll.mui
+0,5556,firefox.exe,0x1715af40000,False,False,False,\\Windows\\System32\\en-US\\SHCore.dll.mui
+0,5556,firefox.exe,0x1715af30000,False,False,False,\\Windows\\System32\\en-US\\napinsp.dll.mui
+0,5556,firefox.exe,0x1715af20000,False,False,False,\\Windows\\System32\\en-US\\uxtheme.dll.mui
+0,5556,firefox.exe,0x1715af60000,False,False,False,\\Windows\\System32\\en-US\\wintypes.dll.mui
+0,5556,firefox.exe,0x1715af50000,False,False,False,\\Windows\\System32\\en-US\\avrt.dll.mui
+0,5556,firefox.exe,0x1715af70000,False,False,False,\\Windows\\System32\\en-US\\twinapi.appcore.dll.mui
+0,5556,firefox.exe,0x1715afc0000,False,False,False,\\Windows\\System32\\en-US\\winspool.drv.mui
+0,5556,firefox.exe,0x1715afa0000,False,False,False,\\Windows\\System32\\en-US\\iphlpapi.dll.mui
+0,5556,firefox.exe,0x1715af90000,False,False,False,\\Windows\\System32\\en-US\\pnrpnsp.dll.mui
+0,5556,firefox.exe,0x1715afb0000,False,False,False,\\Windows\\System32\\en-US\\Windows.UI.Immersive.dll.mui
+0,5556,firefox.exe,0x1715aff0000,False,False,False,\\Windows\\System32\\en-US\\msctf.dll.mui
+0,5556,firefox.exe,0x1715afe0000,False,False,False,\\Windows\\System32\\en-US\\twinapi.dll.mui
+0,5556,firefox.exe,0x1715f5e0000,False,False,False,\\Windows\\System32\\en-US\\setupapi.dll.mui
+0,5556,firefox.exe,0x1715f5f0000,False,False,False,\\Windows\\System32\\en-US\\userenv.dll.mui
+0,5556,firefox.exe,0x1715f940000,False,False,False,\\Windows\\System32\\en-US\\winmmbase.dll.mui
+0,5556,firefox.exe,0x1715f930000,False,False,False,\\Windows\\System32\\en-US\\msacm32.dll.mui
+0,5556,firefox.exe,0x17160240000,False,False,False,\\Windows\\System32\\en-US\\AudioSes.dll.mui
+0,5556,firefox.exe,0x17160200000,False,False,False,\\Windows\\System32\\en-US\\mscms.dll.mui
+0,5556,firefox.exe,0x17160220000,False,False,False,N/A
+0,5556,firefox.exe,0x17160210000,False,False,False,N/A
+0,5556,firefox.exe,0x17160230000,False,False,False,\\Windows\\System32\\en-US\\powrprof.dll.mui
+0,5556,firefox.exe,0x17160280000,False,False,False,\\Windows\\System32\\en-US\\winhttp.dll.mui
+0,5556,firefox.exe,0x17160260000,False,False,False,\\Windows\\System32\\en-US\\iertutil.dll.mui
+0,5556,firefox.exe,0x17160250000,False,False,False,\\Windows\\System32\\en-US\\urlmon.dll.mui
+0,5556,firefox.exe,0x17160270000,False,False,False,\\Windows\\System32\\en-US\\wininet.dll.mui
+0,5556,firefox.exe,0x171602a0000,False,False,False,\\Windows\\System32\\en-US\\rsaenh.dll.mui
+0,5556,firefox.exe,0x17160290000,False,False,False,\\Windows\\System32\\en-US\\taskschd.dll.mui
+0,5556,firefox.exe,0x171602b0000,False,False,False,\\Windows\\System32\\en-US\\devenum.dll.mui
+0,5556,firefox.exe,0x17160eb0000,False,False,False,\\Windows\\System32\\en-US\\hid.dll.mui
+0,5556,firefox.exe,0x17160e80000,False,False,False,\\Windows\\System32\\Speech\\Common\\en-US\\sapi.dll.mui
+0,5556,firefox.exe,0x17160ea0000,False,False,False,\\Windows\\System32\\en-US\\SensorsApi.dll.mui
+0,5556,firefox.exe,0x17160e90000,False,False,False,\\Windows\\System32\\en-US\\SensorsUtilsV2.dll.mui
+0,5556,firefox.exe,0x17160ec0000,False,False,False,\\Windows\\System32\\en-US\\XInput1_4.dll.mui
+0,5556,firefox.exe,0x17164c20000,False,False,False,\\Windows\\System32\\en-US\\MMDevAPI.dll.mui
+0,5556,firefox.exe,0x7ffed8820000,True,True,True,N/A
+0,5556,firefox.exe,0x7ffed4f90000,True,True,True,\\Windows\\System32\\winrnr.dll
+0,5556,firefox.exe,0x7ffec1510000,True,True,True,\\Program Files\\Mozilla Firefox\\nss3.dll
+0,5556,firefox.exe,0x7ff7e8ff0000,True,False,True,\\Program Files\\Mozilla Firefox\\firefox.exe
+0,5556,firefox.exe,0x7ffeb1b90000,True,True,True,\\Windows\\System32\\Speech\\Common\\sapi.dll
+0,5556,firefox.exe,0x7ffea90b0000,True,True,True,\\Program Files\\Mozilla Firefox\\libGLESv2.dll
+0,5556,firefox.exe,0x7ffe83550000,True,True,True,\\Program Files\\Mozilla Firefox\\xul.dll
+0,5556,firefox.exe,0x7ffeb1730000,True,True,True,\\Windows\\System32\\d3d9.dll
+0,5556,firefox.exe,0x7ffec0a40000,True,True,True,\\Program Files\\Mozilla Firefox\\gkcodecs.dll
+0,5556,firefox.exe,0x7ffecadd0000,True,True,True,\\Windows\\System32\\ExplorerFrame.dll
+0,5556,firefox.exe,0x7ffec6660000,True,True,True,\\Windows\\System32\\OnDemandConnRouteHelper.dll
+0,5556,firefox.exe,0x7ffec2f00000,True,True,True,\\Program Files\\Mozilla Firefox\\freebl3.dll
+0,5556,firefox.exe,0x7ffec6b10000,True,True,True,N/A
+0,5556,firefox.exe,0x7ffec6690000,True,True,True,N/A
+0,5556,firefox.exe,0x7ffec9ea0000,True,True,True,\\Windows\\System32\\linkinfo.dll
+0,5556,firefox.exe,0x7ffecb6d0000,True,True,True,\\Windows\\System32\\winspool.drv
+0,5556,firefox.exe,0x7ffecb040000,True,True,True,\\Windows\\System32\\DataExchange.dll
+0,5556,firefox.exe,0x7ffed2b90000,True,True,True,\\Windows\\System32\\SensorsApi.dll
+0,5556,firefox.exe,0x7ffed2b50000,True,True,True,\\Windows\\System32\\deviceaccess.dll
+0,5556,firefox.exe,0x7ffed4300000,True,True,True,\\Windows\\System32\\wshbth.dll
+0,5556,firefox.exe,0x7ffed6ea0000,True,True,True,\\Program Files\\Mozilla Firefox\\msvcp140.dll
+0,5556,firefox.exe,0x7ffed6280000,True,True,True,\\Windows\\System32\\twinapi.dll
+0,5556,firefox.exe,0x7ffed51c0000,True,True,True,\\Windows\\System32\\pnrpnsp.dll
+0,5556,firefox.exe,0x7ffed6e60000,True,True,True,\\Windows\\System32\\SensorsNativeApi.V2.dll
+0,5556,firefox.exe,0x7ffed7f80000,True,True,True,\\Windows\\System32\\devenum.dll
+0,5556,firefox.exe,0x7ffed7800000,True,True,True,\\Windows\\System32\\wininet.dll
+0,5556,firefox.exe,0x7ffed77e0000,True,True,True,\\Windows\\System32\\NapiNSP.dll
+0,5556,firefox.exe,0x7ffed7f50000,True,True,True,\\Windows\\System32\\SensorsUtilsV2.dll
+0,5556,firefox.exe,0x7ffed8100000,True,True,True,\\Windows\\System32\\Windows.Security.Integrity.dll
+0,5556,firefox.exe,0x7ffed8580000,True,True,True,\\Program Files\\Mozilla Firefox\\softokn3.dll
+0,5556,firefox.exe,0x7ffee8070000,True,True,True,\\Windows\\System32\\dwmapi.dll
+0,5556,firefox.exe,0x7ffee1190000,True,True,True,\\Windows\\System32\\winmm.dll
+0,5556,firefox.exe,0x7ffedbc20000,True,True,True,N/A
+0,5556,firefox.exe,0x7ffed9d00000,True,True,True,\\Program Files\\Mozilla Firefox\\vcruntime140.dll
+0,5556,firefox.exe,0x7ffed9a80000,True,True,True,\\Windows\\System32\\msdmo.dll
+0,5556,firefox.exe,0x7ffed98b0000,True,True,True,\\Program Files\\Mozilla Firefox\\lgpllibs.dll
+0,5556,firefox.exe,0x7ffed9a40000,True,True,True,\\Program Files\\Mozilla Firefox\\libEGL.dll
+0,5556,firefox.exe,0x7ffed9ab0000,True,True,True,\\Program Files\\Mozilla Firefox\\vcruntime140_1.dll
+0,5556,firefox.exe,0x7ffedb650000,True,True,True,N/A
+0,5556,firefox.exe,0x7ffeda830000,True,True,True,\\Windows\\System32\\ktmw32.dll
+0,5556,firefox.exe,0x7ffedb980000,True,True,True,\\Windows\\System32\\dbgcore.dll
+0,5556,firefox.exe,0x7ffedf6e0000,True,True,True,\\Windows\\System32\\Windows.Globalization.dll
+0,5556,firefox.exe,0x7ffede480000,True,True,True,N/A
+0,5556,firefox.exe,0x7ffedd7f0000,True,True,True,N/A
+0,5556,firefox.exe,0x7ffedebd0000,True,True,True,N/A
+0,5556,firefox.exe,0x7ffede600000,True,True,True,\\Windows\\System32\\XInput1_4.dll
+0,5556,firefox.exe,0x7ffee0a70000,True,True,True,\\Windows\\System32\\npmproxy.dll
+0,5556,firefox.exe,0x7ffedf890000,True,True,True,N/A
+0,5556,firefox.exe,0x7ffee04c0000,True,True,True,\\Windows\\System32\\winhttp.dll
+0,5556,firefox.exe,0x7ffee0ef0000,True,True,True,\\Windows\\System32\\Windows.UI.Immersive.dll
+0,5556,firefox.exe,0x7ffee0cd0000,True,True,True,\\Windows\\System32\\urlmon.dll
+0,5556,firefox.exe,0x7ffee1180000,True,True,True,\\Windows\\System32\\version.dll
+0,5556,firefox.exe,0x7ffee5210000,True,True,True,\\Windows\\System32\\WindowManagementAPI.dll
+0,5556,firefox.exe,0x7ffee3310000,True,True,True,\\Windows\\System32\\BCP47Langs.dll
+0,5556,firefox.exe,0x7ffee26c0000,True,True,True,\\Windows\\System32\\BCP47mrm.dll
+0,5556,firefox.exe,0x7ffee12e0000,True,True,True,\\Windows\\System32\\iertutil.dll
+0,5556,firefox.exe,0x7ffee1260000,True,True,True,\\Windows\\System32\\dhcpcsvc6.dll
+0,5556,firefox.exe,0x7ffee2660000,True,True,True,\\Windows\\System32\\DXCore.dll
+0,5556,firefox.exe,0x7ffee2f80000,True,True,True,\\Windows\\System32\\TextInputFramework.dll
+0,5556,firefox.exe,0x7ffee2e20000,True,True,True,\\Windows\\System32\\InputHost.dll
+0,5556,firefox.exe,0x7ffee2720000,True,True,True,\\Windows\\System32\\d3d10warp.dll
+0,5556,firefox.exe,0x7ffee3080000,True,True,True,\\Windows\\System32\\Windows.UI.dll
+0,5556,firefox.exe,0x7ffee4540000,True,True,True,N/A
+0,5556,firefox.exe,0x7ffee3800000,True,True,True,\\Windows\\System32\\dhcpcsvc.dll
+0,5556,firefox.exe,0x7ffee40c0000,True,True,True,N/A
+0,5556,firefox.exe,0x7ffee49a0000,True,True,True,\\Windows\\System32\\mscms.dll
+0,5556,firefox.exe,0x7ffee4980000,True,True,True,\\Windows\\System32\\coloradapterclient.dll
+0,5556,firefox.exe,0x7ffee5000000,True,True,True,\\Windows\\System32\\twinapi.appcore.dll
+0,5556,firefox.exe,0x7ffee6d10000,True,True,True,\\Windows\\System32\\WinTypes.dll
+0,5556,firefox.exe,0x7ffee5cb0000,True,True,True,\\Windows\\System32\\nlaapi.dll
+0,5556,firefox.exe,0x7ffee5ac0000,True,True,True,\\Windows\\System32\\taskschd.dll
+0,5556,firefox.exe,0x7ffee5680000,True,True,True,\\Windows\\System32\\avrt.dll
+0,5556,firefox.exe,0x7ffee5bf0000,True,True,True,\\Windows\\System32\\netprofm.dll
+0,5556,firefox.exe,0x7ffee6060000,True,True,True,\\Windows\\System32\\msacm32.dll
+0,5556,firefox.exe,0x7ffee5e90000,True,True,True,\\Windows\\System32\\propsys.dll
+0,5556,firefox.exe,0x7ffee6080000,True,True,True,N/A
+0,5556,firefox.exe,0x7ffee62f0000,True,True,True,\\Windows\\System32\\D3DCompiler_47.dll
+0,5556,firefox.exe,0x7ffee7880000,True,True,True,\\Windows\\System32\\CoreMessaging.dll
+0,5556,firefox.exe,0x7ffee7520000,True,True,True,\\Windows\\System32\\CoreUIComponents.dll
+0,5556,firefox.exe,0x7ffee6fb0000,True,True,True,N/A
+0,5556,firefox.exe,0x7ffee7cc0000,True,True,True,\\Windows\\System32\\uxtheme.dll
+0,5556,firefox.exe,0x7ffee7ba0000,True,True,True,\\Windows\\System32\\wtsapi32.dll
+0,5556,firefox.exe,0x7ffee7b50000,True,True,True,N/A
+0,5556,firefox.exe,0x7ffee7d60000,True,True,True,N/A
+0,5556,firefox.exe,0x7ffeea3c0000,True,True,True,\\Windows\\System32\\ucrtbase.dll
+0,5556,firefox.exe,0x7ffee9c20000,True,True,True,\\Windows\\System32\\ncrypt.dll
+0,5556,firefox.exe,0x7ffee9620000,True,True,True,\\Windows\\System32\\IPHLPAPI.DLL
+0,5556,firefox.exe,0x7ffee8f50000,True,True,True,N/A
+0,5556,firefox.exe,0x7ffee8b60000,True,True,True,N/A
+0,5556,firefox.exe,0x7ffee8380000,True,True,True,\\Windows\\System32\\windows.storage.dll
+0,5556,firefox.exe,0x7ffee8180000,True,True,True,\\Windows\\System32\\kernel.appcore.dll
+0,5556,firefox.exe,0x7ffee8b20000,True,True,True,\\Windows\\System32\\hid.dll
+0,5556,firefox.exe,0x7ffee8e50000,True,True,True,\\Windows\\System32\\fwbase.dll
+0,5556,firefox.exe,0x7ffee8eb0000,True,True,True,N/A
+0,5556,firefox.exe,0x7ffee92c0000,True,True,True,\\Windows\\System32\\rsaenh.dll
+0,5556,firefox.exe,0x7ffee8f90000,True,True,True,\\Windows\\System32\\profext.dll
+0,5556,firefox.exe,0x7ffee9b20000,True,True,True,\\Windows\\System32\\cryptbase.dll
+0,5556,firefox.exe,0x7ffee9930000,True,True,True,\\Windows\\System32\\mswsock.dll
+0,5556,firefox.exe,0x7ffee9660000,True,True,True,\\Windows\\System32\\dnsapi.dll
+0,5556,firefox.exe,0x7ffee9b00000,True,True,True,\\Windows\\System32\\cryptsp.dll
+0,5556,firefox.exe,0x7ffee9bb0000,True,True,True,\\Windows\\System32\\wldp.dll
+0,5556,firefox.exe,0x7ffee9be0000,True,True,True,\\Windows\\System32\\ntasn1.dll
+0,5556,firefox.exe,0x7ffeea0c0000,True,True,True,\\Windows\\System32\\userenv.dll
+0,5556,firefox.exe,0x7ffee9ff0000,True,True,True,\\Windows\\System32\\winsta.dll
+0,5556,firefox.exe,0x7ffee9d30000,True,True,True,\\Windows\\System32\\msasn1.dll
+0,5556,firefox.exe,0x7ffee9ef0000,True,True,True,\\Windows\\System32\\devobj.dll
+0,5556,firefox.exe,0x7ffeea070000,True,True,True,\\Windows\\System32\\powrprof.dll
+0,5556,firefox.exe,0x7ffeea050000,True,True,True,\\Windows\\System32\\umpdc.dll
+0,5556,firefox.exe,0x7ffeea210000,True,True,True,\\Windows\\System32\\msvcp_win.dll
+0,5556,firefox.exe,0x7ffeea140000,True,True,True,\\Windows\\System32\\profapi.dll
+0,5556,firefox.exe,0x7ffeea0f0000,True,True,True,\\Windows\\System32\\sspicli.dll
+0,5556,firefox.exe,0x7ffeea2b0000,True,True,True,\\Windows\\System32\\gdi32full.dll
+0,5556,firefox.exe,0x7ffeeaf40000,True,True,True,\\Windows\\System32\\advapi32.dll
+0,5556,firefox.exe,0x7ffeeaab0000,True,True,True,N/A
+0,5556,firefox.exe,0x7ffeea570000,True,True,True,\\Windows\\System32\\KernelBase.dll
+0,5556,firefox.exe,0x7ffeea4f0000,True,True,True,\\Windows\\System32\\cfgmgr32.dll
+0,5556,firefox.exe,0x7ffeea4c0000,True,True,True,\\Windows\\System32\\bcrypt.dll
+0,5556,firefox.exe,0x7ffeea540000,True,True,True,\\Windows\\System32\\win32u.dll
+0,5556,firefox.exe,0x7ffeea8a0000,True,True,True,\\Windows\\System32\\crypt32.dll
+0,5556,firefox.exe,0x7ffeea840000,True,True,True,\\Windows\\System32\\wintrust.dll
+0,5556,firefox.exe,0x7ffeeade0000,True,True,True,\\Windows\\System32\\rpcrt4.dll
+0,5556,firefox.exe,0x7ffeeab30000,True,True,True,\\Windows\\System32\\clbcatq.dll
+0,5556,firefox.exe,0x7ffeeacc0000,True,True,True,\\Windows\\System32\\msctf.dll
+0,5556,firefox.exe,0x7ffeeaf10000,True,True,True,\\Windows\\System32\\imm32.dll
+0,5556,firefox.exe,0x7ffeec500000,True,True,True,\\Windows\\System32\\oleaut32.dll
+0,5556,firefox.exe,0x7ffeeb670000,True,True,True,\\Windows\\System32\\kernel32.dll
+0,5556,firefox.exe,0x7ffeeb190000,True,True,True,\\Windows\\System32\\sechost.dll
+0,5556,firefox.exe,0x7ffeeaff0000,True,True,True,\\Windows\\System32\\user32.dll
+0,5556,firefox.exe,0x7ffeeb310000,True,True,True,\\Windows\\System32\\combase.dll
+0,5556,firefox.exe,0x7ffeeb8c0000,True,True,True,\\Windows\\System32\\shlwapi.dll
+0,5556,firefox.exe,0x7ffeeb730000,True,True,True,\\Windows\\System32\\ole32.dll
+0,5556,firefox.exe,0x7ffeeb940000,True,True,True,\\Windows\\System32\\setupapi.dll
+0,5556,firefox.exe,0x7ffeeb930000,True,True,True,\\Windows\\System32\\nsi.dll
+0,5556,firefox.exe,0x7ffeebdb0000,True,True,True,\\Windows\\System32\\shell32.dll
+0,5556,firefox.exe,0x7ffeec760000,True,True,True,\\Windows\\System32\\msvcrt.dll
+0,5556,firefox.exe,0x7ffeec730000,True,True,True,\\Windows\\System32\\gdi32.dll
+0,5556,firefox.exe,0x7ffeec5d0000,True,True,True,\\Windows\\System32\\ws2_32.dll
+0,5556,firefox.exe,0x7ffeeca60000,True,True,True,\\Windows\\System32\\psapi.dll
+0,5556,firefox.exe,0x7ffeec800000,True,True,True,\\Windows\\System32\\SHCore.dll
+0,5556,firefox.exe,0x7ffeecad0000,True,True,True,N/A
+0,5556,firefox.exe,0x7ffeeca70000,True,True,True,\\Windows\\System32\\imagehlp.dll
+0,5800,firefox.exe,0x7ffed8820000,True,True,True,N/A
+0,5800,firefox.exe,0x7ffeb1730000,True,True,True,\\Windows\\System32\\d3d9.dll
+0,5800,firefox.exe,0x7ffed6ea0000,True,True,True,\\Program Files\\Mozilla Firefox\\msvcp140.dll
+0,5800,firefox.exe,0x7ffed9d00000,True,True,True,\\Program Files\\Mozilla Firefox\\vcruntime140.dll
+0,5800,firefox.exe,0x7ffed9a40000,True,True,True,\\Program Files\\Mozilla Firefox\\libEGL.dll
+0,5800,firefox.exe,0x7ffed9ab0000,True,True,True,\\Program Files\\Mozilla Firefox\\vcruntime140_1.dll
+0,5800,firefox.exe,0x7ffee2660000,True,True,True,\\Windows\\System32\\DXCore.dll
+0,5800,firefox.exe,0x7ffee2720000,True,True,True,\\Windows\\System32\\d3d10warp.dll
+0,5800,firefox.exe,0x7ffeea3c0000,True,True,True,\\Windows\\System32\\ucrtbase.dll
+0,5800,firefox.exe,0x7ffee8180000,True,True,True,\\Windows\\System32\\kernel.appcore.dll
+0,5800,firefox.exe,0x7ffee6fb0000,True,True,True,N/A
+0,5800,firefox.exe,0x7ffee62f0000,True,True,True,\\Windows\\System32\\D3DCompiler_47.dll
+0,5800,firefox.exe,0x7ffee6080000,True,True,True,N/A
+0,5800,firefox.exe,0x7ffee6d10000,True,True,True,\\Windows\\System32\\WinTypes.dll
+0,5800,firefox.exe,0x7ffee8070000,True,True,True,\\Windows\\System32\\dwmapi.dll
+0,5800,firefox.exe,0x7ffee8b60000,True,True,True,N/A
+0,5800,firefox.exe,0x7ffee8380000,True,True,True,\\Windows\\System32\\windows.storage.dll
+0,5800,firefox.exe,0x7ffee9b00000,True,True,True,\\Windows\\System32\\cryptsp.dll
+0,5800,firefox.exe,0x7ffee9bb0000,True,True,True,\\Windows\\System32\\wldp.dll
+0,5800,firefox.exe,0x7ffeea210000,True,True,True,\\Windows\\System32\\msvcp_win.dll
+0,5800,firefox.exe,0x7ffeea2b0000,True,True,True,\\Windows\\System32\\gdi32full.dll
+0,5800,firefox.exe,0x7ffeeb670000,True,True,True,\\Windows\\System32\\kernel32.dll
+0,5800,firefox.exe,0x7ffeeaab0000,True,True,True,N/A
+0,5800,firefox.exe,0x7ffeea570000,True,True,True,\\Windows\\System32\\KernelBase.dll
+0,5800,firefox.exe,0x7ffeea4f0000,True,True,True,\\Windows\\System32\\cfgmgr32.dll
+0,5800,firefox.exe,0x7ffeea540000,True,True,True,\\Windows\\System32\\win32u.dll
+0,5800,firefox.exe,0x7ffeeaf40000,True,True,True,\\Windows\\System32\\advapi32.dll
+0,5800,firefox.exe,0x7ffeeade0000,True,True,True,\\Windows\\System32\\rpcrt4.dll
+0,5800,firefox.exe,0x7ffeeb190000,True,True,True,\\Windows\\System32\\sechost.dll
+0,5800,firefox.exe,0x7ffeeaff0000,True,True,True,\\Windows\\System32\\user32.dll
+0,5800,firefox.exe,0x7ffeeb310000,True,True,True,\\Windows\\System32\\combase.dll
+0,5800,firefox.exe,0x7ffeec760000,True,True,True,\\Windows\\System32\\msvcrt.dll
+0,5800,firefox.exe,0x7ffeec5d0000,True,True,True,\\Windows\\System32\\ws2_32.dll
+0,5800,firefox.exe,0x7ffeec500000,True,True,True,\\Windows\\System32\\oleaut32.dll
+0,5800,firefox.exe,0x7ffeec730000,True,True,True,\\Windows\\System32\\gdi32.dll
+0,5800,firefox.exe,0x7ffeecad0000,True,True,True,N/A
+0,3552,firefox.exe,0x7ffede480000,True,True,True,N/A
+0,3552,firefox.exe,0x7ffee9930000,True,True,True,\\Windows\\System32\\mswsock.dll
+0,3552,firefox.exe,0x7ffeeb670000,True,True,True,\\Windows\\System32\\kernel32.dll
+0,3552,firefox.exe,0x7ffeea570000,True,True,True,\\Windows\\System32\\KernelBase.dll
+0,3552,firefox.exe,0x7ffeec760000,True,True,True,\\Windows\\System32\\msvcrt.dll
+0,3552,firefox.exe,0x7ffeec5d0000,True,True,True,\\Windows\\System32\\ws2_32.dll
+0,3552,firefox.exe,0x7ffeecad0000,True,True,True,N/A
+0,6848,firefox.exe,0x1d59c900000,False,False,False,N/A
+0,6848,firefox.exe,0x1d59c910000,False,False,False,N/A
+0,6848,firefox.exe,0x7ff7e8ff0000,True,False,True,\\Program Files\\Mozilla Firefox\\firefox.exe
+0,6848,firefox.exe,0x7ffeea570000,True,True,True,\\Windows\\System32\\KernelBase.dll
+0,6848,firefox.exe,0x7ffeeb190000,True,True,True,\\Windows\\System32\\sechost.dll
+0,6848,firefox.exe,0x7ffeecad0000,True,True,True,N/A
+0,7252,firefox.exe,0x7ff7e8ff0000,True,False,True,\\Program Files\\Mozilla Firefox\\firefox.exe
+0,7028,firefox.exe,0x7ffec2f00000,True,True,True,\\Program Files\\Mozilla Firefox\\freebl3.dll
+0,7028,firefox.exe,0x7ffed8580000,True,True,True,\\Program Files\\Mozilla Firefox\\softokn3.dll
+0,9480,firefox.exe,0x7ffeea3c0000,True,True,True,\\Windows\\System32\\ucrtbase.dll
+0,9480,firefox.exe,0x7ffedbc20000,True,True,True,N/A
+0,9480,firefox.exe,0x7ffed6ea0000,True,True,True,\\Program Files\\Mozilla Firefox\\msvcp140.dll
+0,9480,firefox.exe,0x7ffec0a40000,True,True,True,\\Program Files\\Mozilla Firefox\\gkcodecs.dll
+0,9480,firefox.exe,0x7ffe83550000,True,True,True,\\Program Files\\Mozilla Firefox\\xul.dll
+0,9480,firefox.exe,0x7ff7e8ff0000,True,False,True,\\Program Files\\Mozilla Firefox\\firefox.exe
+0,9480,firefox.exe,0x7ffe929f0000,True,True,True,\\Program Files\\Mozilla Firefox\\mozavutil.dll
+0,9480,firefox.exe,0x7ffeab680000,True,True,True,\\Program Files\\Mozilla Firefox\\mozavcodec.dll
+0,9480,firefox.exe,0x7ffec1510000,True,True,True,\\Program Files\\Mozilla Firefox\\nss3.dll
+0,9480,firefox.exe,0x7ffec2f00000,True,True,True,\\Program Files\\Mozilla Firefox\\freebl3.dll
+0,9480,firefox.exe,0x7ffed9ab0000,True,True,True,\\Program Files\\Mozilla Firefox\\vcruntime140_1.dll
+0,9480,firefox.exe,0x7ffed8820000,True,True,True,N/A
+0,9480,firefox.exe,0x7ffed8580000,True,True,True,\\Program Files\\Mozilla Firefox\\softokn3.dll
+0,9480,firefox.exe,0x7ffed98b0000,True,True,True,\\Program Files\\Mozilla Firefox\\lgpllibs.dll
+0,9480,firefox.exe,0x7ffed9d00000,True,True,True,\\Program Files\\Mozilla Firefox\\vcruntime140.dll
+0,9480,firefox.exe,0x7ffeda830000,True,True,True,\\Windows\\System32\\ktmw32.dll
+0,9480,firefox.exe,0x7ffee9b20000,True,True,True,\\Windows\\System32\\cryptbase.dll
+0,9480,firefox.exe,0x7ffee5e90000,True,True,True,\\Windows\\System32\\propsys.dll
+0,9480,firefox.exe,0x7ffee1180000,True,True,True,\\Windows\\System32\\version.dll
+0,9480,firefox.exe,0x7ffedf890000,True,True,True,N/A
+0,9480,firefox.exe,0x7ffee1190000,True,True,True,\\Windows\\System32\\winmm.dll
+0,9480,firefox.exe,0x7ffee5680000,True,True,True,\\Windows\\System32\\avrt.dll
+0,9480,firefox.exe,0x7ffee8180000,True,True,True,\\Windows\\System32\\kernel.appcore.dll
+0,9480,firefox.exe,0x7ffee8f50000,True,True,True,N/A
+0,9480,firefox.exe,0x7ffee9c20000,True,True,True,\\Windows\\System32\\ncrypt.dll
+0,9480,firefox.exe,0x7ffee9be0000,True,True,True,\\Windows\\System32\\ntasn1.dll
+0,9480,firefox.exe,0x7ffee9d30000,True,True,True,\\Windows\\System32\\msasn1.dll
+0,9480,firefox.exe,0x7ffeea210000,True,True,True,\\Windows\\System32\\msvcp_win.dll
+0,9480,firefox.exe,0x7ffeeb670000,True,True,True,\\Windows\\System32\\kernel32.dll
+0,9480,firefox.exe,0x7ffeea8a0000,True,True,True,\\Windows\\System32\\crypt32.dll
+0,9480,firefox.exe,0x7ffeea570000,True,True,True,\\Windows\\System32\\KernelBase.dll
+0,9480,firefox.exe,0x7ffeea4c0000,True,True,True,\\Windows\\System32\\bcrypt.dll
+0,9480,firefox.exe,0x7ffeea840000,True,True,True,\\Windows\\System32\\wintrust.dll
+0,9480,firefox.exe,0x7ffeeaf40000,True,True,True,\\Windows\\System32\\advapi32.dll
+0,9480,firefox.exe,0x7ffeeade0000,True,True,True,\\Windows\\System32\\rpcrt4.dll
+0,9480,firefox.exe,0x7ffeeaab0000,True,True,True,N/A
+0,9480,firefox.exe,0x7ffeeb190000,True,True,True,\\Windows\\System32\\sechost.dll
+0,9480,firefox.exe,0x7ffeeb310000,True,True,True,\\Windows\\System32\\combase.dll
+0,9480,firefox.exe,0x7ffeec760000,True,True,True,\\Windows\\System32\\msvcrt.dll
+0,9480,firefox.exe,0x7ffeec500000,True,True,True,\\Windows\\System32\\oleaut32.dll
+0,9480,firefox.exe,0x7ffeeb8c0000,True,True,True,\\Windows\\System32\\shlwapi.dll
+0,9480,firefox.exe,0x7ffeec5d0000,True,True,True,\\Windows\\System32\\ws2_32.dll
+0,9480,firefox.exe,0x7ffeecad0000,True,True,True,N/A
+0,9480,firefox.exe,0x7ffeec800000,True,True,True,\\Windows\\System32\\SHCore.dll
+0,5892,firefox.exe,0x7ffeab680000,True,True,True,\\Program Files\\Mozilla Firefox\\mozavcodec.dll
+0,5892,firefox.exe,0x7ffe929f0000,True,True,True,\\Program Files\\Mozilla Firefox\\mozavutil.dll
+0,5892,firefox.exe,0x7ffeeb670000,True,True,True,\\Windows\\System32\\kernel32.dll
+0,5892,firefox.exe,0x7ffeeaf40000,True,True,True,\\Windows\\System32\\advapi32.dll
+0,5892,firefox.exe,0x7ffeeb190000,True,True,True,\\Windows\\System32\\sechost.dll
+0,5892,firefox.exe,0x7ffeeb310000,True,True,True,\\Windows\\System32\\combase.dll
+0,5892,firefox.exe,0x7ffeec760000,True,True,True,\\Windows\\System32\\msvcrt.dll
+0,5892,firefox.exe,0x7ffeec500000,True,True,True,\\Windows\\System32\\oleaut32.dll
+0,5892,firefox.exe,0x7ffeeb8c0000,True,True,True,\\Windows\\System32\\shlwapi.dll
+0,5892,firefox.exe,0x7ffeec5d0000,True,True,True,\\Windows\\System32\\ws2_32.dll
+0,5892,firefox.exe,0x7ffeecad0000,True,True,True,N/A
+0,5892,firefox.exe,0x7ffeec800000,True,True,True,\\Windows\\System32\\SHCore.dll
+0,4572,firefox.exe,0x7ffeea3c0000,True,True,True,\\Windows\\System32\\ucrtbase.dll
+0,4572,firefox.exe,0x7ffedbc20000,True,True,True,N/A
+0,4572,firefox.exe,0x7ffed6ea0000,True,True,True,\\Program Files\\Mozilla Firefox\\msvcp140.dll
+0,4572,firefox.exe,0x7ffec0a40000,True,True,True,\\Program Files\\Mozilla Firefox\\gkcodecs.dll
+0,4572,firefox.exe,0x7ff7e8ff0000,True,False,True,\\Program Files\\Mozilla Firefox\\firefox.exe
+0,4572,firefox.exe,0x7ffe83550000,True,True,True,\\Program Files\\Mozilla Firefox\\xul.dll
+0,4572,firefox.exe,0x7ffec1510000,True,True,True,\\Program Files\\Mozilla Firefox\\nss3.dll
+0,4572,firefox.exe,0x7ffec2f00000,True,True,True,\\Program Files\\Mozilla Firefox\\freebl3.dll
+0,4572,firefox.exe,0x7ffed9ab0000,True,True,True,\\Program Files\\Mozilla Firefox\\vcruntime140_1.dll
+0,4572,firefox.exe,0x7ffed8820000,True,True,True,N/A
+0,4572,firefox.exe,0x7ffed8580000,True,True,True,\\Program Files\\Mozilla Firefox\\softokn3.dll
+0,4572,firefox.exe,0x7ffed98b0000,True,True,True,\\Program Files\\Mozilla Firefox\\lgpllibs.dll
+0,4572,firefox.exe,0x7ffed9d00000,True,True,True,\\Program Files\\Mozilla Firefox\\vcruntime140.dll
+0,4572,firefox.exe,0x7ffeda830000,True,True,True,\\Windows\\System32\\ktmw32.dll
+0,4572,firefox.exe,0x7ffee9b20000,True,True,True,\\Windows\\System32\\cryptbase.dll
+0,4572,firefox.exe,0x7ffee5e90000,True,True,True,\\Windows\\System32\\propsys.dll
+0,4572,firefox.exe,0x7ffee1180000,True,True,True,\\Windows\\System32\\version.dll
+0,4572,firefox.exe,0x7ffedf890000,True,True,True,N/A
+0,4572,firefox.exe,0x7ffee1190000,True,True,True,\\Windows\\System32\\winmm.dll
+0,4572,firefox.exe,0x7ffee8180000,True,True,True,\\Windows\\System32\\kernel.appcore.dll
+0,4572,firefox.exe,0x7ffee8f50000,True,True,True,N/A
+0,4572,firefox.exe,0x7ffee9c20000,True,True,True,\\Windows\\System32\\ncrypt.dll
+0,4572,firefox.exe,0x7ffee9be0000,True,True,True,\\Windows\\System32\\ntasn1.dll
+0,4572,firefox.exe,0x7ffee9d30000,True,True,True,\\Windows\\System32\\msasn1.dll
+0,4572,firefox.exe,0x7ffeea210000,True,True,True,\\Windows\\System32\\msvcp_win.dll
+0,4572,firefox.exe,0x7ffeeb670000,True,True,True,\\Windows\\System32\\kernel32.dll
+0,4572,firefox.exe,0x7ffeea8a0000,True,True,True,\\Windows\\System32\\crypt32.dll
+0,4572,firefox.exe,0x7ffeea570000,True,True,True,\\Windows\\System32\\KernelBase.dll
+0,4572,firefox.exe,0x7ffeea4c0000,True,True,True,\\Windows\\System32\\bcrypt.dll
+0,4572,firefox.exe,0x7ffeea840000,True,True,True,\\Windows\\System32\\wintrust.dll
+0,4572,firefox.exe,0x7ffeeaf40000,True,True,True,\\Windows\\System32\\advapi32.dll
+0,4572,firefox.exe,0x7ffeeade0000,True,True,True,\\Windows\\System32\\rpcrt4.dll
+0,4572,firefox.exe,0x7ffeeaab0000,True,True,True,N/A
+0,4572,firefox.exe,0x7ffeeb190000,True,True,True,\\Windows\\System32\\sechost.dll
+0,4572,firefox.exe,0x7ffeeb310000,True,True,True,\\Windows\\System32\\combase.dll
+0,4572,firefox.exe,0x7ffeec760000,True,True,True,\\Windows\\System32\\msvcrt.dll
+0,4572,firefox.exe,0x7ffeec500000,True,True,True,\\Windows\\System32\\oleaut32.dll
+0,4572,firefox.exe,0x7ffeeb8c0000,True,True,True,\\Windows\\System32\\shlwapi.dll
+0,4572,firefox.exe,0x7ffeec5d0000,True,True,True,\\Windows\\System32\\ws2_32.dll
+0,4572,firefox.exe,0x7ffeecad0000,True,True,True,N/A
+0,4572,firefox.exe,0x7ffeec800000,True,True,True,\\Windows\\System32\\SHCore.dll
+0,8604,firefox.exe,0x7ffeea3c0000,True,True,True,\\Windows\\System32\\ucrtbase.dll
+0,8604,firefox.exe,0x7ffedbc20000,True,True,True,N/A
+0,8604,firefox.exe,0x7ffed6ea0000,True,True,True,\\Program Files\\Mozilla Firefox\\msvcp140.dll
+0,8604,firefox.exe,0x7ffec0a40000,True,True,True,\\Program Files\\Mozilla Firefox\\gkcodecs.dll
+0,8604,firefox.exe,0x7ff7e8ff0000,True,False,True,\\Program Files\\Mozilla Firefox\\firefox.exe
+0,8604,firefox.exe,0x7ffe83550000,True,True,True,\\Program Files\\Mozilla Firefox\\xul.dll
+0,8604,firefox.exe,0x7ffec1510000,True,True,True,\\Program Files\\Mozilla Firefox\\nss3.dll
+0,8604,firefox.exe,0x7ffec2f00000,True,True,True,\\Program Files\\Mozilla Firefox\\freebl3.dll
+0,8604,firefox.exe,0x7ffed9ab0000,True,True,True,\\Program Files\\Mozilla Firefox\\vcruntime140_1.dll
+0,8604,firefox.exe,0x7ffed8820000,True,True,True,N/A
+0,8604,firefox.exe,0x7ffed8580000,True,True,True,\\Program Files\\Mozilla Firefox\\softokn3.dll
+0,8604,firefox.exe,0x7ffed98b0000,True,True,True,\\Program Files\\Mozilla Firefox\\lgpllibs.dll
+0,8604,firefox.exe,0x7ffed9d00000,True,True,True,\\Program Files\\Mozilla Firefox\\vcruntime140.dll
+0,8604,firefox.exe,0x7ffeda830000,True,True,True,\\Windows\\System32\\ktmw32.dll
+0,8604,firefox.exe,0x7ffee9b20000,True,True,True,\\Windows\\System32\\cryptbase.dll
+0,8604,firefox.exe,0x7ffee5e90000,True,True,True,\\Windows\\System32\\propsys.dll
+0,8604,firefox.exe,0x7ffee1180000,True,True,True,\\Windows\\System32\\version.dll
+0,8604,firefox.exe,0x7ffedf890000,True,True,True,N/A
+0,8604,firefox.exe,0x7ffee1190000,True,True,True,\\Windows\\System32\\winmm.dll
+0,8604,firefox.exe,0x7ffee8180000,True,True,True,\\Windows\\System32\\kernel.appcore.dll
+0,8604,firefox.exe,0x7ffee8f50000,True,True,True,N/A
+0,8604,firefox.exe,0x7ffee9c20000,True,True,True,\\Windows\\System32\\ncrypt.dll
+0,8604,firefox.exe,0x7ffee9be0000,True,True,True,\\Windows\\System32\\ntasn1.dll
+0,8604,firefox.exe,0x7ffee9d30000,True,True,True,\\Windows\\System32\\msasn1.dll
+0,8604,firefox.exe,0x7ffeea210000,True,True,True,\\Windows\\System32\\msvcp_win.dll
+0,8604,firefox.exe,0x7ffeeb670000,True,True,True,\\Windows\\System32\\kernel32.dll
+0,8604,firefox.exe,0x7ffeea8a0000,True,True,True,\\Windows\\System32\\crypt32.dll
+0,8604,firefox.exe,0x7ffeea570000,True,True,True,\\Windows\\System32\\KernelBase.dll
+0,8604,firefox.exe,0x7ffeea4c0000,True,True,True,\\Windows\\System32\\bcrypt.dll
+0,8604,firefox.exe,0x7ffeea840000,True,True,True,\\Windows\\System32\\wintrust.dll
+0,8604,firefox.exe,0x7ffeeaf40000,True,True,True,\\Windows\\System32\\advapi32.dll
+0,8604,firefox.exe,0x7ffeeade0000,True,True,True,\\Windows\\System32\\rpcrt4.dll
+0,8604,firefox.exe,0x7ffeeaab0000,True,True,True,N/A
+0,8604,firefox.exe,0x7ffeeb190000,True,True,True,\\Windows\\System32\\sechost.dll
+0,8604,firefox.exe,0x7ffeeb310000,True,True,True,\\Windows\\System32\\combase.dll
+0,8604,firefox.exe,0x7ffeec760000,True,True,True,\\Windows\\System32\\msvcrt.dll
+0,8604,firefox.exe,0x7ffeec500000,True,True,True,\\Windows\\System32\\oleaut32.dll
+0,8604,firefox.exe,0x7ffeeb8c0000,True,True,True,\\Windows\\System32\\shlwapi.dll
+0,8604,firefox.exe,0x7ffeec5d0000,True,True,True,\\Windows\\System32\\ws2_32.dll
+0,8604,firefox.exe,0x7ffeecad0000,True,True,True,N/A
+0,8604,firefox.exe,0x7ffeec800000,True,True,True,\\Windows\\System32\\SHCore.dll
+0,9296,firefox.exe,0x7ffeea3c0000,True,True,True,\\Windows\\System32\\ucrtbase.dll
+0,9296,firefox.exe,0x7ffedbc20000,True,True,True,N/A
+0,9296,firefox.exe,0x7ffed6ea0000,True,True,True,\\Program Files\\Mozilla Firefox\\msvcp140.dll
+0,9296,firefox.exe,0x7ffec0a40000,True,True,True,\\Program Files\\Mozilla Firefox\\gkcodecs.dll
+0,9296,firefox.exe,0x7ffe83550000,True,True,True,\\Program Files\\Mozilla Firefox\\xul.dll
+0,9296,firefox.exe,0x7ff7e8ff0000,True,False,True,\\Program Files\\Mozilla Firefox\\firefox.exe
+0,9296,firefox.exe,0x7ffe95b70000,True,True,True,\\Windows\\System32\\mf.dll
+0,9296,firefox.exe,0x7ffec6210000,True,True,True,N/A
+0,9296,firefox.exe,0x7ffec1510000,True,True,True,\\Program Files\\Mozilla Firefox\\nss3.dll
+0,9296,firefox.exe,0x7ffec28c0000,True,True,True,\\Windows\\System32\\mfperfhelper.dll
+0,9296,firefox.exe,0x7ffecb800000,True,True,True,\\Windows\\System32\\MSAudDecMFT.dll
+0,9296,firefox.exe,0x7ffec6240000,True,True,True,N/A
+0,9296,firefox.exe,0x7ffecb870000,True,True,True,\\Windows\\System32\\evr.dll
+0,9296,firefox.exe,0x7ffed9ab0000,True,True,True,\\Program Files\\Mozilla Firefox\\vcruntime140_1.dll
+0,9296,firefox.exe,0x7ffed91d0000,True,True,True,\\Windows\\System32\\dxva2.dll
+0,9296,firefox.exe,0x7ffed8820000,True,True,True,N/A
+0,9296,firefox.exe,0x7ffed91b0000,True,True,True,\\Windows\\System32\\MP3DMOD.DLL
+0,9296,firefox.exe,0x7ffed98b0000,True,True,True,\\Program Files\\Mozilla Firefox\\lgpllibs.dll
+0,9296,firefox.exe,0x7ffed9a80000,True,True,True,\\Windows\\System32\\msdmo.dll
+0,9296,firefox.exe,0x7ffed9d00000,True,True,True,\\Program Files\\Mozilla Firefox\\vcruntime140.dll
+0,9296,firefox.exe,0x7ffeda830000,True,True,True,\\Windows\\System32\\ktmw32.dll
+0,9296,firefox.exe,0x7ffee9b20000,True,True,True,\\Windows\\System32\\cryptbase.dll
+0,9296,firefox.exe,0x7ffee5e90000,True,True,True,\\Windows\\System32\\propsys.dll
+0,9296,firefox.exe,0x7ffee1180000,True,True,True,\\Windows\\System32\\version.dll
+0,9296,firefox.exe,0x7ffee1190000,True,True,True,\\Windows\\System32\\winmm.dll
+0,9296,firefox.exe,0x7ffee8180000,True,True,True,\\Windows\\System32\\kernel.appcore.dll
+0,9296,firefox.exe,0x7ffee8f50000,True,True,True,N/A
+0,9296,firefox.exe,0x7ffee9d30000,True,True,True,\\Windows\\System32\\msasn1.dll
+0,9296,firefox.exe,0x7ffee9c20000,True,True,True,\\Windows\\System32\\ncrypt.dll
+0,9296,firefox.exe,0x7ffee9be0000,True,True,True,\\Windows\\System32\\ntasn1.dll
+0,9296,firefox.exe,0x7ffeea070000,True,True,True,\\Windows\\System32\\powrprof.dll
+0,9296,firefox.exe,0x7ffeea050000,True,True,True,\\Windows\\System32\\umpdc.dll
+0,9296,firefox.exe,0x7ffeea210000,True,True,True,\\Windows\\System32\\msvcp_win.dll
+0,9296,firefox.exe,0x7ffeeb670000,True,True,True,\\Windows\\System32\\kernel32.dll
+0,9296,firefox.exe,0x7ffeeaab0000,True,True,True,N/A
+0,9296,firefox.exe,0x7ffeea570000,True,True,True,\\Windows\\System32\\KernelBase.dll
+0,9296,firefox.exe,0x7ffeea4c0000,True,True,True,\\Windows\\System32\\bcrypt.dll
+0,9296,firefox.exe,0x7ffeea4f0000,True,True,True,\\Windows\\System32\\cfgmgr32.dll
+0,9296,firefox.exe,0x7ffeea8a0000,True,True,True,\\Windows\\System32\\crypt32.dll
+0,9296,firefox.exe,0x7ffeea840000,True,True,True,\\Windows\\System32\\wintrust.dll
+0,9296,firefox.exe,0x7ffeeaf40000,True,True,True,\\Windows\\System32\\advapi32.dll
+0,9296,firefox.exe,0x7ffeeade0000,True,True,True,\\Windows\\System32\\rpcrt4.dll
+0,9296,firefox.exe,0x7ffeeab30000,True,True,True,\\Windows\\System32\\clbcatq.dll
+0,9296,firefox.exe,0x7ffeeb190000,True,True,True,\\Windows\\System32\\sechost.dll
+0,9296,firefox.exe,0x7ffeeb310000,True,True,True,\\Windows\\System32\\combase.dll
+0,9296,firefox.exe,0x7ffeec760000,True,True,True,\\Windows\\System32\\msvcrt.dll
+0,9296,firefox.exe,0x7ffeec500000,True,True,True,\\Windows\\System32\\oleaut32.dll
+0,9296,firefox.exe,0x7ffeeb8c0000,True,True,True,\\Windows\\System32\\shlwapi.dll
+0,9296,firefox.exe,0x7ffeec5d0000,True,True,True,\\Windows\\System32\\ws2_32.dll
+0,9296,firefox.exe,0x7ffeecad0000,True,True,True,N/A
+0,9296,firefox.exe,0x7ffeec800000,True,True,True,\\Windows\\System32\\SHCore.dll
+0,1976,firefox.exe,0x7ffeea3c0000,True,True,True,\\Windows\\System32\\ucrtbase.dll
+0,1976,firefox.exe,0x7ffed8820000,True,True,True,N/A
+0,1976,firefox.exe,0x7ffec1510000,True,True,True,\\Program Files\\Mozilla Firefox\\nss3.dll
+0,1976,firefox.exe,0x7ff7e8ff0000,True,False,True,\\Program Files\\Mozilla Firefox\\firefox.exe
+0,1976,firefox.exe,0x7ffe95b70000,True,True,True,\\Windows\\System32\\mf.dll
+0,1976,firefox.exe,0x7ffe83550000,True,True,True,\\Program Files\\Mozilla Firefox\\xul.dll
+0,1976,firefox.exe,0x7ffec0a40000,True,True,True,\\Program Files\\Mozilla Firefox\\gkcodecs.dll
+0,1976,firefox.exe,0x7ffec6240000,True,True,True,N/A
+0,1976,firefox.exe,0x7ffec6210000,True,True,True,N/A
+0,1976,firefox.exe,0x7ffed6ea0000,True,True,True,\\Program Files\\Mozilla Firefox\\msvcp140.dll
+0,1976,firefox.exe,0x7ffecb870000,True,True,True,\\Windows\\System32\\evr.dll
+0,1976,firefox.exe,0x7ffee5e90000,True,True,True,\\Windows\\System32\\propsys.dll
+0,1976,firefox.exe,0x7ffed9d00000,True,True,True,\\Program Files\\Mozilla Firefox\\vcruntime140.dll
+0,1976,firefox.exe,0x7ffed98b0000,True,True,True,\\Program Files\\Mozilla Firefox\\lgpllibs.dll
+0,1976,firefox.exe,0x7ffed91d0000,True,True,True,\\Windows\\System32\\dxva2.dll
+0,1976,firefox.exe,0x7ffed9ab0000,True,True,True,\\Program Files\\Mozilla Firefox\\vcruntime140_1.dll
+0,1976,firefox.exe,0x7ffedbc20000,True,True,True,N/A
+0,1976,firefox.exe,0x7ffeda830000,True,True,True,\\Windows\\System32\\ktmw32.dll
+0,1976,firefox.exe,0x7ffee1180000,True,True,True,\\Windows\\System32\\version.dll
+0,1976,firefox.exe,0x7ffee1190000,True,True,True,\\Windows\\System32\\winmm.dll
+0,1976,firefox.exe,0x7ffee9c20000,True,True,True,\\Windows\\System32\\ncrypt.dll
+0,1976,firefox.exe,0x7ffee9b20000,True,True,True,\\Windows\\System32\\cryptbase.dll
+0,1976,firefox.exe,0x7ffee8180000,True,True,True,\\Windows\\System32\\kernel.appcore.dll
+0,1976,firefox.exe,0x7ffee8f50000,True,True,True,N/A
+0,1976,firefox.exe,0x7ffee9be0000,True,True,True,\\Windows\\System32\\ntasn1.dll
+0,1976,firefox.exe,0x7ffeea210000,True,True,True,\\Windows\\System32\\msvcp_win.dll
+0,1976,firefox.exe,0x7ffeea050000,True,True,True,\\Windows\\System32\\umpdc.dll
+0,1976,firefox.exe,0x7ffee9d30000,True,True,True,\\Windows\\System32\\msasn1.dll
+0,1976,firefox.exe,0x7ffeea070000,True,True,True,\\Windows\\System32\\powrprof.dll
+0,1976,firefox.exe,0x7ffeea2b0000,True,True,True,\\Windows\\System32\\gdi32full.dll
+0,1976,firefox.exe,0x7ffeeb670000,True,True,True,\\Windows\\System32\\kernel32.dll
+0,1976,firefox.exe,0x7ffeeaab0000,True,True,True,N/A
+0,1976,firefox.exe,0x7ffeea570000,True,True,True,\\Windows\\System32\\KernelBase.dll
+0,1976,firefox.exe,0x7ffeea4f0000,True,True,True,\\Windows\\System32\\cfgmgr32.dll
+0,1976,firefox.exe,0x7ffeea4c0000,True,True,True,\\Windows\\System32\\bcrypt.dll
+0,1976,firefox.exe,0x7ffeea540000,True,True,True,\\Windows\\System32\\win32u.dll
+0,1976,firefox.exe,0x7ffeea8a0000,True,True,True,\\Windows\\System32\\crypt32.dll
+0,1976,firefox.exe,0x7ffeea840000,True,True,True,\\Windows\\System32\\wintrust.dll
+0,1976,firefox.exe,0x7ffeeaf40000,True,True,True,\\Windows\\System32\\advapi32.dll
+0,1976,firefox.exe,0x7ffeeade0000,True,True,True,\\Windows\\System32\\rpcrt4.dll
+0,1976,firefox.exe,0x7ffeeb190000,True,True,True,\\Windows\\System32\\sechost.dll
+0,1976,firefox.exe,0x7ffeeaff0000,True,True,True,\\Windows\\System32\\user32.dll
+0,1976,firefox.exe,0x7ffeeb310000,True,True,True,\\Windows\\System32\\combase.dll
+0,1976,firefox.exe,0x7ffeec760000,True,True,True,\\Windows\\System32\\msvcrt.dll
+0,1976,firefox.exe,0x7ffeec5d0000,True,True,True,\\Windows\\System32\\ws2_32.dll
+0,1976,firefox.exe,0x7ffeeb8c0000,True,True,True,\\Windows\\System32\\shlwapi.dll
+0,1976,firefox.exe,0x7ffeec500000,True,True,True,\\Windows\\System32\\oleaut32.dll
+0,1976,firefox.exe,0x7ffeec730000,True,True,True,\\Windows\\System32\\gdi32.dll
+0,1976,firefox.exe,0x7ffeecad0000,True,True,True,N/A
+0,1976,firefox.exe,0x7ffeec800000,True,True,True,\\Windows\\System32\\SHCore.dll
+0,8344,SearchProtocol,0x7ffeea3c0000,True,True,True,\\Windows\\System32\\ucrtbase.dll
+0,8344,SearchProtocol,0x7ffee8380000,True,True,True,\\Windows\\System32\\windows.storage.dll
+0,8344,SearchProtocol,0x7ffed44a0000,True,True,True,\\Windows\\System32\\tquery.dll
+0,8344,SearchProtocol,0x7ff627540000,True,False,True,\\Windows\\System32\\SearchProtocolHost.exe
+0,8344,SearchProtocol,0x7ffee8180000,True,True,True,\\Windows\\System32\\kernel.appcore.dll
+0,8344,SearchProtocol,0x7ffee9bb0000,True,True,True,\\Windows\\System32\\wldp.dll
+0,8344,SearchProtocol,0x7ffee99a0000,True,True,True,\\Windows\\System32\\cryptdll.dll
+0,8344,SearchProtocol,0x7ffeea210000,True,True,True,\\Windows\\System32\\msvcp_win.dll
+0,8344,SearchProtocol,0x7ffeea2b0000,True,True,True,\\Windows\\System32\\gdi32full.dll
+0,8344,SearchProtocol,0x7ffeeb670000,True,True,True,\\Windows\\System32\\kernel32.dll
+0,8344,SearchProtocol,0x7ffeeaab0000,True,True,True,N/A
+0,8344,SearchProtocol,0x7ffeea540000,True,True,True,\\Windows\\System32\\win32u.dll
+0,8344,SearchProtocol,0x7ffeea570000,True,True,True,\\Windows\\System32\\KernelBase.dll
+0,8344,SearchProtocol,0x7ffeeaf40000,True,True,True,\\Windows\\System32\\advapi32.dll
+0,8344,SearchProtocol,0x7ffeeade0000,True,True,True,\\Windows\\System32\\rpcrt4.dll
+0,8344,SearchProtocol,0x7ffeeab30000,True,True,True,\\Windows\\System32\\clbcatq.dll
+0,8344,SearchProtocol,0x7ffeeaf10000,True,True,True,\\Windows\\System32\\imm32.dll
+0,8344,SearchProtocol,0x7ffeeb190000,True,True,True,\\Windows\\System32\\sechost.dll
+0,8344,SearchProtocol,0x7ffeeaff0000,True,True,True,\\Windows\\System32\\user32.dll
+0,8344,SearchProtocol,0x7ffeeb310000,True,True,True,\\Windows\\System32\\combase.dll
+0,8344,SearchProtocol,0x7ffeec760000,True,True,True,\\Windows\\System32\\msvcrt.dll
+0,8344,SearchProtocol,0x7ffeec500000,True,True,True,\\Windows\\System32\\oleaut32.dll
+0,8344,SearchProtocol,0x7ffeec730000,True,True,True,\\Windows\\System32\\gdi32.dll
+0,8344,SearchProtocol,0x7ffeecad0000,True,True,True,N/A
+0,8344,SearchProtocol,0x7ffeec800000,True,True,True,\\Windows\\System32\\SHCore.dll
+0,8652,SearchFilterHo,0x7ffeea3c0000,True,True,True,\\Windows\\System32\\ucrtbase.dll
+0,8652,SearchFilterHo,0x7ffee8180000,True,True,True,\\Windows\\System32\\kernel.appcore.dll
+0,8652,SearchFilterHo,0x7ff6381f0000,True,False,True,\\Windows\\System32\\SearchFilterHost.exe
+0,8652,SearchFilterHo,0x7ffed44a0000,True,True,True,\\Windows\\System32\\tquery.dll
+0,8652,SearchFilterHo,0x7ffec66e0000,True,True,True,\\Windows\\System32\\mssprxy.dll
+0,8652,SearchFilterHo,0x7ffee99a0000,True,True,True,\\Windows\\System32\\cryptdll.dll
+0,8652,SearchFilterHo,0x7ffee8380000,True,True,True,\\Windows\\System32\\windows.storage.dll
+0,8652,SearchFilterHo,0x7ffeea210000,True,True,True,\\Windows\\System32\\msvcp_win.dll
+0,8652,SearchFilterHo,0x7ffee9bb0000,True,True,True,\\Windows\\System32\\wldp.dll
+0,8652,SearchFilterHo,0x7ffeea2b0000,True,True,True,\\Windows\\System32\\gdi32full.dll
+0,8652,SearchFilterHo,0x7ffeeb670000,True,True,True,\\Windows\\System32\\kernel32.dll
+0,8652,SearchFilterHo,0x7ffeeaf40000,True,True,True,\\Windows\\System32\\advapi32.dll
+0,8652,SearchFilterHo,0x7ffeeaab0000,True,True,True,N/A
+0,8652,SearchFilterHo,0x7ffeea570000,True,True,True,\\Windows\\System32\\KernelBase.dll
+0,8652,SearchFilterHo,0x7ffeea540000,True,True,True,\\Windows\\System32\\win32u.dll
+0,8652,SearchFilterHo,0x7ffeeade0000,True,True,True,\\Windows\\System32\\rpcrt4.dll
+0,8652,SearchFilterHo,0x7ffeeab30000,True,True,True,\\Windows\\System32\\clbcatq.dll
+0,8652,SearchFilterHo,0x7ffeeaf10000,True,True,True,\\Windows\\System32\\imm32.dll
+0,8652,SearchFilterHo,0x7ffeeb190000,True,True,True,\\Windows\\System32\\sechost.dll
+0,8652,SearchFilterHo,0x7ffeeaff0000,True,True,True,\\Windows\\System32\\user32.dll
+0,8652,SearchFilterHo,0x7ffeeb310000,True,True,True,\\Windows\\System32\\combase.dll
+0,8652,SearchFilterHo,0x7ffeec760000,True,True,True,\\Windows\\System32\\msvcrt.dll
+0,8652,SearchFilterHo,0x7ffeec500000,True,True,True,\\Windows\\System32\\oleaut32.dll
+0,8652,SearchFilterHo,0x7ffeec730000,True,True,True,\\Windows\\System32\\gdi32.dll
+0,8652,SearchFilterHo,0x7ffeecad0000,True,True,True,N/A
+0,7984,cmd.exe,0x1e3c0790000,False,False,False,\\Windows\\System32\\en-US\\cmd.exe.mui
+0,7984,cmd.exe,0x7ffeea570000,True,True,True,\\Windows\\System32\\KernelBase.dll
+0,7984,cmd.exe,0x7ff67ef20000,True,False,True,\\Windows\\System32\\cmd.exe
+0,7984,cmd.exe,0x7ffeea3c0000,True,True,True,\\Windows\\System32\\ucrtbase.dll
+0,7984,cmd.exe,0x7ffeeb670000,True,True,True,\\Windows\\System32\\kernel32.dll
+0,7984,cmd.exe,0x7ffeeb310000,True,True,True,\\Windows\\System32\\combase.dll
+0,7984,cmd.exe,0x7ffeeade0000,True,True,True,\\Windows\\System32\\rpcrt4.dll
+0,7984,cmd.exe,0x7ffeecad0000,True,True,True,N/A
+0,7984,cmd.exe,0x7ffeec760000,True,True,True,\\Windows\\System32\\msvcrt.dll
+0,1416,conhost.exe,0x1f0a7210000,False,False,False,\\Windows\\System32\\en-US\\Conhost.exe.mui
+0,1416,conhost.exe,0x1f0a7230000,False,False,False,\\Windows\\System32\\en-US\\user32.dll.mui
+0,1416,conhost.exe,0x7ffeeaf40000,True,True,True,\\Windows\\System32\\advapi32.dll
+0,1416,conhost.exe,0x7ffeea3c0000,True,True,True,\\Windows\\System32\\ucrtbase.dll
+0,1416,conhost.exe,0x7ffee8070000,True,True,True,\\Windows\\System32\\dwmapi.dll
+0,1416,conhost.exe,0x7ffee7cc0000,True,True,True,\\Windows\\System32\\uxtheme.dll
+0,1416,conhost.exe,0x7ff741270000,True,False,True,\\Windows\\System32\\conhost.exe
+0,1416,conhost.exe,0x7ffeea210000,True,True,True,\\Windows\\System32\\msvcp_win.dll
+0,1416,conhost.exe,0x7ffee8180000,True,True,True,\\Windows\\System32\\kernel.appcore.dll
+0,1416,conhost.exe,0x7ffeea2b0000,True,True,True,\\Windows\\System32\\gdi32full.dll
+0,1416,conhost.exe,0x7ffeeab30000,True,True,True,\\Windows\\System32\\clbcatq.dll
+0,1416,conhost.exe,0x7ffeea570000,True,True,True,\\Windows\\System32\\KernelBase.dll
+0,1416,conhost.exe,0x7ffeea540000,True,True,True,\\Windows\\System32\\win32u.dll
+0,1416,conhost.exe,0x7ffeeaab0000,True,True,True,N/A
+0,1416,conhost.exe,0x7ffeeade0000,True,True,True,\\Windows\\System32\\rpcrt4.dll
+0,1416,conhost.exe,0x7ffeeacc0000,True,True,True,\\Windows\\System32\\msctf.dll
+0,1416,conhost.exe,0x7ffeeaf10000,True,True,True,\\Windows\\System32\\imm32.dll
+0,1416,conhost.exe,0x7ffeeb670000,True,True,True,\\Windows\\System32\\kernel32.dll
+0,1416,conhost.exe,0x7ffeeb190000,True,True,True,\\Windows\\System32\\sechost.dll
+0,1416,conhost.exe,0x7ffeeaff0000,True,True,True,\\Windows\\System32\\user32.dll
+0,1416,conhost.exe,0x7ffeeb310000,True,True,True,\\Windows\\System32\\combase.dll
+0,1416,conhost.exe,0x7ffeec730000,True,True,True,\\Windows\\System32\\gdi32.dll
+0,1416,conhost.exe,0x7ffeebdb0000,True,True,True,\\Windows\\System32\\shell32.dll
+0,1416,conhost.exe,0x7ffeeb730000,True,True,True,\\Windows\\System32\\ole32.dll
+0,1416,conhost.exe,0x7ffeec500000,True,True,True,\\Windows\\System32\\oleaut32.dll
+0,1416,conhost.exe,0x7ffeec800000,True,True,True,\\Windows\\System32\\SHCore.dll
+0,1416,conhost.exe,0x7ffeec760000,True,True,True,\\Windows\\System32\\msvcrt.dll
+0,1416,conhost.exe,0x7ffeecad0000,True,True,True,N/A
+

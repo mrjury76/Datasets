@@ -1,0 +1,95 @@
+TreeDepth,PID,Process,Args
+0,4,System,-
+0,92,Registry,-
+0,308,smss.exe,-
+0,420,csrss.exe,"%SystemRoot%\\system32\\csrss.exe ObjectDirectory=\\Windows SharedSection=1024,20480,768 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16"
+0,496,wininit.exe,-
+0,504,csrss.exe,"%SystemRoot%\\system32\\csrss.exe ObjectDirectory=\\Windows SharedSection=1024,20480,768 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16"
+0,564,winlogon.exe,winlogon.exe
+0,636,services.exe,C:\\Windows\\system32\\services.exe
+0,660,lsass.exe,C:\\Windows\\system32\\lsass.exe
+0,764,svchost.exe,C:\\Windows\\system32\\svchost.exe -k DcomLaunch -p
+0,792,fontdrvhost.ex,"""fontdrvhost.exe"""
+0,796,fontdrvhost.ex,"""fontdrvhost.exe"""
+0,884,svchost.exe,C:\\Windows\\system32\\svchost.exe -k RPCSS -p
+0,968,dwm.exe,"""dwm.exe"""
+0,360,svchost.exe,C:\\Windows\\system32\\svchost.exe -k netsvcs -p
+0,680,svchost.exe,C:\\Windows\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p
+0,1044,svchost.exe,C:\\Windows\\system32\\svchost.exe -k LocalServiceNoNetwork -p
+0,1052,svchost.exe,C:\\Windows\\system32\\svchost.exe -k LocalServiceNetworkRestricted -p
+0,1196,svchost.exe,C:\\Windows\\system32\\svchost.exe -k LocalService -p
+0,1328,MemCompression,-
+0,1392,svchost.exe,C:\\Windows\\System32\\svchost.exe -k NetworkService -p
+0,1536,svchost.exe,C:\\Windows\\System32\\svchost.exe -k LocalServiceNetworkRestricted -p
+0,1676,svchost.exe,C:\\Windows\\System32\\svchost.exe -k LocalServiceNetworkRestricted -p
+0,1700,svchost.exe,C:\\Windows\\system32\\svchost.exe -k LocalServiceNetworkRestricted -p
+0,1708,svchost.exe,C:\\Windows\\system32\\svchost.exe -k appmodel -p
+0,1820,spoolsv.exe,C:\\Windows\\System32\\spoolsv.exe
+0,1880,svchost.exe,C:\\Windows\\system32\\svchost.exe -k LocalServiceNoNetworkFirewall -p
+0,1992,svchost.exe,C:\\Windows\\system32\\svchost.exe -k LocalService -p
+0,2012,svchost.exe,C:\\Windows\\System32\\svchost.exe -k LocalServiceNetworkRestricted
+0,2080,svchost.exe,C:\\Windows\\system32\\svchost.exe -k NetworkServiceNetworkRestricted -p
+0,2192,svchost.exe,C:\\Windows\\System32\\svchost.exe -k utcsvc -p
+0,2264,vmtoolsd.exe,"""C:\\Program Files\\VMware\\VMware Tools\\vmtoolsd.exe"""
+0,2272,VGAuthService.,"""C:\\Program Files\\VMware\\VMware Tools\\VMware VGAuth\\VGAuthService.exe"""
+0,2280,vm3dservice.ex,"""C:\\Program Files\\VMware\\VMware Tools\\vm3dservice.exe"""
+0,2320,MsMpEng.exe,"""C:\\Program Files\\Windows Defender\\MsMpEng.exe"""
+0,2364,Sysmon64.exe,C:\\Windows\\Sysmon64.exe
+0,2460,vm3dservice.ex,"""C:\\Program Files\\VMware\\VMware Tools\\vm3dservice.exe"" -n"
+0,2764,dllhost.exe,C:\\Windows\\system32\\dllhost.exe /Processid:{02D4B3F1-FD88-11D1-960D-00805FC79235}
+0,2968,msdtc.exe,C:\\Windows\\System32\\msdtc.exe
+0,2200,unsecapp.exe,C:\\Windows\\system32\\wbem\\unsecapp.exe -Embedding
+0,2616,WmiPrvSE.exe,C:\\Windows\\system32\\wbem\\wmiprvse.exe
+0,3220,sihost.exe,sihost.exe
+0,3268,svchost.exe,C:\\Windows\\system32\\svchost.exe -k UnistackSvcGroup
+0,3328,MicrosoftEdgeU,"""C:\\Program Files (x86)\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe"" /c"
+0,3336,taskhostw.exe,taskhostw.exe {222A245B-E637-4AE9-A93F-A59CA119A75E}
+0,3484,ctfmon.exe,"""ctfmon.exe"""
+0,3668,userinit.exe,-
+0,3720,explorer.exe,C:\\Windows\\Explorer.EXE
+0,4080,svchost.exe,C:\\Windows\\system32\\svchost.exe -k ClipboardSvcGroup -p
+0,4380,StartMenuExper,"""C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe"" -ServerName:App.AppXywbrabmsek0gm3tkwpr5kwzbs55tkqay.mca"
+0,4448,RuntimeBroker.,C:\\Windows\\System32\\RuntimeBroker.exe -Embedding
+0,4556,SearchApp.exe,"""C:\\Windows\\SystemApps\\Microsoft.Windows.Search_cw5n1h2txyewy\\SearchApp.exe"" -ServerName:CortanaUI.AppX8z9r6jm96hw4bsbneegw0kyxx296wr9t.mca"
+0,4564,SearchIndexer.,C:\\Windows\\system32\\SearchIndexer.exe /Embedding
+0,4668,RuntimeBroker.,C:\\Windows\\System32\\RuntimeBroker.exe -Embedding
+0,1816,RuntimeBroker.,C:\\Windows\\System32\\RuntimeBroker.exe -Embedding
+0,4220,svchost.exe,C:\\Windows\\system32\\svchost.exe -k LocalServiceAndNoImpersonation -p
+0,4872,SecurityHealth,"""C:\\Windows\\System32\\SecurityHealthSystray.exe"" "
+0,1752,SecurityHealth,C:\\Windows\\system32\\SecurityHealthService.exe
+0,5236,vmtoolsd.exe,"""C:\\Program Files\\VMware\\VMware Tools\\vmtoolsd.exe"" -n vmusr"
+0,5332,TextInputHost.,"""C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\InputApp\\TextInputHost.exe"" -ServerName:InputApp.AppX9jnwykgrccxc8by3hsrsh07r423xzvav.mca"
+0,5340,OneDrive.exe,"""C:\\Users\\Patrick\\AppData\\Local\\Microsoft\\OneDrive\\OneDrive.exe"" /background"
+0,5560,dllhost.exe,C:\\Windows\\system32\\DllHost.exe /Processid:{973D20D7-562D-44B9-B70B-5A0F49CCDF3F}
+0,5880,ApplicationFra,C:\\Windows\\system32\\ApplicationFrameHost.exe -Embedding
+0,6696,msedgewebview2,-
+0,6740,svchost.exe,C:\\Windows\\system32\\svchost.exe -k WbioSvcGroup
+0,7860,Taskmgr.exe,"""C:\\Windows\\System32\\Taskmgr.exe"" /2"
+0,7540,ShellExperienc,"""C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe"" -ServerName:App.AppXtk181tbxbce2qsex02s8tw7hfxa9xb3t.mca"
+0,4812,RuntimeBroker.,C:\\Windows\\System32\\RuntimeBroker.exe -Embedding
+0,4104,svchost.exe,C:\\Windows\\System32\\svchost.exe -k netsvcs -p
+0,9848,SgrmBroker.exe,C:\\Windows\\system32\\SgrmBroker.exe
+0,9980,svchost.exe,C:\\Windows\\System32\\svchost.exe -k LocalServiceNetworkRestricted -p
+0,7324,M365Copilot.ex,"""C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_19.2603.55121.0_x64__8wekyb3d8bbwe\\M365Copilot.exe"" autorestart reason=update"
+0,9540,RuntimeBroker.,C:\\Windows\\System32\\RuntimeBroker.exe -Embedding
+0,1604,msedgewebview2,"""C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.62\\msedgewebview2.exe"" --embedded-browser-webview=1 --webview-exe-name=M365Copilot.exe --webview-exe-version=19.2603.55121.0 --user-data-dir=""C:\\Users\\Patrick\\AppData\\Local\\Packages\\Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe\\LocalState\\EBWebView"" --noerrdialogs --embedded-browser-webview-dpi-awareness=2 --disable-features=msEnhancedTrackingPreventionEnabled --enable-features=msSingleSignOnOSForPrimaryAccountIsShared --mojo-named-platform-channel-pipe=7324.10052.4527428307711712515"
+0,3180,msedgewebview2,"""C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.62\\msedgewebview2.exe"" --type=crashpad-handler --user-data-dir=C:\\Users\\Patrick\\AppData\\Local\\Packages\\Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe\\LocalState\\EBWebView /prefetch:4 --monitor-self-annotation=ptype=crashpad-handler --database=C:\\Users\\Patrick\\AppData\\Local\\Packages\\Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe\\LocalState\\EBWebView\\Crashpad --annotation=IsOfficialBuild=1 --annotation=channel= --annotation=chromium-version=146.0.7680.80 ""--annotation=exe=C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.62\\msedgewebview2.exe"" --annotation=plat=Win64 ""--annotation=prod=Edge WebView2"" --annotation=ver=146.0.3856.62 --initial-client-data=0x150,0x154,0x158,0x12c,0xec,0x7ffeb29724d8,0x7ffeb29724e4,0x7ffeb29724f0"
+0,2004,msedgewebview2,"""C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.62\\msedgewebview2.exe"" --type=gpu-process --noerrdialogs --user-data-dir=""C:\\Users\\Patrick\\AppData\\Local\\Packages\\Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe\\LocalState\\EBWebView"" --webview-exe-name=M365Copilot.exe --webview-exe-version=19.2603.55121.0 --embedded-browser-webview=1 --embedded-browser-webview-dpi-awareness=2 --gpu-preferences=SAAAAAAAAADgAAAEAAAAAAAAAAAAAGAAAQAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --startup-read-main-dll --metrics-shmem-handle=1716,i,2577816939759309940,135570696645342415,262144 --field-trial-handle=1792,i,2746750578381329105,2096540503643467560,262144 --enable-features=msSingleSignOnOSForPrimaryAccountIsShared --disable-features=msEnhancedTrackingPreventionEnabled --variations-seed-version --pseudonymization-salt-handle=1796,i,13925669011437690655,6331693805937176360,4 --trace-process-track-uuid=3190708988185955192 --mojo-platform-channel-handle=1788 /prefetch:2"
+0,1164,msedgewebview2,"""C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.62\\msedgewebview2.exe"" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --noerrdialogs --user-data-dir=""C:\\Users\\Patrick\\AppData\\Local\\Packages\\Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe\\LocalState\\EBWebView"" --webview-exe-name=M365Copilot.exe --webview-exe-version=19.2603.55121.0 --embedded-browser-webview=1 --embedded-browser-webview-dpi-awareness=2 --startup-read-main-dll --metrics-shmem-handle=2024,i,8981356712264184604,12880327676711739672,524288 --field-trial-handle=1792,i,2746750578381329105,2096540503643467560,262144 --enable-features=msSingleSignOnOSForPrimaryAccountIsShared --disable-features=msEnhancedTrackingPreventionEnabled --variations-seed-version --pseudonymization-salt-handle=1796,i,13925669011437690655,6331693805937176360,4 --trace-process-track-uuid=3190708989122997041 --mojo-platform-channel-handle=1988 /prefetch:3"
+0,1932,msedgewebview2,"""C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.62\\msedgewebview2.exe"" --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=service --noerrdialogs --user-data-dir=""C:\\Users\\Patrick\\AppData\\Local\\Packages\\Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe\\LocalState\\EBWebView"" --webview-exe-name=M365Copilot.exe --webview-exe-version=19.2603.55121.0 --embedded-browser-webview=1 --embedded-browser-webview-dpi-awareness=2 --startup-read-main-dll --metrics-shmem-handle=2256,i,14505314553747371224,14561240118952327086,524288 --field-trial-handle=1792,i,2746750578381329105,2096540503643467560,262144 --enable-features=msSingleSignOnOSForPrimaryAccountIsShared --disable-features=msEnhancedTrackingPreventionEnabled --variations-seed-version --pseudonymization-salt-handle=1796,i,13925669011437690655,6331693805937176360,4 --trace-process-track-uuid=3190708990060038890 --mojo-platform-channel-handle=2260 /prefetch:8"
+0,5352,msedgewebview2,"""C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\146.0.3856.62\\msedgewebview2.exe"" --type=renderer --noerrdialogs --user-data-dir=""C:\\Users\\Patrick\\AppData\\Local\\Packages\\Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe\\LocalState\\EBWebView"" --webview-exe-name=M365Copilot.exe --webview-exe-version=19.2603.55121.0 --embedded-browser-webview=1 --embedded-browser-webview-dpi-awareness=2 --video-capture-use-gpu-memory-buffer --lang=en-US --js-flags=--expose-gc --device-scale-factor=1 --num-raster-threads=1 --renderer-client-id=5 --time-ticks-at-unix-epoch=-1774848750115993 --launch-time-ticks=246384456 --ram-no-pressure-read-main-dll --metrics-shmem-handle=3712,i,1715257255753834172,551719509398935169,2097152 --field-trial-handle=1792,i,2746750578381329105,2096540503643467560,262144 --enable-features=msSingleSignOnOSForPrimaryAccountIsShared --disable-features=msEnhancedTrackingPreventionEnabled --variations-seed-version --pseudonymization-salt-handle=1796,i,13925669011437690655,6331693805937176360,4 --trace-process-track-uuid=3190708990997080739 --mojo-platform-channel-handle=3748 /prefetch:1"
+0,6236,OneDrive.Sync.,"""C:\\Users\\Patrick\\AppData\\Local\\Microsoft\\OneDrive\\26.035.0222.0002_1\\OneDrive.Sync.Service.exe"" /silentConfig"
+0,2092,UserOOBEBroker,C:\\Windows\\System32\\oobe\\UserOOBEBroker.exe -Embedding
+0,632,OpenWith.exe,-
+0,8964,taskhostw.exe,taskhostw.exe
+0,340,smartscreen.ex,C:\\Windows\\System32\\smartscreen.exe -Embedding
+0,2692,audiodg.exe,C:\\Windows\\system32\\AUDIODG.EXE 0x514
+0,10116,svchost.exe,C:\\Windows\\system32\\svchost.exe -k wsappx -p
+0,7400,upfc.exe,C:\\Windows\\System32\\Upfc.exe /launchtype periodic /cv sFhTQRItSkuF0D4MrnvMxw.0
+0,8180,WmiPrvSE.exe,C:\\Windows\\system32\\wbem\\wmiprvse.exe
+0,7172,MoUsoCoreWorke,C:\\Windows\\System32\\mousocoreworker.exe -Embedding
+0,6764,TrustedInstall,C:\\Windows\\servicing\\TrustedInstaller.exe
+0,4480,TiWorker.exe,C:\\Windows\\winsxs\\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.621_none_e7694895260e0b6d\\TiWorker.exe -Embedding
+0,2340,notepad.exe,"""C:\\Windows\\System32\\notepad.exe"""
+0,5008,SnippingTool.e,"""C:\\Windows\\System32\\SnippingTool.exe"""
+

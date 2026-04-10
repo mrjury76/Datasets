@@ -1,0 +1,349 @@
+TreeDepth,PID,Process,Start VPN,End VPN,Tag,Protection,CommitCharge,PrivateMemory,File output,Notes,Hexdump,Disasm
+0,2320,MsMpEng.exe,0x23756ea0000,0x23756ea0fff,VadS,PAGE_EXECUTE_READWRITE,1,1,Disabled,N/A,"
+00 7c 02 80 7c 01 70 7c 01 10 3d 00 7c 02 70 3c .|..|.p|..=.|.p<
+00 f0 7c 01 17 07 57 00 0f ff 8a 07 00 20 f3 7b ..|...W...... .{
+00 00 00 00 51 b6 9e 6d 61 fe e5 fb aa bf e4 e4 ....Q..ma.......
+81 41 4a 46 49 46 36 32 31 32 35 46 44 39 46 36 .AJFIF62125FD9F6","
+0x23756ea0000:	add	byte ptr [rdx + rax - 0x80], bh
+0x23756ea0004:	jl	0x23756ea0007
+0x23756ea0006:	jo	0x23756ea0084
+0x23756ea0008:	add	dword ptr [rax], edx
+0x23756ea000a:	cmp	eax, 0x70027c00
+0x23756ea000f:	cmp	al, 0"
+0,2320,MsMpEng.exe,0x23756eb0000,0x23756eb0fff,VadS,PAGE_EXECUTE_READWRITE,1,1,Disabled,N/A,"
+dd ba 2a 00 2f 3c 04 e0 fc 01 a0 ff 01 22 80 01 ..*./<.......""..
+f8 d8 25 dd 27 7d 04 6f f8 01 66 a0 00 b9 0b 08 ..%.'}.o..f.....
+a5 02 3f 00 71 7d 07 27 fc 01 9a af 7b 1c ff 05 ..?.q}.'....{...
+bc 07 7d 0c 15 02 f0 67 fe a5 eb 7c 09 f9 01 98 ..}....g...|....","
+0x23756eb0000:	fnstsw	word ptr [rdx + 0x3c2f002a]
+0x23756eb0006:	add	al, 0xe0
+0x23756eb0008:	cld	
+0x23756eb0009:	add	dword ptr [rax - 0x7fddfe01], esp
+0x23756eb000f:	add	eax, edi
+0x23756eb0011:	fsub	dword ptr [rip + 0x47d27dd]
+0x23756eb0017:	outsd	dx, dword ptr [rsi]
+0x23756eb0018:	clc	
+0x23756eb0019:	add	dword ptr [rsi - 0x60], esp
+0x23756eb001c:	add	byte ptr [rcx + 0x2a5080b], bh"
+0,2320,MsMpEng.exe,0x23756f90000,0x23756f90fff,VadS,PAGE_EXECUTE_READWRITE,1,1,Disabled,N/A,"
+e9 af f8 ff ff 4c 8d 7c 24 38 41 b8 20 00 00 00 .....L.|$8A. ...
+4c 89 fa e8 88 8e 86 05 49 8b 07 49 8b 4f 08 48 L.......I..I.O.H
+89 01 48 8d 15 17 ac 3b 03 48 89 51 08 b9 03 00 ..H....;.H.Q....
+00 00 e9 9f f8 ff ff 41 0f b6 cf 0f b6 00 89 c2 .......A........","
+0x23756f90000:	jmp	0x23756f8f8b4
+0x23756f90005:	lea	r15, [rsp + 0x38]
+0x23756f9000a:	mov	r8d, 0x20
+0x23756f90010:	mov	rdx, r15
+0x23756f90013:	call	0x2375c7f8ea0
+0x23756f90018:	mov	rax, qword ptr [r15]
+0x23756f9001b:	mov	rcx, qword ptr [r15 + 8]
+0x23756f9001f:	mov	qword ptr [rcx], rax
+0x23756f90022:	lea	rdx, [rip + 0x33bac17]
+0x23756f90029:	mov	qword ptr [rcx + 8], rdx
+0x23756f9002d:	mov	ecx, 3
+0x23756f90032:	jmp	0x23756f8f8d6
+0x23756f90037:	movzx	ecx, r15b
+0x23756f9003b:	movzx	eax, byte ptr [rax]
+0x23756f9003e:	mov	edx, eax"
+0,2320,MsMpEng.exe,0x23756ef0000,0x23756ef1fff,VadS,PAGE_EXECUTE_READWRITE,2,1,Disabled,N/A,"
+dd ba 2a 00 2f 3c 04 e0 fc 01 a0 ff 01 22 80 01 ..*./<.......""..
+f8 d8 25 dd 27 7d 04 6f f8 01 66 a0 00 b9 0b 08 ..%.'}.o..f.....
+a5 02 3f 00 71 7d 07 27 fc 01 9a af 7b 1c ff 05 ..?.q}.'....{...
+bc 07 7d 0c 15 02 f0 67 fe a5 eb 7c 09 f9 01 98 ..}....g...|....","
+0x23756ef0000:	fnstsw	word ptr [rdx + 0x3c2f002a]
+0x23756ef0006:	add	al, 0xe0
+0x23756ef0008:	cld	
+0x23756ef0009:	add	dword ptr [rax - 0x7fddfe01], esp
+0x23756ef000f:	add	eax, edi
+0x23756ef0011:	fsub	dword ptr [rip + 0x47d27dd]
+0x23756ef0017:	outsd	dx, dword ptr [rsi]
+0x23756ef0018:	clc	
+0x23756ef0019:	add	dword ptr [rsi - 0x60], esp
+0x23756ef001c:	add	byte ptr [rcx + 0x2a5080b], bh"
+0,2320,MsMpEng.exe,0x23756f80000,0x23756f82fff,VadS,PAGE_EXECUTE_READWRITE,3,1,Disabled,N/A,"
+84 20 00 00 83 6d 03 00 84 20 00 00 84 6d 03 00 . ...m... ...m..
+84 20 00 00 85 6d 03 00 84 20 00 00 86 6d 03 00 . ...m... ...m..
+84 20 00 00 87 6d 03 00 84 20 00 00 88 6d 03 00 . ...m... ...m..
+84 20 00 00 89 6d 03 00 84 20 00 00 8a 6d 03 00 . ...m... ...m..","
+0x23756f80000:	test	byte ptr [rax], ah
+0x23756f80002:	add	byte ptr [rax], al
+0x23756f80004:	sub	dword ptr [rbp + 3], 0
+0x23756f80008:	test	byte ptr [rax], ah
+0x23756f8000a:	add	byte ptr [rax], al
+0x23756f8000c:	test	byte ptr [rbp + 3], ch
+0x23756f8000f:	add	byte ptr [rax + riz + 0x6d850000], al
+0x23756f80016:	add	eax, dword ptr [rax]
+0x23756f80018:	test	byte ptr [rax], ah
+0x23756f8001a:	add	byte ptr [rax], al
+0x23756f8001c:	xchg	byte ptr [rbp + 3], ch
+0x23756f8001f:	add	byte ptr [rax + riz + 0x6d870000], al
+0x23756f80026:	add	eax, dword ptr [rax]
+0x23756f80028:	test	byte ptr [rax], ah
+0x23756f8002a:	add	byte ptr [rax], al
+0x23756f8002c:	mov	byte ptr [rbp + 3], ch
+0x23756f8002f:	add	byte ptr [rax + riz + 0x6d890000], al
+0x23756f80036:	add	eax, dword ptr [rax]
+0x23756f80038:	test	byte ptr [rax], ah
+0x23756f8003a:	add	byte ptr [rax], al
+0x23756f8003c:	mov	ch, byte ptr [rbp + 3]"
+0,2320,MsMpEng.exe,0x23757710000,0x2375780ffff,VadS,PAGE_EXECUTE_READWRITE,256,1,Disabled,N/A,"
+76 61 6c 75 65 3a 20 74 68 69 73 2e 74 72 61 69 value: this.trai
+6c 65 72 46 69 65 6c 64 20 7d 29 5d 0a 20 20 20 lerField })].   
+20 20 20 20 20 20 20 20 20 7d 29 29 3b 0a 20 20          }));.  
+20 20 20 20 20 20 7d 0a 20 20 20 20 20 20 20 20       }.        ","
+0x23757710000:	jbe	0x23757710063
+0x23757710002:	insb	byte ptr [rdi], dx
+0x23757710003:	jne	0x2375771006a
+0x23757710005:	cmp	ah, byte ptr [rax]
+0x23757710007:	je	0x23757710071
+0x23757710009:	imul	esi, dword ptr [rbx + 0x2e], 0x69617274
+0x23757710010:	insb	byte ptr [rdi], dx
+0x23757710011:	jb	0x2375771005a
+0x23757710014:	imul	esp, dword ptr [rbp + 0x6c], 0x297d2064
+0x2375771001b:	pop	rbp
+0x2375771001c:	or	ah, byte ptr [rax]
+0x2375771001e:	and	byte ptr [rax], ah
+0x23757710020:	and	byte ptr [rax], ah
+0x23757710022:	and	byte ptr [rax], ah
+0x23757710024:	and	byte ptr [rax], ah
+0x23757710026:	and	byte ptr [rax], ah
+0x23757710028:	and	byte ptr [rbp + 0x29], bh
+0x2375771002b:	sub	dword ptr [rbx], edi
+0x2375771002d:	or	ah, byte ptr [rax]
+0x2375771002f:	and	byte ptr [rax], ah
+0x23757710031:	and	byte ptr [rax], ah
+0x23757710033:	and	byte ptr [rax], ah
+0x23757710035:	and	byte ptr [rbp + 0xa], bh
+0x23757710038:	and	byte ptr [rax], ah
+0x2375771003a:	and	byte ptr [rax], ah
+0x2375771003c:	and	byte ptr [rax], ah
+0x2375771003e:	and	byte ptr [rax], ah"
+0,8984,firefox.exe,0x2a325ab0000,0x2a325abffff,VadS,PAGE_EXECUTE_READ,16,1,Disabled,N/A,"
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................","
+0x2a325ab0000:	add	byte ptr [rax], al
+0x2a325ab0002:	add	byte ptr [rax], al
+0x2a325ab0004:	add	byte ptr [rax], al
+0x2a325ab0006:	add	byte ptr [rax], al
+0x2a325ab0008:	add	byte ptr [rax], al
+0x2a325ab000a:	add	byte ptr [rax], al
+0x2a325ab000c:	add	byte ptr [rax], al
+0x2a325ab000e:	add	byte ptr [rax], al
+0x2a325ab0010:	add	byte ptr [rax], al
+0x2a325ab0012:	add	byte ptr [rax], al
+0x2a325ab0014:	add	byte ptr [rax], al
+0x2a325ab0016:	add	byte ptr [rax], al
+0x2a325ab0018:	add	byte ptr [rax], al
+0x2a325ab001a:	add	byte ptr [rax], al
+0x2a325ab001c:	add	byte ptr [rax], al
+0x2a325ab001e:	add	byte ptr [rax], al
+0x2a325ab0020:	add	byte ptr [rax], al
+0x2a325ab0022:	add	byte ptr [rax], al
+0x2a325ab0024:	add	byte ptr [rax], al
+0x2a325ab0026:	add	byte ptr [rax], al
+0x2a325ab0028:	add	byte ptr [rax], al
+0x2a325ab002a:	add	byte ptr [rax], al
+0x2a325ab002c:	add	byte ptr [rax], al
+0x2a325ab002e:	add	byte ptr [rax], al
+0x2a325ab0030:	add	byte ptr [rax], al
+0x2a325ab0032:	add	byte ptr [rax], al
+0x2a325ab0034:	add	byte ptr [rax], al
+0x2a325ab0036:	add	byte ptr [rax], al
+0x2a325ab0038:	add	byte ptr [rax], al
+0x2a325ab003a:	add	byte ptr [rax], al
+0x2a325ab003c:	add	byte ptr [rax], al
+0x2a325ab003e:	add	byte ptr [rax], al"
+0,6660,firefox.exe,0x26d5abd0000,0x26d5abdffff,VadS,PAGE_EXECUTE_READ,16,1,Disabled,N/A,"
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................","
+0x26d5abd0000:	add	byte ptr [rax], al
+0x26d5abd0002:	add	byte ptr [rax], al
+0x26d5abd0004:	add	byte ptr [rax], al
+0x26d5abd0006:	add	byte ptr [rax], al
+0x26d5abd0008:	add	byte ptr [rax], al
+0x26d5abd000a:	add	byte ptr [rax], al
+0x26d5abd000c:	add	byte ptr [rax], al
+0x26d5abd000e:	add	byte ptr [rax], al
+0x26d5abd0010:	add	byte ptr [rax], al
+0x26d5abd0012:	add	byte ptr [rax], al
+0x26d5abd0014:	add	byte ptr [rax], al
+0x26d5abd0016:	add	byte ptr [rax], al
+0x26d5abd0018:	add	byte ptr [rax], al
+0x26d5abd001a:	add	byte ptr [rax], al
+0x26d5abd001c:	add	byte ptr [rax], al
+0x26d5abd001e:	add	byte ptr [rax], al
+0x26d5abd0020:	add	byte ptr [rax], al
+0x26d5abd0022:	add	byte ptr [rax], al
+0x26d5abd0024:	add	byte ptr [rax], al
+0x26d5abd0026:	add	byte ptr [rax], al
+0x26d5abd0028:	add	byte ptr [rax], al
+0x26d5abd002a:	add	byte ptr [rax], al
+0x26d5abd002c:	add	byte ptr [rax], al
+0x26d5abd002e:	add	byte ptr [rax], al
+0x26d5abd0030:	add	byte ptr [rax], al
+0x26d5abd0032:	add	byte ptr [rax], al
+0x26d5abd0034:	add	byte ptr [rax], al
+0x26d5abd0036:	add	byte ptr [rax], al
+0x26d5abd0038:	add	byte ptr [rax], al
+0x26d5abd003a:	add	byte ptr [rax], al
+0x26d5abd003c:	add	byte ptr [rax], al
+0x26d5abd003e:	add	byte ptr [rax], al"
+0,6660,firefox.exe,0x26d5abf0000,0x26d5abfffff,VadS,PAGE_EXECUTE_READ,16,1,Disabled,N/A,"
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................","
+0x26d5abf0000:	add	byte ptr [rax], al
+0x26d5abf0002:	add	byte ptr [rax], al
+0x26d5abf0004:	add	byte ptr [rax], al
+0x26d5abf0006:	add	byte ptr [rax], al
+0x26d5abf0008:	add	byte ptr [rax], al
+0x26d5abf000a:	add	byte ptr [rax], al
+0x26d5abf000c:	add	byte ptr [rax], al
+0x26d5abf000e:	add	byte ptr [rax], al
+0x26d5abf0010:	add	byte ptr [rax], al
+0x26d5abf0012:	add	byte ptr [rax], al
+0x26d5abf0014:	add	byte ptr [rax], al
+0x26d5abf0016:	add	byte ptr [rax], al
+0x26d5abf0018:	add	byte ptr [rax], al
+0x26d5abf001a:	add	byte ptr [rax], al
+0x26d5abf001c:	add	byte ptr [rax], al
+0x26d5abf001e:	add	byte ptr [rax], al
+0x26d5abf0020:	add	byte ptr [rax], al
+0x26d5abf0022:	add	byte ptr [rax], al
+0x26d5abf0024:	add	byte ptr [rax], al
+0x26d5abf0026:	add	byte ptr [rax], al
+0x26d5abf0028:	add	byte ptr [rax], al
+0x26d5abf002a:	add	byte ptr [rax], al
+0x26d5abf002c:	add	byte ptr [rax], al
+0x26d5abf002e:	add	byte ptr [rax], al
+0x26d5abf0030:	add	byte ptr [rax], al
+0x26d5abf0032:	add	byte ptr [rax], al
+0x26d5abf0034:	add	byte ptr [rax], al
+0x26d5abf0036:	add	byte ptr [rax], al
+0x26d5abf0038:	add	byte ptr [rax], al
+0x26d5abf003a:	add	byte ptr [rax], al
+0x26d5abf003c:	add	byte ptr [rax], al
+0x26d5abf003e:	add	byte ptr [rax], al"
+0,5296,firefox.exe,0x1e39fce0000,0x1e39fceffff,Vad ,PAGE_EXECUTE_READ,0,0,Disabled,N/A,"
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................","
+0x1e39fce0000:	add	byte ptr [rax], al
+0x1e39fce0002:	add	byte ptr [rax], al
+0x1e39fce0004:	add	byte ptr [rax], al
+0x1e39fce0006:	add	byte ptr [rax], al
+0x1e39fce0008:	add	byte ptr [rax], al
+0x1e39fce000a:	add	byte ptr [rax], al
+0x1e39fce000c:	add	byte ptr [rax], al
+0x1e39fce000e:	add	byte ptr [rax], al
+0x1e39fce0010:	add	byte ptr [rax], al
+0x1e39fce0012:	add	byte ptr [rax], al
+0x1e39fce0014:	add	byte ptr [rax], al
+0x1e39fce0016:	add	byte ptr [rax], al
+0x1e39fce0018:	add	byte ptr [rax], al
+0x1e39fce001a:	add	byte ptr [rax], al
+0x1e39fce001c:	add	byte ptr [rax], al
+0x1e39fce001e:	add	byte ptr [rax], al
+0x1e39fce0020:	add	byte ptr [rax], al
+0x1e39fce0022:	add	byte ptr [rax], al
+0x1e39fce0024:	add	byte ptr [rax], al
+0x1e39fce0026:	add	byte ptr [rax], al
+0x1e39fce0028:	add	byte ptr [rax], al
+0x1e39fce002a:	add	byte ptr [rax], al
+0x1e39fce002c:	add	byte ptr [rax], al
+0x1e39fce002e:	add	byte ptr [rax], al
+0x1e39fce0030:	add	byte ptr [rax], al
+0x1e39fce0032:	add	byte ptr [rax], al
+0x1e39fce0034:	add	byte ptr [rax], al
+0x1e39fce0036:	add	byte ptr [rax], al
+0x1e39fce0038:	add	byte ptr [rax], al
+0x1e39fce003a:	add	byte ptr [rax], al
+0x1e39fce003c:	add	byte ptr [rax], al
+0x1e39fce003e:	add	byte ptr [rax], al"
+0,8904,firefox.exe,0x28f33cc0000,0x28f33ccffff,Vad ,PAGE_EXECUTE_READ,0,0,Disabled,N/A,"
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................","
+0x28f33cc0000:	add	byte ptr [rax], al
+0x28f33cc0002:	add	byte ptr [rax], al
+0x28f33cc0004:	add	byte ptr [rax], al
+0x28f33cc0006:	add	byte ptr [rax], al
+0x28f33cc0008:	add	byte ptr [rax], al
+0x28f33cc000a:	add	byte ptr [rax], al
+0x28f33cc000c:	add	byte ptr [rax], al
+0x28f33cc000e:	add	byte ptr [rax], al
+0x28f33cc0010:	add	byte ptr [rax], al
+0x28f33cc0012:	add	byte ptr [rax], al
+0x28f33cc0014:	add	byte ptr [rax], al
+0x28f33cc0016:	add	byte ptr [rax], al
+0x28f33cc0018:	add	byte ptr [rax], al
+0x28f33cc001a:	add	byte ptr [rax], al
+0x28f33cc001c:	add	byte ptr [rax], al
+0x28f33cc001e:	add	byte ptr [rax], al
+0x28f33cc0020:	add	byte ptr [rax], al
+0x28f33cc0022:	add	byte ptr [rax], al
+0x28f33cc0024:	add	byte ptr [rax], al
+0x28f33cc0026:	add	byte ptr [rax], al
+0x28f33cc0028:	add	byte ptr [rax], al
+0x28f33cc002a:	add	byte ptr [rax], al
+0x28f33cc002c:	add	byte ptr [rax], al
+0x28f33cc002e:	add	byte ptr [rax], al
+0x28f33cc0030:	add	byte ptr [rax], al
+0x28f33cc0032:	add	byte ptr [rax], al
+0x28f33cc0034:	add	byte ptr [rax], al
+0x28f33cc0036:	add	byte ptr [rax], al
+0x28f33cc0038:	add	byte ptr [rax], al
+0x28f33cc003a:	add	byte ptr [rax], al
+0x28f33cc003c:	add	byte ptr [rax], al
+0x28f33cc003e:	add	byte ptr [rax], al"
+0,9116,firefox.exe,0x1e4e04a0000,0x1e4e04affff,Vad ,PAGE_EXECUTE_READ,0,0,Disabled,N/A,"
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ ................","
+0x1e4e04a0000:	add	byte ptr [rax], al
+0x1e4e04a0002:	add	byte ptr [rax], al
+0x1e4e04a0004:	add	byte ptr [rax], al
+0x1e4e04a0006:	add	byte ptr [rax], al
+0x1e4e04a0008:	add	byte ptr [rax], al
+0x1e4e04a000a:	add	byte ptr [rax], al
+0x1e4e04a000c:	add	byte ptr [rax], al
+0x1e4e04a000e:	add	byte ptr [rax], al
+0x1e4e04a0010:	add	byte ptr [rax], al
+0x1e4e04a0012:	add	byte ptr [rax], al
+0x1e4e04a0014:	add	byte ptr [rax], al
+0x1e4e04a0016:	add	byte ptr [rax], al
+0x1e4e04a0018:	add	byte ptr [rax], al
+0x1e4e04a001a:	add	byte ptr [rax], al
+0x1e4e04a001c:	add	byte ptr [rax], al
+0x1e4e04a001e:	add	byte ptr [rax], al
+0x1e4e04a0020:	add	byte ptr [rax], al
+0x1e4e04a0022:	add	byte ptr [rax], al
+0x1e4e04a0024:	add	byte ptr [rax], al
+0x1e4e04a0026:	add	byte ptr [rax], al
+0x1e4e04a0028:	add	byte ptr [rax], al
+0x1e4e04a002a:	add	byte ptr [rax], al
+0x1e4e04a002c:	add	byte ptr [rax], al
+0x1e4e04a002e:	add	byte ptr [rax], al
+0x1e4e04a0030:	add	byte ptr [rax], al
+0x1e4e04a0032:	add	byte ptr [rax], al
+0x1e4e04a0034:	add	byte ptr [rax], al
+0x1e4e04a0036:	add	byte ptr [rax], al
+0x1e4e04a0038:	add	byte ptr [rax], al
+0x1e4e04a003a:	add	byte ptr [rax], al
+0x1e4e04a003c:	add	byte ptr [rax], al
+0x1e4e04a003e:	add	byte ptr [rax], al"
+0,7148,firefox.exe,0x2dca3970000,0x2dca397ffff,VadS,PAGE_EXECUTE_READ,16,1,Disabled,N/A,"
+24 78 c7 34 22 7d 00 00 36 00 00 00 00 00 00 00 $x.4""}..6.......
+48 8d 15 f9 ff ff ff 48 8b 0c 24 48 89 54 24 10 H......H..$H.T$.
+55 53 56 57 41 54 41 55 41 56 41 57 48 8d ac 24 USVWATAUAVAWH..$
+08 fd ff ff 48 81 ec f8 03 00 00 48 8b 71 08 45 ....H......H.q.E","
+0x2dca3970000:	and	al, 0x78"
+
